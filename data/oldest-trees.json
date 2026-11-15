@@ -1,0 +1,131 @@
+{
+  "id": "oldest-trees",
+  "title": "Oldest living individual trees",
+  "group": "nature",
+  "measure": "Age in years, as of 2026. Single-trunk (non-clonal) trees that are still alive. Where a source gives a range, the lower end is used for ranking, so nothing is overstated. Clonal trees such as Old Tjikko are excluded because their roots, not their trunks, are old.",
+  "unit": "years",
+  "checked": "2026-11-15",
+  "entries": [
+    {
+      "rank": 1,
+      "name": "Gran Abuelo (Alerce Milenario)",
+      "type": "Patagonian cypress",
+      "location": "Los Ríos",
+      "country": "Chile",
+      "value": 5484,
+      "verified": 3655,
+      "confidence": "disputed",
+      "note": "3,655 years is a ring-counted minimum (incomplete core). The 5,484 figure comes from a 2022 statistical model by climatologist Jonathan Barichivich, who puts an 80% chance on the tree being over 5,000. Other scientists say only a full ring count can settle it.",
+      "source": "Wikipedia, List of oldest trees (verified minimum); The Guardian (2022), on Barichivich's model"
+    },
+    {
+      "rank": 2,
+      "name": "Unnamed bristlecone (Schulman tree)",
+      "type": "Great Basin bristlecone pine",
+      "location": "White Mountains, California",
+      "country": "USA",
+      "value": 5075,
+      "verified": 0,
+      "confidence": "disputed",
+      "note": "Germinated about 3050 BCE according to the Rocky Mountain Tree-Ring Research OldList. Cored by Edmund Schulman, aged by Tom Harlan, but the core is now missing, so the age can't be rechecked.",
+      "source": "Rocky Mountain Tree-Ring Research OldList, via Wikipedia"
+    },
+    {
+      "rank": 3,
+      "name": "Methuselah",
+      "type": "Great Basin bristlecone pine",
+      "location": "White Mountains, California",
+      "country": "USA",
+      "value": 4858,
+      "verified": 4858,
+      "confidence": "verified",
+      "note": "Ring-counted (crossdated) by Edmund Schulman and Tom Harlan in 1957, germination c. 2833 BCE. Another researcher, Matthew Salzer, couldn't reproduce the count because the core is missing and estimates about 4,666, so even this one has a caveat.",
+      "source": "Rocky Mountain Tree-Ring Research OldList; Wikipedia, Methuselah (pine tree)"
+    },
+    {
+      "rank": 4,
+      "name": "Sarv-e Abarkuh",
+      "type": "Mediterranean cypress",
+      "location": "Abarkuh, Yazd",
+      "country": "Iran",
+      "value": 4500,
+      "verified": 0,
+      "confidence": "estimated",
+      "note": "Traditional estimate. Never scientifically dated.",
+      "source": "Wikipedia, List of oldest trees (estimated table)"
+    },
+    {
+      "rank": 5,
+      "name": "Gümeli Porsuğu",
+      "type": "Yew",
+      "location": "Zonguldak",
+      "country": "Turkey",
+      "value": 4115,
+      "verified": 0,
+      "confidence": "estimated",
+      "note": "Found in 2016. Age estimated, not ring-counted.",
+      "source": "Wikipedia, List of oldest trees (estimated table)"
+    },
+    {
+      "rank": 6,
+      "name": "Llangernyw Yew",
+      "type": "Common yew",
+      "location": "Llangernyw, Conwy",
+      "country": "Wales, UK",
+      "value": 4000,
+      "valueHigh": 5000,
+      "verified": 0,
+      "confidence": "estimated",
+      "note": "Estimated at 4,000 to 5,000 years from its 10.75 m girth. Hollow, so it can't be cored.",
+      "source": "Wikipedia, List of oldest trees (estimated table)"
+    },
+    {
+      "rank": 7,
+      "name": "The Ancient Yew of Tisbury",
+      "type": "Common yew",
+      "location": "Tisbury, Wiltshire",
+      "country": "England, UK",
+      "value": 4000,
+      "verified": 0,
+      "confidence": "estimated",
+      "note": "Estimate attributed to botanist David Bellamy.",
+      "source": "Wikipedia, List of oldest trees (estimated table)"
+    },
+    {
+      "rank": 8,
+      "name": "Oliveira do Mouchão",
+      "type": "Olive",
+      "location": "Mouriscas, Abrantes",
+      "country": "Portugal",
+      "value": 3350,
+      "verified": 0,
+      "confidence": "estimated",
+      "note": "Age estimated, not ring-counted.",
+      "source": "Wikipedia, List of oldest trees (estimated table)"
+    },
+    {
+      "rank": 9,
+      "name": "The President",
+      "type": "Giant sequoia",
+      "location": "Sierra Nevada, California",
+      "country": "USA",
+      "value": 3200,
+      "verified": 0,
+      "confidence": "estimated",
+      "note": "Age estimated, not ring-counted.",
+      "source": "Wikipedia, List of oldest trees (estimated table)"
+    },
+    {
+      "rank": 10,
+      "name": "Patriarca da Floresta",
+      "type": "Jequitibá-rosa",
+      "location": "Santa Rita do Passa Quatro, São Paulo",
+      "country": "Brazil",
+      "value": 3020,
+      "verified": 0,
+      "confidence": "estimated",
+      "note": "Likely the oldest non-conifer in Brazil.",
+      "source": "Wikipedia, List of oldest trees (estimated table)"
+    }
+  ]
+}
