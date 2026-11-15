@@ -1,0 +1,110 @@
+{
+  "id": "longest-rivers",
+  "title": "Longest rivers",
+  "group": "nature",
+  "measure": "Length in km from the most distant source to the mouth, following the longest chain of tributaries (so the Mississippi is measured from the Missouri's headwaters). All figures come from one source, Britannica, so they are measured the same way. River lengths depend on where the source and mouth are drawn, so most carry an uncertainty of a few per cent.",
+  "unit": "km",
+  "checked": "2026-11-15",
+  "entries": [
+    {
+      "rank": 1,
+      "name": "Nile",
+      "location": "Northeast Africa",
+      "country": "11 countries, mouth in Egypt",
+      "value": 6650,
+      "confidence": "disputed",
+      "note": "Guinness lists it as the longest. Some surveys that trace the Amazon from a more distant Peruvian source make the Amazon longer.",
+      "source": "Britannica, World's longest rivers"
+    },
+    {
+      "rank": 2,
+      "name": "Amazon",
+      "location": "South America",
+      "country": "Peru, Colombia, Brazil",
+      "value": 6400,
+      "confidence": "disputed",
+      "note": "Measured from the Ucayali–Apurímac source. The world's largest river by water flow, by far.",
+      "source": "Britannica, World's longest rivers"
+    },
+    {
+      "rank": 3,
+      "name": "Yangtze",
+      "location": "East Asia",
+      "country": "China",
+      "value": 6300,
+      "confidence": "measured",
+      "note": "The longest river within a single country.",
+      "source": "Britannica, World's longest rivers"
+    },
+    {
+      "rank": 4,
+      "name": "Mississippi–Missouri",
+      "location": "North America",
+      "country": "USA, Canada",
+      "value": 5971,
+      "confidence": "measured",
+      "note": "Measured via the Red Rock source of the Missouri. Other sources give up to 6,275 km.",
+      "source": "Britannica, World's longest rivers"
+    },
+    {
+      "rank": 5,
+      "name": "Yenisey–Baikal–Selenga",
+      "location": "North Asia",
+      "country": "Mongolia, Russia",
+      "value": 5540,
+      "confidence": "measured",
+      "note": "Flows through Lake Baikal into the Arctic Ocean.",
+      "source": "Britannica, World's longest rivers"
+    },
+    {
+      "rank": 6,
+      "name": "Huang He (Yellow River)",
+      "location": "East Asia",
+      "country": "China",
+      "value": 5464,
+      "confidence": "measured",
+      "note": "",
+      "source": "Britannica, World's longest rivers"
+    },
+    {
+      "rank": 7,
+      "name": "Ob–Irtysh",
+      "location": "North Asia",
+      "country": "China, Kazakhstan, Russia",
+      "value": 5410,
+      "confidence": "measured",
+      "note": "",
+      "source": "Britannica, World's longest rivers"
+    },
+    {
+      "rank": 8,
+      "name": "Paraná",
+      "location": "South America",
+      "country": "Brazil, Paraguay, Argentina",
+      "value": 4880,
+      "confidence": "measured",
+      "note": "",
+      "source": "Britannica, World's longest rivers"
+    },
+    {
+      "rank": 9,
+      "name": "Congo",
+      "location": "Central Africa",
+      "country": "DR Congo, Republic of the Congo, Angola",
+      "value": 4700,
+      "confidence": "measured",
+      "note": "",
+      "source": "Britannica, World's longest rivers"
+    },
+    {
+      "rank": 10,
+      "name": "Amur–Argun",
+      "location": "East Asia",
+      "country": "China, Russia",
+      "value": 4444,
+      "confidence": "measured",
+      "note": "Forms much of the China–Russia border.",
+      "source": "Britannica, World's longest rivers"
+    }
+  ]
+}
