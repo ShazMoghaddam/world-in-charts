@@ -1,0 +1,20 @@
+{
+  "id": "deepest-lakes",
+  "title": "Deepest lakes",
+  "group": "nature",
+  "measure": "Maximum depth in metres, from the surface to the deepest known point. Includes the Caspian Sea, which geographers usually class as a lake, and Lake Vostok, which lies under the Antarctic ice. Ranked by maximum depth, not average depth.",
+  "unit": "m",
+  "checked": "2026-11-15",
+  "entries": [
+    { "rank": 1, "name": "Baikal", "location": "Southern Siberia", "country": "Russia", "value": 1642, "confidence": "measured", "note": "Also the largest freshwater lake by volume.", "source": "Wikipedia, List of lakes by depth (March 2026)" },
+    { "rank": 2, "name": "Tanganyika", "location": "African Great Lakes", "country": "Tanzania, DR Congo, Burundi, Zambia", "value": 1470, "confidence": "measured", "note": "", "source": "Wikipedia, List of lakes by depth (March 2026)" },
+    { "rank": 3, "name": "Caspian Sea", "location": "Caspian basin", "country": "Kazakhstan, Turkmenistan, Azerbaijan, Russia, Iran", "value": 1025, "confidence": "measured", "note": "Called a sea, but generally classed by geographers and limnologists as a huge inland salt lake.", "source": "Wikipedia, List of lakes by depth (March 2026)" },
+    { "rank": 4, "name": "Vostok", "location": "Under the East Antarctic Ice Sheet", "country": "Antarctica", "value": 900, "confidence": "estimated", "note": "A lake sealed under about 4 km of ice. Its depth, from 510 m to about 900 m across the lake, comes from radar and seismic surveys, not direct measurement.", "source": "Wikipedia, List of lakes by depth (March 2026)" },
+    { "rank": 5, "name": "O'Higgins / San Martín", "location": "Patagonia", "country": "Chile, Argentina", "value": 836, "confidence": "measured", "note": "The deepest lake in the Americas.", "source": "Wikipedia, List of lakes by depth (March 2026)" },
+    { "rank": 6, "name": "Argentino", "location": "Santa Cruz Province", "country": "Argentina", "value": 719, "confidence": "measured", "note": "Left out of many older top 10 lists.", "source": "Wikipedia, List of lakes by depth (March 2026)" },
+    { "rank": 7, "name": "Malawi", "location": "African Great Lakes", "country": "Malawi, Mozambique, Tanzania", "value": 706, "confidence": "measured", "note": "", "source": "Wikipedia, List of lakes by depth (March 2026)" },
+    { "rank": 8, "name": "Issyk-Kul", "location": "Tian Shan mountains", "country": "Kyrgyzstan", "value": 668, "confidence": "measured", "note": "", "source": "Wikipedia, List of lakes by depth (March 2026)" },
+    { "rank": 9, "name": "Great Slave", "location": "Northwest Territories", "country": "Canada", "value": 614, "confidence": "measured", "note": "The deepest lake in North America.", "source": "Wikipedia, List of lakes by depth (March 2026)" },
+    { "rank": 10, "name": "Crater Lake", "location": "Oregon", "country": "USA", "value": 594, "confidence": "measured", "note": "Lake Matano in Indonesia (590 m) is just 4 m behind.", "source": "Wikipedia, List of lakes by depth (March 2026)" }
+  ]
+}
