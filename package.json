@@ -1,0 +1,20 @@
+{
+  "name": "world-in-charts",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Researched top 10 facts about the world, from the oldest trees to the longest rivers, each drawn with Bezel Charts. Every figure is sourced and marked by how sure it is.",
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build.mjs"
+  },
+  "keywords": ["data", "facts", "charts", "bezel-charts", "geography", "nature", "dataviz"],
+  "author": "Shaz Moghaddam (https://shazmoghaddam.github.io/)",
+  "license": "MIT",
+  "homepage": "https://shazmoghaddam.github.io/",
+  "repository": { "type": "git", "url": "https://github.com/ShazMoghaddam/world-in-charts.git" },
+  "bugs": { "url": "https://github.com/ShazMoghaddam/world-in-charts/issues" },
+  "engines": { "node": ">=18" },
+  "devDependencies": {
+    "bezel-charts": "^1.10.1"
+  }
+}
