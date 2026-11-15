@@ -31,6 +31,22 @@ const charts = {
     values: d.entries.map((e) => e.value),
     horizontal: true, 'show-values': true, width: WIDTH, theme: 'light',
   }),
+  // Bars hanging below zero, like the lakes themselves.
+  'deepest-lakes': (d) => toSVG('bars', {
+    heading: `${d.title} · metres below the surface`,
+    labels: d.entries.map((e) => e.name),
+    values: d.entries.map((e) => -e.value),
+    'show-values': true, 'angle-labels': true, highlight: 'none', suffix: ' m', height: 220, width: WIDTH, theme: 'light',
+  }),
+  // Grouped bars: height next to prominence shows which peaks stand alone.
+  'highest-mountains': (d) => toSVG('bars', {
+    heading: `${d.title} · metres`,
+    labels: d.entries.map((e) => e.name),
+    values: [d.entries.map((e) => e.value), d.entries.map((e) => e.prominence)],
+    series: ['Height above sea level', 'Prominence'],
+    patterns: 'solid,stripes',
+    horizontal: true, width: WIDTH, theme: 'light',
+  }),
 };
 
 for (const [id, draw] of Object.entries(charts)) {

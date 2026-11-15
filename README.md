@@ -24,8 +24,10 @@ Where a source gives a range, the lower end is used for ranking, so nothing is o
 
 - [Oldest living individual trees](#oldest-living-individual-trees)
 - [Longest rivers](#longest-rivers)
+- [Deepest lakes](#deepest-lakes)
+- [Highest mountains](#highest-mountains)
 
-More categories are on the way: lakes, mountains, deserts, waterfalls, volcanoes, ocean trenches, caves, islands, craters, glaciers, reefs, record temperatures, animals, and human-made records such as buildings, bridges and cities.
+More categories are on the way: largest lakes, deserts, waterfalls, volcanoes, ocean trenches, caves, islands, craters, glaciers, reefs, record temperatures, animals, and human-made records such as buildings, bridges and cities.
 
 ## Oldest living individual trees
 
@@ -84,6 +86,66 @@ More categories are on the way: lakes, mountains, deserts, waterfalls, volcanoes
 - River lengths depend on where the source and mouth are drawn, so most carry an uncertainty of a few per cent.
 
 **Source:** [Britannica: World's longest rivers](https://www.britannica.com/topic/worlds-longest-rivers-2225894)
+
+## Deepest lakes
+
+![Deepest lakes by maximum depth: Baikal 1,642 m, Tanganyika 1,470 m, Caspian Sea 1,025 m, Vostok about 900 m (estimated, under the Antarctic ice), O'Higgins / San Martín 836 m, Argentino 719 m, Malawi 706 m, Issyk-Kul 668 m, Great Slave 614 m and Crater Lake 594 m](charts/deepest-lakes.svg)
+
+**Measured as:** maximum depth in metres, from the surface to the deepest known point. Ranked by maximum depth, not average depth.
+
+**Why this chart:** bars hang down from the surface, like the lakes themselves, so the deepest lake reaches furthest.
+
+| # | Lake | Where | Max depth (m) | How sure |
+| --- | --- | --- | --- | --- |
+| 1 | Baikal | Southern Siberia, Russia | 1,642 | Measured |
+| 2 | Tanganyika | Tanzania, DR Congo, Burundi, Zambia | 1,470 | Measured |
+| 3 | Caspian Sea | Kazakhstan, Turkmenistan, Azerbaijan, Russia, Iran | 1,025 | Measured |
+| 4 | Vostok | Under the East Antarctic Ice Sheet | about 900 | Estimated |
+| 5 | O'Higgins / San Martín | Patagonia, Chile and Argentina | 836 | Measured |
+| 6 | Argentino | Santa Cruz Province, Argentina | 719 | Measured |
+| 7 | Malawi | Malawi, Mozambique, Tanzania | 706 | Measured |
+| 8 | Issyk-Kul | Tian Shan mountains, Kyrgyzstan | 668 | Measured |
+| 9 | Great Slave | Northwest Territories, Canada | 614 | Measured |
+| 10 | Crater Lake | Oregon, USA | 594 | Measured |
+
+**Notes**
+
+- **Caspian Sea:** called a sea, but geographers and limnologists generally class it as a huge inland salt lake.
+- **Vostok:** sealed under about 4 km of Antarctic ice. Its depth, from 510 m to about 900 m across the lake, comes from radar and seismic surveys rather than direct measurement.
+- **Argentino:** left out of many older top 10 lists.
+- **Just missing out:** Lake Matano in Indonesia, at 590 m, is only 4 m behind Crater Lake.
+
+**Source:** [Wikipedia: List of lakes by depth](https://en.wikipedia.org/wiki/List_of_lakes_by_depth) (checked against the March 2026 version)
+
+## Highest mountains
+
+![Highest mountains, height above sea level with prominence: Everest 8,849 m (prominence 8,849), K2 8,611 (4,020), Kangchenjunga 8,586 (3,922), Lhotse 8,516 (610), Makalu 8,485 (2,378), Cho Oyu 8,188 (2,340), Dhaulagiri I 8,167 (3,357), Manaslu 8,163 (3,092), Nanga Parbat 8,126 (4,608) and Annapurna I 8,091 (2,984)](charts/highest-mountains.svg)
+
+**Measured as:** height of the summit above sea level, in metres. **Prominence** is how far a summit rises above the lowest point you'd have to cross to reach a higher one.
+
+**Why this chart:** on height alone, all ten sit between 8,091 and 8,849 m and look almost the same. Prominence beside each one shows which peaks really stand alone and which are shoulders of a bigger neighbour.
+
+| # | Mountain | Where | Height (m) | Prominence (m) | How sure |
+| --- | --- | --- | --- | --- | --- |
+| 1 | Everest | Nepal, China | 8,849 | 8,849 | Verified |
+| 2 | K2 | Pakistan, China | 8,611 | 4,020 | Measured |
+| 3 | Kangchenjunga | Nepal, India | 8,586 | 3,922 | Measured |
+| 4 | Lhotse | Nepal, China | 8,516 | 610 | Measured |
+| 5 | Makalu | Nepal, China | 8,485 | 2,378 | Measured |
+| 6 | Cho Oyu | Nepal, China | 8,188 | 2,340 | Measured |
+| 7 | Dhaulagiri I | Nepal | 8,167 | 3,357 | Measured |
+| 8 | Manaslu | Nepal | 8,163 | 3,092 | Measured |
+| 9 | Nanga Parbat | Pakistan | 8,126 | 4,608 | Measured |
+| 10 | Annapurna I | Nepal | 8,091 | 2,984 | Measured |
+
+**Notes**
+
+- **Everest:** 8,848.86 m, agreed by China and Nepal in December 2020 after a joint survey. As the highest point on Earth, its prominence equals its height.
+- **Lhotse:** fourth highest, but joined to Everest by the South Col and only 610 m above it, so it's barely a separate mountain.
+- **Nanga Parbat:** ninth by height, but after Everest the most prominent peak in the top 10, standing almost alone at the western end of the Himalaya.
+- **Small disagreements:** surveys differ by a few metres for some peaks, such as Cho Oyu (8,188 or 8,201 m) and Makalu (8,485 or 8,481 m). None of them change the order.
+
+**Source:** [Wikipedia: List of highest mountains](https://en.wikipedia.org/wiki/List_of_highest_mountains_on_Earth) (checked against the March 2026 version)
 
 ## How it works
 

@@ -1,0 +1,20 @@
+{
+  "id": "highest-mountains",
+  "title": "Highest mountains",
+  "group": "nature",
+  "measure": "Height of the summit above sea level, in metres. Prominence is shown alongside: how far a summit rises above the lowest point you'd have to cross to reach a higher one. It shows which peaks stand on their own and which are shoulders of a bigger neighbour.",
+  "unit": "m",
+  "checked": "2026-11-15",
+  "entries": [
+    { "rank": 1, "name": "Everest", "location": "Mahalangur Himalaya", "country": "Nepal, China", "value": 8849, "prominence": 8849, "confidence": "verified", "note": "8,848.86 m, agreed by China and Nepal in December 2020 after a joint survey. As the highest point on Earth, its prominence equals its height.", "source": "Wikipedia, List of highest mountains (March 2026)" },
+    { "rank": 2, "name": "K2", "location": "Baltoro Karakoram", "country": "Pakistan, China", "value": 8611, "prominence": 4020, "confidence": "measured", "note": "", "source": "Wikipedia, List of highest mountains (March 2026)" },
+    { "rank": 3, "name": "Kangchenjunga", "location": "Kangchenjunga Himalaya", "country": "Nepal, India", "value": 8586, "prominence": 3922, "confidence": "measured", "note": "", "source": "Wikipedia, List of highest mountains (March 2026)" },
+    { "rank": 4, "name": "Lhotse", "location": "Mahalangur Himalaya", "country": "Nepal, China", "value": 8516, "prominence": 610, "confidence": "measured", "note": "Joined to Everest by the South Col, so it rises only 610 m above it. Fourth highest, but barely a separate mountain.", "source": "Wikipedia, List of highest mountains (March 2026)" },
+    { "rank": 5, "name": "Makalu", "location": "Mahalangur Himalaya", "country": "Nepal, China", "value": 8485, "prominence": 2378, "confidence": "measured", "note": "Some surveys give 8,481 m.", "source": "Wikipedia, List of highest mountains (March 2026)" },
+    { "rank": 6, "name": "Cho Oyu", "location": "Mahalangur Himalaya", "country": "Nepal, China", "value": 8188, "prominence": 2340, "confidence": "measured", "note": "Some sources give 8,201 m. Either way it stays sixth.", "source": "Wikipedia, List of highest mountains (March 2026)" },
+    { "rank": 7, "name": "Dhaulagiri I", "location": "Dhaulagiri Himalaya", "country": "Nepal", "value": 8167, "prominence": 3357, "confidence": "measured", "note": "", "source": "Wikipedia, List of highest mountains (March 2026)" },
+    { "rank": 8, "name": "Manaslu", "location": "Manaslu Himalaya", "country": "Nepal", "value": 8163, "prominence": 3092, "confidence": "measured", "note": "", "source": "Wikipedia, List of highest mountains (March 2026)" },
+    { "rank": 9, "name": "Nanga Parbat", "location": "Nanga Parbat Himalaya", "country": "Pakistan", "value": 8126, "prominence": 4608, "confidence": "measured", "note": "The most prominent peak in the top 10 after Everest: it stands almost alone at the western end of the Himalaya.", "source": "Wikipedia, List of highest mountains (March 2026)" },
+    { "rank": 10, "name": "Annapurna I", "location": "Annapurna Himalaya", "country": "Nepal", "value": 8091, "prominence": 2984, "confidence": "measured", "note": "", "source": "Wikipedia, List of highest mountains (March 2026)" }
+  ]
+}
