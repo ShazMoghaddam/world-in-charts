@@ -3,14 +3,8 @@ import { readFileSync, writeFileSync } from 'node:fs';
 import { toSVG } from 'bezel-charts';
 
 const load = (id) => JSON.parse(readFileSync(new URL(`../data/${id}.json`, import.meta.url)));
-
-// Bezel Charts gives patterns and gradients a random ID each time it draws.
-// Swap each one for a fixed ID, so rebuilding unchanged data leaves the SVG unchanged.
-const stable = (id, svg) => {
-  const ids = [...new Set(svg.match(/\bbzc[a-z0-9]+\b/g) ?? [])];
-  return ids.reduce((s, old, n) => s.replaceAll(old, `${id}-${n + 1}`), svg);
-};
-const save = (id, svg) => writeFileSync(new URL(`../charts/${id}.svg`, import.meta.url), stable(id, svg));
+// Bezel Charts 1.11+ works out its ids from the chart itself, so unchanged data gives an unchanged SVG.
+const save = (id, svg) => writeFileSync(new URL(`../charts/${id}.svg`, import.meta.url), svg);
 const WIDTH = 720;
 
 // Each chart is chosen to suit its data. See the README for why.

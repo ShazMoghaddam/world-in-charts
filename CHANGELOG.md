@@ -2,6 +2,14 @@
 
 World in Charts uses date versions: `vYYYY.MM` for each release, with a third number (`vYYYY.MM.1`) for a further release in the same month.
 
+## Unreleased
+
+### Tooling
+
+- Bezel Charts is updated to 1.11.0, which gives the same SVG every time it draws the same chart. The build's own workaround for random ids is gone.
+- Goal labels (Everest, Burj Khalifa) now have a light outline, so they stay readable where they cross the dashed line.
+- The total in the middle of the largest lakes donut is sized to fit the ring.
+
 ## v2026.11.1 (16 November 2026)
 
 Two more categories, both held back from the first release until reliable figures were found. That makes 23 categories and 227 entries.
