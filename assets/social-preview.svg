@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="640" viewBox="0 0 1280 640">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#1A1240"/><stop offset="1" stop-color="#2B0F3A"/></linearGradient>
+    <linearGradient id="ink" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#FFB443"/><stop offset=".5" stop-color="#FF6B6B"/><stop offset="1" stop-color="#FF7AC6"/></linearGradient>
+    <radialGradient id="glow" cx=".85" cy=".1" r=".6"><stop offset="0" stop-color="#4CC9F0" stop-opacity=".28"/><stop offset="1" stop-color="#4CC9F0" stop-opacity="0"/></radialGradient>
+  </defs>
+  <rect width="1280" height="640" fill="url(#bg)"/>
+  <rect width="1280" height="640" fill="url(#glow)"/>
+  <rect x="72.0" y="390.0" width="21.4" height="262.0" rx="10.7" fill="#FF6B6B" opacity="1.00"/>
+  <rect x="99.3" y="408.6" width="21.4" height="243.4" rx="10.7" fill="#FF6B6B" opacity="0.95"/>
+  <rect x="126.7" y="418.5" width="21.4" height="233.5" rx="10.7" fill="#FF6B6B" opacity="0.91"/>
+  <rect x="154.0" y="434.9" width="21.4" height="217.1" rx="10.7" fill="#FF6B6B" opacity="0.86"/>
+  <rect x="181.4" y="452.4" width="21.4" height="199.6" rx="10.7" fill="#FF6B6B" opacity="0.82"/>
+  <rect x="208.7" y="457.7" width="21.4" height="194.3" rx="10.7" fill="#FF6B6B" opacity="0.78"/>
+  <rect x="236.1" y="457.7" width="21.4" height="194.3" rx="10.7" fill="#FF6B6B" opacity="0.73"/>
+  <rect x="263.4" y="487.3" width="21.4" height="164.7" rx="10.7" fill="#FF6B6B" opacity="0.69"/>
+  <rect x="290.8" y="494.1" width="21.4" height="157.9" rx="10.7" fill="#FF6B6B" opacity="0.64"/>
+  <rect x="318.2" y="502.3" width="21.4" height="149.7" rx="10.7" fill="#FF6B6B" opacity="0.59"/>
+  <rect x="361.5" y="390.0" width="21.4" height="262.0" rx="10.7" fill="#FFB443" opacity="1.00"/>
+  <rect x="388.9" y="399.4" width="21.4" height="252.6" rx="10.7" fill="#FFB443" opacity="0.95"/>
+  <rect x="416.2" y="403.2" width="21.4" height="248.8" rx="10.7" fill="#FFB443" opacity="0.91"/>
+  <rect x="443.6" y="415.5" width="21.4" height="236.5" rx="10.7" fill="#FFB443" opacity="0.86"/>
+  <rect x="470.9" y="431.7" width="21.4" height="220.3" rx="10.7" fill="#FFB443" opacity="0.82"/>
+  <rect x="498.3" y="434.6" width="21.4" height="217.4" rx="10.7" fill="#FFB443" opacity="0.78"/>
+  <rect x="525.6" y="436.6" width="21.4" height="215.4" rx="10.7" fill="#FFB443" opacity="0.73"/>
+  <rect x="553.0" y="456.5" width="21.4" height="195.5" rx="10.7" fill="#FFB443" opacity="0.69"/>
+  <rect x="580.3" y="463.3" width="21.4" height="188.7" rx="10.7" fill="#FFB443" opacity="0.64"/>
+  <rect x="607.7" y="472.9" width="21.4" height="179.1" rx="10.7" fill="#FFB443" opacity="0.59"/>
+  <rect x="651.0" y="390.0" width="21.4" height="262.0" rx="10.7" fill="#3DDC97" opacity="1.00"/>
+  <rect x="678.4" y="416.2" width="21.4" height="235.8" rx="10.7" fill="#3DDC97" opacity="0.95"/>
+  <rect x="705.7" y="483.9" width="21.4" height="168.1" rx="10.7" fill="#3DDC97" opacity="0.91"/>
+  <rect x="733.1" y="512.7" width="21.4" height="139.3" rx="10.7" fill="#3DDC97" opacity="0.86"/>
+  <rect x="760.4" y="518.2" width="21.4" height="133.8" rx="10.7" fill="#3DDC97" opacity="0.82"/>
+  <rect x="787.8" y="530.5" width="21.4" height="121.5" rx="10.7" fill="#3DDC97" opacity="0.78"/>
+  <rect x="815.1" y="532.5" width="21.4" height="119.5" rx="10.7" fill="#3DDC97" opacity="0.73"/>
+  <rect x="842.5" y="538.3" width="21.4" height="113.7" rx="10.7" fill="#3DDC97" opacity="0.69"/>
+  <rect x="869.8" y="546.5" width="21.4" height="105.5" rx="10.7" fill="#3DDC97" opacity="0.64"/>
+  <rect x="897.2" y="549.9" width="21.4" height="102.1" rx="10.7" fill="#3DDC97" opacity="0.59"/>
+  <rect x="940.5" y="390.0" width="21.4" height="262.0" rx="10.7" fill="#4CC9F0" opacity="1.00"/>
+  <rect x="967.9" y="396.7" width="21.4" height="255.3" rx="10.7" fill="#4CC9F0" opacity="0.95"/>
+  <rect x="995.2" y="397.4" width="21.4" height="254.6" rx="10.7" fill="#4CC9F0" opacity="0.91"/>
+  <rect x="1022.6" y="399.4" width="21.4" height="252.6" rx="10.7" fill="#4CC9F0" opacity="0.86"/>
+  <rect x="1049.9" y="400.3" width="21.4" height="251.7" rx="10.7" fill="#4CC9F0" opacity="0.82"/>
+  <rect x="1077.3" y="408.7" width="21.4" height="243.3" rx="10.7" fill="#4CC9F0" opacity="0.78"/>
+  <rect x="1104.6" y="409.3" width="21.4" height="242.7" rx="10.7" fill="#4CC9F0" opacity="0.73"/>
+  <rect x="1132.0" y="409.4" width="21.4" height="242.6" rx="10.7" fill="#4CC9F0" opacity="0.69"/>
+  <rect x="1159.3" y="410.4" width="21.4" height="241.6" rx="10.7" fill="#4CC9F0" opacity="0.64"/>
+  <rect x="1186.7" y="411.4" width="21.4" height="240.6" rx="10.7" fill="#4CC9F0" opacity="0.59"/>
+  <text x="72" y="163.83999999999997" font-family="Inter Display, Inter, Helvetica, Arial, sans-serif" font-weight="900" font-size="112" letter-spacing="-3.4" fill="#FFFFFF">World in <tspan fill="url(#ink)">Charts</tspan></text>
+  <text x="75" y="210.87999999999997" font-family="Inter, Helvetica, Arial, sans-serif" font-weight="500" font-size="29.1" fill="#D9D3FF">The world's top 10s, researched properly. Every figure sourced.</text>
+  <text x="75" y="251.2" font-family="Inter, Helvetica, Arial, sans-serif" font-size="21.3" fill="#FFFFFF"><tspan font-weight="700">Shaz Moghaddam</tspan><tspan dx="6.7" fill="#D9D3FF" font-weight="500">· London ·</tspan><tspan dx="6.7" fill="#4CC9F0" font-weight="500">shazmoghaddam.github.io</tspan></text>
+  <text x="1208" y="251.2" text-anchor="end" font-family="Inter, Helvetica, Arial, sans-serif" font-weight="600" font-size="14.6" fill="#8F86C9" letter-spacing="1.5">4 CATEGORIES · 40 FACTS · MADE WITH BEZEL CHARTS</text>
+</svg>

@@ -5,7 +5,8 @@
   "description": "Researched top 10 facts about the world, from the oldest trees to the longest rivers, each drawn with Bezel Charts. Every figure is sourced and marked by how sure it is.",
   "type": "module",
   "scripts": {
-    "build": "node scripts/build.mjs"
+    "build": "node scripts/build.mjs",
+    "banner": "node scripts/banner.mjs"
   },
   "keywords": ["data", "facts", "charts", "bezel-charts", "geography", "nature", "dataviz"],
   "author": "Shaz Moghaddam (https://shazmoghaddam.github.io/)",
