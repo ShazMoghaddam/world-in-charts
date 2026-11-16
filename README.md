@@ -1,3 +1,5 @@
+<a href="https://shazmoghaddam.github.io/"><img src="assets/banner.png" alt="World in Charts: the world's top 10s, researched properly. Every figure sourced. By Shaz Moghaddam, London. The bars along the bottom are the real figures from the four categories." width="100%"></a>
+
 # World in Charts
 
 **The world's top 10s, researched properly and drawn with [Bezel Charts](https://github.com/ShazMoghaddam/bezel-charts).**
@@ -154,8 +156,12 @@ More categories are on the way: largest lakes, deserts, waterfalls, volcanoes, o
 ```
 data/      one JSON file per category: every entry, its source, how sure it is, and a note
 scripts/   build.mjs draws each chart from its data file with Bezel Charts
+           banner.mjs draws the banner and social preview from the same data
 charts/    the finished SVGs shown in this README
+assets/    the banner and social preview
 ```
+
+The bars along the bottom of the banner are the real figures, one colour per category, so the banner grows as categories are added. To redraw it, run `npm run banner`, then turn the SVGs into PNGs (on a Mac: `brew install librsvg`, then `rsvg-convert -w 2560 assets/banner.svg -o assets/banner.png` and `rsvg-convert -w 1280 assets/social-preview.svg -o assets/social-preview.png`).
 
 To redraw the charts after changing the data:
 

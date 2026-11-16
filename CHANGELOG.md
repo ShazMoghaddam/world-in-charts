@@ -2,6 +2,11 @@
 
 ## Unreleased
 
+Banner and social preview.
+
+- A colourful README banner and a GitHub social preview, drawn from the real data: each colour is one category and each bar is one figure.
+- `npm run banner` redraws them, so they grow as categories are added.
+
 Better sources for lakes and mountains.
 
 - Deepest lakes: Crater Lake now uses the National Park Service's 2000 sonar survey (592 m, verified), and Baikal is verified by Guinness World Records.
