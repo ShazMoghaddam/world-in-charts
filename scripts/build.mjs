@@ -198,6 +198,33 @@ const charts = {
     color: '#9B2226,#AE2012,#BB3E03,#CA6702,#EE9B00,#94D2BD,#0A9396,#005F73,#3D348B,#7678ED',
     horizontal: true, 'show-values': true, decimals: 1, width: WIDTH, theme: 'light',
   }),
+  // Columns grouped by where the ice is: Antarctic, Arctic, or mountain icefields further from the poles.
+  'largest-ice-caps': (d) => {
+    const zone = (e) => (e.country === 'Antarctica' ? 'Antarctic' : ['USA', 'Chile, Argentina'].includes(e.country) ? 'Mountain icefield' : 'Arctic');
+    const zones = ['Antarctic', 'Arctic', 'Mountain icefield'];
+    return toSVG('bars', {
+      heading: `${d.title} · thousand km²`,
+      labels: d.entries.map((e) => e.name.replace(' Ice Cap', '').replace(' Icefield', '').replace(' Northern', '').replace('Antarctic Peninsula ice', 'Antarctic Peninsula')),
+      values: zones.map((z) => d.entries.map((e) => (zone(e) === z ? e.value / 1000 : 0))),
+      series: zones,
+      color: '#00B4D8,#7B2CBF,#F77F00',
+      patterns: 'solid,solid,stripes',
+      stacked: true, decimals: 1, 'angle-labels': true, height: 360, width: WIDTH, theme: 'light',
+    });
+  },
+  // Each city's bar runs from its most cautious date (solid) to the earliest date anyone claims (striped).
+  'oldest-cities': (d) => toSVG('bars', {
+    heading: `${d.title} · thousand years`,
+    labels: d.entries.map((e) => e.name),
+    values: [
+      d.entries.map((e) => e.value / 1000),
+      d.entries.map((e) => ((e.valueHigh ?? e.value) - e.value) / 1000),
+    ],
+    series: ['Lived in since (cautious date)', 'Older claims'],
+    color: '#C1440E,#E9C46A',
+    patterns: 'solid,stripes',
+    horizontal: true, stacked: true, decimals: 1, width: WIDTH, theme: 'light',
+  }),
 };
 
 for (const [id, draw] of Object.entries(charts)) {

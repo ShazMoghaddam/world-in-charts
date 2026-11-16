@@ -1,0 +1,20 @@
+{
+  "id": "oldest-cities",
+  "title": "Oldest continuously inhabited cities",
+  "group": "human-made",
+  "measure": "How long each city has been lived in, in years before 2025, counting back from a date BC. Sources disagree, often by thousands of years, and don't agree on what counts as a city or as continuous. So each city has two figures: the most cautious date given for continuous settlement, used for ranking, and the earliest date anyone claims. Every entry is disputed.",
+  "unit": "years",
+  "checked": "2026-11-16",
+  "entries": [
+    { "rank": 1, "name": "Byblos", "location": "Mediterranean coast", "country": "Lebanon", "value": 7025, "sinceBC": 5000, "valueHigh": 10825, "earliestClaimBC": 8800, "confidence": "disputed", "note": "Lived in continuously since about 5000 BC; people first settled there between 8800 and 7000 BC.", "source": "Culture Trip; 24/7 Tempo; Upstox, from published lists" },
+    { "rank": 2, "name": "Argos", "location": "Peloponnese", "country": "Greece", "value": 7025, "sinceBC": 5000, "confidence": "disputed", "note": "About 7,000 years of settlement. Plovdiv, Argos and Athens all claim to be Europe's oldest city.", "source": "WorldAtlas, The oldest cities in Europe; Greek City Times" },
+    { "rank": 3, "name": "Susa (Shush)", "location": "Khuzestan", "country": "Iran", "value": 6225, "sinceBC": 4200, "confidence": "disputed", "note": "An ancient capital of the Elamites and later the Persian Empire.", "source": "Upstox, from published lists" },
+    { "rank": 4, "name": "Plovdiv", "location": "Thrace", "country": "Bulgaria", "value": 6025, "sinceBC": 4000, "valueHigh": 8025, "earliestClaimBC": 6000, "confidence": "disputed", "note": "Lived in on Nebet Tepe hill since about 4000 BC; a Neolithic village dates from about 6000 BC.", "source": "Greek City Times; WorldAtlas, The oldest cities in Europe" },
+    { "rank": 5, "name": "Faiyum", "location": "Western Desert oasis", "country": "Egypt", "value": 6025, "sinceBC": 4000, "valueHigh": 7225, "earliestClaimBC": 5200, "confidence": "disputed", "note": "Usually dated to about 4000 BC; the first known settlement in the area dates from about 5200 BC.", "source": "HowStuffWorks; WorldAtlas" },
+    { "rank": 6, "name": "Athens", "location": "Attica", "country": "Greece", "value": 6025, "sinceBC": 4000, "valueHigh": 7025, "earliestClaimBC": 5000, "confidence": "disputed", "note": "Dated to between 5000 and 4000 BC.", "source": "Upstox, from published lists; Culture Trip; Amusing Planet" },
+    { "rank": 7, "name": "Jerusalem", "location": "Judaean Mountains", "country": "Israel and Palestine", "value": 5525, "sinceBC": 3500, "valueHigh": 6525, "earliestClaimBC": 4500, "confidence": "disputed", "note": "Dated to between 4500 and 3500 BC.", "source": "Upstox, from published lists" },
+    { "rank": 8, "name": "Damascus", "location": "Barada river", "country": "Syria", "value": 5025, "sinceBC": 3000, "valueHigh": 11025, "earliestClaimBC": 9000, "confidence": "disputed", "note": "Often called the oldest of all. Settlement nearby may go back to 9000 BC, but the city itself is usually dated to about 3000 BC.", "source": "HowStuffWorks; Amusing Planet" },
+    { "rank": 9, "name": "Aleppo", "location": "Northern Syria", "country": "Syria", "value": 5025, "sinceBC": 3000, "valueHigh": 7025, "earliestClaimBC": 5000, "confidence": "disputed", "note": "Some say it has a better claim than Damascus. Dates run from the third millennium BC back to about 5000 BC.", "source": "Amusing Planet; Upstox, from published lists" },
+    { "rank": 10, "name": "Jericho", "location": "Jordan Valley", "country": "Palestine (West Bank)", "value": 3925, "sinceBC": 1900, "valueHigh": 11625, "earliestClaimBC": 9600, "confidence": "disputed", "note": "Guinness World Records names it the oldest, from about 9000 BC, and some date it to 9600 BC. But it was abandoned for long periods, and town life only returned for good around 1900 BC.", "source": "Guinness World Records; Upstox, from published lists; WorldAtlas" }
+  ]
+}

@@ -1,6 +1,23 @@
 # Changelog
 
-World in Charts uses date versions: `vYYYY.MM` for each release.
+World in Charts uses date versions: `vYYYY.MM` for each release, with a third number (`vYYYY.MM.1`) for a further release in the same month.
+
+## v2026.11.1 (16 November 2026)
+
+Two more categories, both held back from the first release until reliable figures were found. That makes 23 categories and 227 entries.
+
+### Nature
+
+- **Largest ice caps and icefields:** columns coloured by Antarctic, Arctic or mountain icefield, from a 2022 Journal of Glaciology study that measured every glacier complex the same way. This replaces the planned "largest glaciers", which has no reliable top 10.
+
+### Human-made
+
+- **Oldest continuously inhabited cities:** bars running from each city's most cautious date to the earliest date anyone claims, so the disagreement between sources is visible. Every entry is marked disputed.
+
+### Also
+
+- The banner and social preview are redrawn with both new categories.
+- The "still to come" line is gone from the README contents.
 
 ## v2026.11 (16 November 2026)
 
