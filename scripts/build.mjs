@@ -47,6 +47,25 @@ const charts = {
     patterns: 'solid,stripes',
     horizontal: true, width: WIDTH, theme: 'light',
   }),
+  // A donut: how the top 10's combined surface splits. The Caspian alone is about half.
+  'largest-lakes': (d) => toSVG('donut', {
+    heading: `${d.title} · share of the top 10's combined area`,
+    labels: d.entries.map((e) => e.name),
+    values: d.entries.map((e) => e.value),
+    compact: true, 'center-label': 'km² in all', height: 220, width: WIDTH, theme: 'light',
+  }),
+  // Ranked bars coloured by desert type: one series per type, so the legend explains the colours.
+  'largest-deserts': (d) => {
+    const types = [...new Set(d.entries.map((e) => e.type))];
+    return toSVG('bars', {
+      heading: `${d.title} · km²`,
+      labels: d.entries.map((e) => e.name),
+      values: types.map((t) => d.entries.map((e) => (e.type === t ? e.value : 0))),
+      series: types,
+      patterns: 'solid,stripes,dots',
+      horizontal: true, stacked: true, compact: true, width: WIDTH, theme: 'light',
+    });
+  },
 };
 
 for (const [id, draw] of Object.entries(charts)) {

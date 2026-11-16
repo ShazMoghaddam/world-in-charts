@@ -1,0 +1,20 @@
+{
+  "id": "largest-lakes",
+  "title": "Largest lakes by area",
+  "group": "nature",
+  "measure": "Surface area in square km. All ten figures come from one source, Britannica, so they are measured the same way. Lake areas change with water levels, the Caspian's most of all, so other sources can differ by a few per cent.",
+  "unit": "km²",
+  "checked": "2026-11-16",
+  "entries": [
+    { "rank": 1, "name": "Caspian Sea", "location": "Central Asia and Eastern Europe", "country": "Kazakhstan, Turkmenistan, Iran, Azerbaijan, Russia", "value": 386400, "confidence": "measured", "note": "Called a sea, but classed as a lake because it's landlocked. Its water level is falling, so its area is shrinking; other sources give 371,000 km².", "source": "Britannica, World's largest lakes" },
+    { "rank": 2, "name": "Superior", "location": "Great Lakes", "country": "Canada, USA", "value": 82100, "confidence": "measured", "note": "The largest freshwater lake by area.", "source": "Britannica, World's largest lakes" },
+    { "rank": 3, "name": "Victoria", "location": "African Great Lakes", "country": "Uganda, Kenya, Tanzania", "value": 69484, "confidence": "measured", "note": "The largest tropical lake. Some sources give as little as 59,947 km², depending on where swampy margins are counted.", "source": "Britannica, World's largest lakes" },
+    { "rank": 4, "name": "Huron", "location": "Great Lakes", "country": "Canada, USA", "value": 59570, "confidence": "measured", "note": "Joined to Lake Michigan at the Straits of Mackinac. Counted as one lake, Michigan–Huron would be the largest freshwater lake, at about 117,000 km².", "source": "Britannica, World's largest lakes" },
+    { "rank": 5, "name": "Michigan", "location": "Great Lakes", "country": "USA", "value": 57757, "confidence": "measured", "note": "The largest lake entirely within one country.", "source": "Britannica, World's largest lakes" },
+    { "rank": 6, "name": "Tanganyika", "location": "African Great Lakes", "country": "Tanzania, DR Congo, Burundi, Zambia", "value": 32900, "confidence": "measured", "note": "", "source": "Britannica, World's largest lakes" },
+    { "rank": 7, "name": "Baikal", "location": "Southern Siberia", "country": "Russia", "value": 31500, "confidence": "measured", "note": "Seventh by area, but the largest freshwater lake by volume because it's so deep.", "source": "Britannica, World's largest lakes" },
+    { "rank": 8, "name": "Great Bear", "location": "Northwest Territories", "country": "Canada", "value": 31328, "confidence": "measured", "note": "", "source": "Britannica, World's largest lakes" },
+    { "rank": 9, "name": "Malawi (Nyasa)", "location": "African Great Lakes", "country": "Malawi, Mozambique, Tanzania", "value": 29604, "confidence": "measured", "note": "", "source": "Britannica, World's largest lakes" },
+    { "rank": 10, "name": "Great Slave", "location": "Northwest Territories", "country": "Canada", "value": 28568, "confidence": "measured", "note": "Also the deepest lake in North America.", "source": "Britannica, World's largest lakes" }
+  ]
+}
