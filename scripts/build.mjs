@@ -66,6 +66,23 @@ const charts = {
       horizontal: true, stacked: true, compact: true, width: WIDTH, theme: 'light',
     });
   },
+  // Columns with the Burj Khalifa as a dashed line: every one of them is taller.
+  'tallest-waterfalls': (d) => toSVG('bars', {
+    heading: `${d.title} · metres`,
+    labels: d.entries.map((e) => e.name),
+    values: d.entries.map((e) => e.value),
+    goal: 828, 'goal-label': 'Burj Khalifa',
+    'angle-labels': true, highlight: 'none', height: 240, width: WIDTH, theme: 'light',
+  }),
+  // Bars split by evidence: a dated eruption, or active but with no eruption on record.
+  'highest-volcanoes': (d) => toSVG('bars', {
+    heading: `${d.title} · metres`,
+    labels: d.entries.map((e) => e.name),
+    values: [d.entries.map((e) => (e.dated ? e.value : 0)), d.entries.map((e) => (e.dated ? 0 : e.value))],
+    series: ['Last eruption dated', 'No dated eruption'],
+    patterns: 'solid,stripes',
+    horizontal: true, stacked: true, width: WIDTH, theme: 'light',
+  }),
 };
 
 for (const [id, draw] of Object.entries(charts)) {

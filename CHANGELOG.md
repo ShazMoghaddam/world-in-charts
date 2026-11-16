@@ -2,6 +2,13 @@
 
 ## Unreleased
 
+Tallest waterfalls, highest active volcanoes and automatic checks.
+
+- Tallest waterfalls: columns with the Burj Khalifa (828 m) as a dashed line; all ten are taller.
+- Highest active volcanoes: from the Smithsonian's Global Volcanism Program, split by whether the last eruption is dated.
+- `npm run check` checks every data file, and a GitHub Actions workflow runs it on every pull request, along with a check that the charts and banner match the data.
+- Dependabot now keeps the workflow's actions up to date too.
+
 Largest lakes by area and largest deserts.
 
 - Largest lakes by area: a donut of the top 10's combined surface, showing the Caspian Sea is almost half of it. All ten figures from Britannica.

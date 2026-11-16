@@ -1,0 +1,20 @@
+{
+  "id": "highest-volcanoes",
+  "title": "Highest active volcanoes",
+  "group": "nature",
+  "measure": "Summit height above sea level, in metres, for volcanoes the Smithsonian's Global Volcanism Program counts as active: those that have erupted within about the last 12,000 years. Higher extinct volcanoes, such as Monte Pissis (6,793 m), are left out. Heights are the Smithsonian's own, which can differ by a few metres from other surveys.",
+  "unit": "m",
+  "checked": "2026-11-16",
+  "entries": [
+    { "rank": 1, "name": "Ojos del Salado", "location": "Atacama", "country": "Chile, Argentina", "value": 6879, "lastEruption": "about 750 CE", "dated": true, "confidence": "measured", "note": "The highest active volcano on Earth. Its last eruption, around 750 CE, is dated from ash layers; it still gives off gas. Other surveys give 6,893 m.", "source": "Smithsonian Global Volcanism Program, Volcanoes of the World (v. 5.3.4, 2025), via VolcanoAtlas" },
+    { "rank": 2, "name": "Llullaillaco", "location": "Atacama", "country": "Chile, Argentina", "value": 6739, "lastEruption": "1877", "dated": true, "confidence": "measured", "note": "The highest volcano with an eruption seen by people, in 1877. Inca mummies were found on its summit in 1999.", "source": "Smithsonian Global Volcanism Program, Volcanoes of the World (v. 5.3.4, 2025), via VolcanoAtlas" },
+    { "rank": 3, "name": "Tipas", "location": "Catamarca", "country": "Argentina", "value": 6658, "lastEruption": "Unknown", "dated": false, "confidence": "measured", "note": "", "source": "Smithsonian Global Volcanism Program, Volcanoes of the World (v. 5.3.4, 2025), via VolcanoAtlas" },
+    { "rank": 4, "name": "Incahuasi", "location": "Atacama", "country": "Chile, Argentina", "value": 6638, "lastEruption": "Unknown", "dated": false, "confidence": "measured", "note": "", "source": "Smithsonian Global Volcanism Program, Volcanoes of the World (v. 5.3.4, 2025), via VolcanoAtlas" },
+    { "rank": 5, "name": "Coropuna", "location": "Arequipa", "country": "Peru", "value": 6377, "lastEruption": "Unknown", "dated": false, "confidence": "measured", "note": "", "source": "Smithsonian Global Volcanism Program, Volcanoes of the World (v. 5.3.4, 2025), via VolcanoAtlas" },
+    { "rank": 6, "name": "El Cóndor", "location": "Catamarca", "country": "Argentina", "value": 6373, "lastEruption": "Unknown", "dated": false, "confidence": "measured", "note": "", "source": "Smithsonian Global Volcanism Program, Volcanoes of the World (v. 5.3.4, 2025), via VolcanoAtlas" },
+    { "rank": 7, "name": "Parinacota", "location": "Altiplano", "country": "Chile, Bolivia", "value": 6336, "lastEruption": "about 290 CE", "dated": true, "confidence": "measured", "note": "", "source": "Smithsonian Global Volcanism Program, Volcanoes of the World (v. 5.3.4, 2025), via VolcanoAtlas" },
+    { "rank": 8, "name": "Chimborazo", "location": "Andes", "country": "Ecuador", "value": 6261, "lastEruption": "about 550 CE", "dated": true, "confidence": "measured", "note": "Its summit is the farthest point from Earth's centre, because of the bulge at the equator.", "source": "Smithsonian Global Volcanism Program, Volcanoes of the World (v. 5.3.4, 2025), via VolcanoAtlas" },
+    { "rank": 9, "name": "Pular", "location": "Antofagasta", "country": "Chile", "value": 6233, "lastEruption": "Unknown", "dated": false, "confidence": "measured", "note": "", "source": "Smithsonian Global Volcanism Program, Volcanoes of the World (v. 5.3.4, 2025), via VolcanoAtlas" },
+    { "rank": 10, "name": "El Solo", "location": "Atacama", "country": "Chile, Argentina", "value": 6205, "lastEruption": "Unknown", "dated": false, "confidence": "measured", "note": "", "source": "Smithsonian Global Volcanism Program, Volcanoes of the World (v. 5.3.4, 2025), via VolcanoAtlas" }
+  ]
+}

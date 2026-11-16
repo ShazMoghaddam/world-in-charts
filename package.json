@@ -6,7 +6,8 @@
   "type": "module",
   "scripts": {
     "build": "node scripts/build.mjs",
-    "banner": "node scripts/banner.mjs"
+    "banner": "node scripts/banner.mjs",
+    "check": "node scripts/check.mjs"
   },
   "keywords": ["data", "facts", "charts", "bezel-charts", "geography", "nature", "dataviz"],
   "author": "Shaz Moghaddam (https://shazmoghaddam.github.io/)",
