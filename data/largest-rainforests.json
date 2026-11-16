@@ -1,0 +1,20 @@
+{
+  "id": "largest-rainforests",
+  "title": "Largest tropical rainforests",
+  "group": "nature",
+  "measure": "Area of primary forest in km², meaning old-growth forest that hasn't been cleared, measured from satellite data for 2020. Rainforest regions are counted as whole regions that cross borders, such as the Amazon.",
+  "unit": "km²",
+  "checked": "2026-11-16",
+  "entries": [
+    { "rank": 1, "name": "Amazon", "location": "South America", "country": "Brazil (about 60%), Peru, Colombia and six others", "value": 5260000, "confidence": "measured", "note": "More than three times the size of the next rainforest.", "source": "Mongabay, The world's great rainforests (2020), from University of Maryland and World Resources Institute satellite data" },
+    { "rank": 2, "name": "Congo", "location": "Central Africa", "country": "DR Congo (60%), Gabon, Republic of the Congo, Cameroon and others", "value": 1680000, "confidence": "measured", "note": "", "source": "Mongabay, The world's great rainforests (2020), from University of Maryland and World Resources Institute satellite data" },
+    { "rank": 3, "name": "New Guinea and Australia", "location": "Australasia", "country": "Indonesia, Papua New Guinea, Australia (under 1%)", "value": 640000, "confidence": "measured", "note": "Nearly all on the island of New Guinea.", "source": "Mongabay, The world's great rainforests (2020), from University of Maryland and World Resources Institute satellite data" },
+    { "rank": 4, "name": "Sundaland", "location": "Southeast Asia", "country": "Indonesia (73%), Malaysia (26%), Brunei", "value": 510000, "confidence": "measured", "note": "Borneo, Sumatra and the Malay Peninsula. It lost the largest share of its primary forest of any region in the 2000s and 2010s.", "source": "Mongabay, The world's great rainforests (2020), from University of Maryland and World Resources Institute satellite data" },
+    { "rank": 5, "name": "Indo-Burma", "location": "Southeast Asia", "country": "Myanmar, Laos, Vietnam, Thailand and others", "value": 400000, "confidence": "measured", "note": "", "source": "Mongabay, The world's great rainforests (2020), from University of Maryland and World Resources Institute satellite data" },
+    { "rank": 6, "name": "Mesoamerica", "location": "Central America", "country": "Mexico, Guatemala, Honduras, Panama and others", "value": 160000, "confidence": "measured", "note": "", "source": "Mongabay, The world's great rainforests (2020), from University of Maryland and World Resources Institute satellite data" },
+    { "rank": 7, "name": "Wallacea", "location": "Southeast Asia", "country": "Indonesia (Sulawesi and the Maluku islands)", "value": 146000, "confidence": "measured", "note": "", "source": "Mongabay, The world's great rainforests (2020), from University of Maryland and World Resources Institute satellite data" },
+    { "rank": 8, "name": "Guinean Forests", "location": "West Africa", "country": "Liberia, Cameroon, Nigeria, Côte d'Ivoire, Ghana", "value": 102000, "confidence": "measured", "note": "", "source": "Mongabay, The world's great rainforests (2020), from University of Maryland and World Resources Institute satellite data" },
+    { "rank": 9, "name": "Atlantic Forest", "location": "South America", "country": "Brazil (86%), Argentina, Paraguay", "value": 93000, "confidence": "measured", "note": "", "source": "Mongabay, The world's great rainforests (2020), from University of Maryland and World Resources Institute satellite data" },
+    { "rank": 10, "name": "Chocó", "location": "South America", "country": "Colombia (79%), Panama, Ecuador", "value": 84000, "confidence": "measured", "note": "", "source": "Mongabay, The world's great rainforests (2020), from University of Maryland and World Resources Institute satellite data" }
+  ]
+}

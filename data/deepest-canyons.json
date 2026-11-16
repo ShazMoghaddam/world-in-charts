@@ -1,0 +1,20 @@
+{
+  "id": "deepest-canyons",
+  "title": "Deepest canyons",
+  "group": "nature",
+  "measure": "Greatest depth in metres. There's no standard way to measure a canyon's depth: some figures run from the river to the canyon rim, others to the highest peak nearby, so every figure here is an estimate. All ten come from one source, WorldAtlas, to keep them as comparable as possible. Where it gives a range, the lower end is used.",
+  "unit": "m",
+  "checked": "2026-11-16",
+  "entries": [
+    { "rank": 1, "name": "Yarlung Tsangpo", "location": "Tibet", "country": "China", "value": 6009, "confidence": "estimated", "note": "Cuts around Namcha Barwa in the eastern Himalaya. Its average depth is about 2,270 m.", "source": "WorldAtlas, 10 deepest canyons in the world" },
+    { "rank": 2, "name": "Kali Gandaki", "location": "Between Annapurna and Dhaulagiri", "country": "Nepal", "value": 5571, "confidence": "disputed", "note": "Measured from the river to the highest peaks on either side, some say it's the deepest of all.", "source": "WorldAtlas, 10 deepest canyons in the world" },
+    { "rank": 3, "name": "Indus", "location": "Near Nanga Parbat", "country": "Pakistan", "value": 4500, "valueHigh": 5200, "confidence": "estimated", "note": "Given as 4,500 to 5,200 m.", "source": "WorldAtlas, 10 deepest canyons in the world" },
+    { "rank": 4, "name": "Tiger Leaping Gorge", "location": "Yunnan", "country": "China", "value": 3790, "confidence": "estimated", "note": "", "source": "WorldAtlas, 10 deepest canyons in the world" },
+    { "rank": 5, "name": "Cotahuasi", "location": "Arequipa", "country": "Peru", "value": 3354, "confidence": "estimated", "note": "Other sources give up to 3,535 m, making it the deepest in the Americas.", "source": "WorldAtlas, 10 deepest canyons in the world" },
+    { "rank": 6, "name": "Colca", "location": "Arequipa", "country": "Peru", "value": 3350, "confidence": "estimated", "note": "Famous for its Andean condors.", "source": "WorldAtlas, 10 deepest canyons in the world" },
+    { "rank": 7, "name": "Hells Canyon", "location": "Idaho and Oregon", "country": "USA", "value": 2400, "confidence": "estimated", "note": "Often called the deepest river gorge in North America.", "source": "WorldAtlas, 10 deepest canyons in the world" },
+    { "rank": 8, "name": "Grand Canyon", "location": "Arizona", "country": "USA", "value": 1857, "confidence": "estimated", "note": "Not the deepest, but one of the largest by volume.", "source": "WorldAtlas, 10 deepest canyons in the world" },
+    { "rank": 9, "name": "Copper Canyon", "location": "Chihuahua", "country": "Mexico", "value": 1600, "confidence": "estimated", "note": "A network of six canyons.", "source": "WorldAtlas, 10 deepest canyons in the world" },
+    { "rank": 10, "name": "Tara River", "location": "Durmitor", "country": "Montenegro", "value": 1300, "confidence": "estimated", "note": "The deepest canyon in Europe.", "source": "WorldAtlas, 10 deepest canyons in the world" }
+  ]
+}

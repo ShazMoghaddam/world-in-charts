@@ -118,6 +118,48 @@ const charts = {
       stacked: true, 'show-values': true, decimals: 0, 'angle-labels': true, height: 240, width: WIDTH, theme: 'light',
     });
   },
+  // A donut in forest greens: the Amazon alone is more than half of the top 10.
+  'largest-rainforests': (d) => toSVG('donut', {
+    heading: `${d.title} · share of the top 10's primary forest`,
+    labels: d.entries.map((e) => e.name),
+    values: d.entries.map((e) => e.value / 1000),
+    color: '#0B6E4F,#2E9E5B,#6CC04A,#B5D334,#F2C14E,#8A9A5B',
+    decimals: 0, 'center-label': 'thousand km² in all', height: 220, width: WIDTH, theme: 'light',
+  }),
+  // Columns with a colour each, like a row of different creatures.
+  'longest-living-animals': (d) => toSVG('bars', {
+    heading: `${d.title} · years`,
+    labels: d.entries.map((e) => e.name),
+    values: d.entries.map((e) => e.value),
+    color: '#E63946,#F4A261,#E9C46A,#2A9D8F,#264653,#8AB17D,#6D597A,#B56576,#355070,#E76F51',
+    'show-values': true, 'angle-labels': true, height: 240, width: WIDTH, theme: 'light',
+  }),
+  // A scatter of age against size: the biggest craters are also some of the oldest.
+  'largest-craters': (d) => toSVG('scatter', {
+    heading: `${d.title} · diameter against age`,
+    x: d.entries.map((e) => e.ageMa),
+    y: d.entries.map((e) => e.value),
+    labels: d.entries.map((e) => e.name),
+    'x-label': 'Age (million years)', 'y-label': 'Diameter (km)',
+    notes: 'Vredefort:Vredefort;Chicxulub:Chicxulub;Sudbury:Sudbury;Popigai:Popigai',
+    color: '#FF6B35', zero: true, height: 260, width: WIDTH, theme: 'light',
+  }),
+  // Columns hanging down in canyon-rock colours, darkest for the deepest.
+  'deepest-canyons': (d) => toSVG('bars', {
+    heading: `${d.title} · metres deep`,
+    labels: d.entries.map((e) => e.name),
+    values: d.entries.map((e) => -e.value),
+    color: '#67000D,#7F2704,#A63603,#C44103,#D94801,#E8590C,#F16913,#FD8D3C,#FDAE6B,#FDD0A2',
+    'angle-labels': true, highlight: 'none', height: 240, width: WIDTH, theme: 'light',
+  }),
+  // Ranked bars in reef colours, from coral pink to lagoon blue.
+  'coral-reef-countries': (d) => toSVG('bars', {
+    heading: `${d.title} · km² of reef`,
+    labels: d.entries.map((e) => e.name),
+    values: d.entries.map((e) => e.value),
+    color: '#FF5A5F,#FF7B6B,#FF9A76,#FFB385,#FFC857,#9BE564,#3DDC97,#2EC4B6,#1B9AAA,#3A86FF',
+    horizontal: true, 'show-values': true, width: WIDTH, theme: 'light',
+  }),
 };
 
 for (const [id, draw] of Object.entries(charts)) {

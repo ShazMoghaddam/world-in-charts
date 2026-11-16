@@ -1,0 +1,20 @@
+{
+  "id": "largest-craters",
+  "title": "Largest impact craters",
+  "group": "nature",
+  "measure": "Estimated original diameter of the crater in km, for impact structures confirmed by the Earth Impact Database. Erosion has worn most of these down, so their original size is worked out from what's left, and estimates vary.",
+  "unit": "km",
+  "checked": "2026-11-16",
+  "entries": [
+    { "rank": 1, "name": "Vredefort", "location": "Free State", "country": "South Africa", "value": 160, "ageMa": 2023, "confidence": "disputed", "note": "The oldest and largest known. Other studies put its original size at 250 to 300 km.", "source": "Earth Impact Database (Planetary and Space Science Centre, University of New Brunswick), via NASA" },
+    { "rank": 2, "name": "Chicxulub", "location": "Yucatán", "country": "Mexico", "value": 150, "ageMa": 66, "confidence": "estimated", "note": "Buried under the Yucatán. The impact that wiped out the dinosaurs, 66 million years ago.", "source": "Earth Impact Database (Planetary and Space Science Centre, University of New Brunswick), via NASA" },
+    { "rank": 3, "name": "Sudbury", "location": "Ontario", "country": "Canada", "value": 130, "ageMa": 1850, "confidence": "estimated", "note": "Home to one of the world's biggest nickel mines, made from the impact's melted rock.", "source": "Earth Impact Database (Planetary and Space Science Centre, University of New Brunswick), via NASA" },
+    { "rank": 4, "name": "Popigai", "location": "Siberia", "country": "Russia", "value": 90, "ageMa": 35.7, "confidence": "estimated", "note": "Some sources give 100 km.", "source": "Earth Impact Database (Planetary and Space Science Centre, University of New Brunswick), via NASA" },
+    { "rank": 5, "name": "Acraman", "location": "South Australia", "country": "Australia", "value": 90, "ageMa": 590, "confidence": "estimated", "note": "", "source": "Earth Impact Database (Planetary and Space Science Centre, University of New Brunswick), via NASA" },
+    { "rank": 6, "name": "Manicouagan", "location": "Quebec", "country": "Canada", "value": 85, "ageMa": 214, "confidence": "estimated", "note": "Now a ring-shaped lake, and one of the best preserved large craters. Some sources give 100 km.", "source": "Earth Impact Database (Planetary and Space Science Centre, University of New Brunswick), via NASA" },
+    { "rank": 7, "name": "Morokweng", "location": "North West", "country": "South Africa", "value": 70, "ageMa": 145, "confidence": "estimated", "note": "", "source": "Earth Impact Database (Planetary and Space Science Centre, University of New Brunswick), via NASA" },
+    { "rank": 8, "name": "Kara", "location": "Yugorsky Peninsula", "country": "Russia", "value": 65, "ageMa": 70.3, "confidence": "estimated", "note": "", "source": "Earth Impact Database (Planetary and Space Science Centre, University of New Brunswick), via NASA" },
+    { "rank": 9, "name": "Beaverhead", "location": "Montana and Idaho", "country": "USA", "value": 60, "ageMa": 600, "confidence": "estimated", "note": "", "source": "Earth Impact Database (Planetary and Space Science Centre, University of New Brunswick), via NASA" },
+    { "rank": 10, "name": "Tookoonooka", "location": "Queensland", "country": "Australia", "value": 55, "ageMa": 128, "confidence": "estimated", "note": "Buried under younger rock, so nothing of it shows at the surface.", "source": "Earth Impact Database (Planetary and Space Science Centre, University of New Brunswick), via NASA" }
+  ]
+}
