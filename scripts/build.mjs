@@ -58,12 +58,12 @@ const charts = {
   'largest-deserts': (d) => {
     const types = [...new Set(d.entries.map((e) => e.type))];
     return toSVG('bars', {
-      heading: `${d.title} · km²`,
+      heading: `${d.title} · thousand km²`,
       labels: d.entries.map((e) => e.name),
-      values: types.map((t) => d.entries.map((e) => (e.type === t ? e.value : 0))),
+      values: types.map((t) => d.entries.map((e) => (e.type === t ? e.value / 1000 : 0))),
       series: types,
       patterns: 'solid,stripes,dots',
-      horizontal: true, stacked: true, compact: true, width: WIDTH, theme: 'light',
+      horizontal: true, stacked: true, decimals: 0, width: WIDTH, theme: 'light',
     });
   },
   // Columns with the Burj Khalifa as a dashed line: every one of them is taller.
@@ -98,6 +98,26 @@ const charts = {
     values: d.entries.map((e) => e.value),
     decimals: 0, 'show-values': true, 'angle-labels': true, height: 220, width: WIDTH, theme: 'light',
   }),
+  // Ranked bars with the biggest highlighted: Greenland is in a league of its own.
+  // Shown in thousands, since the short form for millions ("2.2m") reads like metres.
+  'largest-islands': (d) => toSVG('bars', {
+    heading: `${d.title} · thousand km²`,
+    labels: d.entries.map((e) => e.name),
+    values: d.entries.map((e) => e.value / 1000),
+    horizontal: true, 'show-values': true, decimals: 0, width: WIDTH, theme: 'light',
+  }),
+  // Columns coloured by continent: one series per continent, so the legend explains the colours.
+  'tallest-trees': (d) => {
+    const regions = [...new Set(d.entries.map((e) => e.type))];
+    return toSVG('bars', {
+      heading: `${d.title} · metres`,
+      labels: d.entries.map((e) => e.name),
+      values: regions.map((r) => d.entries.map((e) => (e.type === r ? e.value : 0))),
+      series: regions,
+      patterns: 'solid,stripes,dots,grid',
+      stacked: true, 'show-values': true, decimals: 0, 'angle-labels': true, height: 240, width: WIDTH, theme: 'light',
+    });
+  },
 };
 
 for (const [id, draw] of Object.entries(charts)) {

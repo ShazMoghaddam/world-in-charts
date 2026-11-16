@@ -1,0 +1,20 @@
+{
+  "id": "largest-islands",
+  "title": "Largest islands",
+  "group": "nature",
+  "measure": "Area in km². Australia isn't included: it counts as a continent, not an island. All ten figures come from one source, Britannica; other sources differ by a few per cent depending on which coastline and offshore islets they count.",
+  "unit": "km²",
+  "checked": "2026-11-16",
+  "entries": [
+    { "rank": 1, "name": "Greenland", "type": "North America", "location": "North Atlantic and Arctic Ocean", "country": "Denmark (self-governing)", "value": 2166086, "confidence": "measured", "note": "Bigger than the next two islands combined. About four-fifths is covered by ice.", "source": "Britannica, World's largest islands" },
+    { "rank": 2, "name": "New Guinea", "type": "Asia and Oceania", "location": "Western Pacific", "country": "Indonesia, Papua New Guinea", "value": 821400, "confidence": "measured", "note": "Some sources give 785,753 km².", "source": "Britannica, World's largest islands" },
+    { "rank": 3, "name": "Borneo", "type": "Asia and Oceania", "location": "Malay Archipelago", "country": "Indonesia, Malaysia, Brunei", "value": 755000, "confidence": "measured", "note": "The only island shared by three countries.", "source": "Britannica, World's largest islands" },
+    { "rank": 4, "name": "Madagascar", "type": "Africa", "location": "Western Indian Ocean", "country": "Madagascar", "value": 591896, "confidence": "measured", "note": "", "source": "Britannica, World's largest islands" },
+    { "rank": 5, "name": "Baffin Island", "type": "North America", "location": "Canadian Arctic Archipelago", "country": "Canada", "value": 507451, "confidence": "measured", "note": "", "source": "Britannica, World's largest islands" },
+    { "rank": 6, "name": "Sumatra", "type": "Asia and Oceania", "location": "Eastern Indian Ocean", "country": "Indonesia", "value": 480793, "confidence": "measured", "note": "Some sources give 443,066 km².", "source": "Britannica, World's largest islands" },
+    { "rank": 7, "name": "Honshu", "type": "Asia and Oceania", "location": "Western North Pacific", "country": "Japan", "value": 227898, "confidence": "measured", "note": "Home to Tokyo, Osaka and Mount Fuji.", "source": "Britannica, World's largest islands" },
+    { "rank": 8, "name": "Victoria Island", "type": "North America", "location": "Canadian Arctic Archipelago", "country": "Canada", "value": 217291, "confidence": "measured", "note": "", "source": "Britannica, World's largest islands" },
+    { "rank": 9, "name": "Great Britain", "type": "Europe", "location": "Eastern North Atlantic", "country": "United Kingdom", "value": 209331, "confidence": "measured", "note": "The largest island in Europe.", "source": "Britannica, World's largest islands" },
+    { "rank": 10, "name": "Ellesmere Island", "type": "North America", "location": "Canadian Arctic Archipelago", "country": "Canada", "value": 196236, "confidence": "measured", "note": "", "source": "Britannica, World's largest islands" }
+  ]
+}
