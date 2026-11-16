@@ -2,6 +2,13 @@
 
 ## Unreleased
 
+README polish.
+
+- "Developed by Shaz Moghaddam" under the tagline.
+- An npm badge for the Bezel Charts package the charts are drawn with.
+- A highlighted note that the research dates from November 2026, and that some figures will change over time.
+
+
 Temperature records and the first human-made categories.
 
 - Temperature records by continent: bars running from each continent's record low to its record high, from the World Meteorological Organization's official archive. Seven entries, as the WMO keeps records by region.
