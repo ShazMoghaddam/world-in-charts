@@ -2,6 +2,12 @@
 
 ## Unreleased
 
+Largest lakes by area and largest deserts.
+
+- Largest lakes by area: a donut of the top 10's combined surface, showing the Caspian Sea is almost half of it. All ten figures from Britannica.
+- Largest deserts: ranked bars coloured by desert type, showing the two biggest deserts are polar ice. The Great Australian Desert is marked disputed, since it's a group of deserts counted as one.
+- The banner and social preview now include both categories.
+
 Banner and social preview.
 
 - A colourful README banner and a GitHub social preview, drawn from the real data: each colour is one category and each bar is one figure.

@@ -1,0 +1,20 @@
+{
+  "id": "largest-deserts",
+  "title": "Largest deserts",
+  "group": "nature",
+  "measure": "Area in square km. A desert is any region that gets very little rain or snow, usually under 250 mm a year, so the ice of Antarctica and the Arctic counts. Desert edges are blurry, so apart from Antarctica these areas are estimates and sources differ, sometimes by a lot.",
+  "unit": "km²",
+  "checked": "2026-11-16",
+  "entries": [
+    { "rank": 1, "name": "Antarctic", "type": "Polar", "location": "Antarctica", "country": "Antarctica", "value": 14200000, "confidence": "measured", "note": "The whole continent: a desert because so little snow falls, not because it's hot.", "source": "Wikipedia, List of deserts by area" },
+    { "rank": 2, "name": "Arctic", "type": "Polar", "location": "Around the North Pole", "country": "Canada, Greenland, Russia, Norway, USA and others", "value": 13900000, "confidence": "estimated", "note": "Its size depends on where the Arctic is taken to end.", "source": "Wikipedia, List of deserts by area" },
+    { "rank": 3, "name": "Sahara", "type": "Hot", "location": "North Africa", "country": "Algeria, Libya, Egypt, Mali, Niger, Chad and others", "value": 9200000, "confidence": "estimated", "note": "The largest hot desert. Some sources give 9.0 million km².", "source": "Wikipedia, List of deserts by area" },
+    { "rank": 4, "name": "Great Australian", "type": "Hot", "location": "Australia", "country": "Australia", "value": 2700000, "confidence": "disputed", "note": "Not one desert but a group of ten, including the Great Victoria, Great Sandy and Gibson. Wikipedia counts them together; most top 10 lists count them separately, and then none of them make the top 10.", "source": "Wikipedia, List of deserts by area" },
+    { "rank": 5, "name": "Arabian", "type": "Hot", "location": "Arabian Peninsula", "country": "Saudi Arabia, Yemen, Oman, UAE and others", "value": 2330000, "confidence": "estimated", "note": "", "source": "Wikipedia, List of deserts by area" },
+    { "rank": 6, "name": "Gobi", "type": "Cold winter", "location": "Central Asia", "country": "China, Mongolia", "value": 1295000, "confidence": "estimated", "note": "Hot summers but freezing winters.", "source": "Wikipedia, List of deserts by area" },
+    { "rank": 7, "name": "Kalahari", "type": "Hot", "location": "Southern Africa", "country": "Botswana, Namibia, South Africa", "value": 900000, "confidence": "estimated", "note": "Gets enough rain in places to be called a semi-desert.", "source": "Wikipedia, List of deserts by area" },
+    { "rank": 8, "name": "Patagonian", "type": "Cold winter", "location": "South America", "country": "Argentina, Chile", "value": 673000, "confidence": "estimated", "note": "", "source": "Wikipedia, List of deserts by area" },
+    { "rank": 9, "name": "Syrian", "type": "Hot", "location": "Western Asia", "country": "Syria, Jordan, Iraq, Saudi Arabia", "value": 500000, "confidence": "estimated", "note": "", "source": "Wikipedia, List of deserts by area" },
+    { "rank": 10, "name": "Great Basin", "type": "Cold winter", "location": "Western USA", "country": "USA", "value": 492098, "confidence": "estimated", "note": "The largest desert in the USA. The Chihuahuan Desert (453,248 km²) is next.", "source": "Wikipedia, List of deserts by area" }
+  ]
+}

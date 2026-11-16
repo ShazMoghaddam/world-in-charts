@@ -1,4 +1,4 @@
-<a href="https://shazmoghaddam.github.io/"><img src="assets/banner.png" alt="World in Charts: the world's top 10s, researched properly. Every figure sourced. By Shaz Moghaddam, London. The bars along the bottom are the real figures from the four categories." width="100%"></a>
+<a href="https://shazmoghaddam.github.io/"><img src="assets/banner.png" alt="World in Charts: the world's top 10s, researched properly. Every figure sourced. By Shaz Moghaddam, London. The bars along the bottom are the real figures from each category." width="100%"></a>
 
 # World in Charts
 
@@ -28,8 +28,10 @@ Where a source gives a range, the lower end is used for ranking, so nothing is o
 - [Longest rivers](#longest-rivers)
 - [Deepest lakes](#deepest-lakes)
 - [Highest mountains](#highest-mountains)
+- [Largest lakes by area](#largest-lakes-by-area)
+- [Largest deserts](#largest-deserts)
 
-More categories are on the way: largest lakes, deserts, waterfalls, volcanoes, ocean trenches, caves, islands, craters, glaciers, reefs, record temperatures, animals, and human-made records such as buildings, bridges and cities.
+More categories are on the way: waterfalls, volcanoes, ocean trenches, caves, islands, craters, glaciers, reefs, record temperatures, animals, and human-made records such as buildings, bridges and cities.
 
 ## Oldest living individual trees
 
@@ -150,6 +152,66 @@ More categories are on the way: largest lakes, deserts, waterfalls, volcanoes, o
 - **Small disagreements:** surveys differ by a few metres for some peaks, such as Cho Oyu (8,188 or 8,201 m) and Makalu (8,485 or 8,481 m). None of them change the order.
 
 **Sources:** [Al Jazeera: Nepal and China announce Everest's new height (2020)](https://www.aljazeera.com/news/2020/12/8/mt-everest-nepal-china-announce-revised-height-at-8848-metres) · [Wikipedia: List of highest mountains](https://en.wikipedia.org/wiki/List_of_highest_mountains_on_Earth) (checked against the March 2026 version)
+
+## Largest lakes by area
+
+![Largest lakes by area as a donut of the top 10's combined 809,200 km²: Caspian Sea 48%, Superior 10%, Victoria 9%, Huron 7%, Michigan 7%, and the other five together 19%](charts/largest-lakes.svg)
+
+**Measured as:** surface area in km². All ten figures come from one source, Britannica, so they are measured the same way.
+
+**Why this chart:** a donut shows how the top 10's combined surface splits. The Caspian Sea alone is almost half of it. The five smallest lakes in the top 10 are grouped as "Other"; the table has each one.
+
+| # | Lake | Where | Area (km²) | How sure |
+| --- | --- | --- | --- | --- |
+| 1 | Caspian Sea | Kazakhstan, Turkmenistan, Iran, Azerbaijan, Russia | 386,400 | Measured |
+| 2 | Superior | Canada, USA | 82,100 | Measured |
+| 3 | Victoria | Uganda, Kenya, Tanzania | 69,484 | Measured |
+| 4 | Huron | Canada, USA | 59,570 | Measured |
+| 5 | Michigan | USA | 57,757 | Measured |
+| 6 | Tanganyika | Tanzania, DR Congo, Burundi, Zambia | 32,900 | Measured |
+| 7 | Baikal | Russia | 31,500 | Measured |
+| 8 | Great Bear | Northwest Territories, Canada | 31,328 | Measured |
+| 9 | Malawi (Nyasa) | Malawi, Mozambique, Tanzania | 29,604 | Measured |
+| 10 | Great Slave | Northwest Territories, Canada | 28,568 | Measured |
+
+**Notes**
+
+- **Caspian Sea:** called a sea, but classed as a lake because it's landlocked. Its water level is falling, so its area is shrinking; other sources give 371,000 km².
+- **Victoria:** some sources give as little as 59,947 km², depending on where its swampy margins are counted.
+- **Michigan and Huron:** joined at the Straits of Mackinac. Counted as one lake, Michigan–Huron would be the largest freshwater lake, at about 117,000 km².
+- **Baikal:** only seventh by area, but the largest freshwater lake by volume because it's so deep.
+
+**Source:** [Britannica: World's largest lakes](https://www.britannica.com/topic/worlds-largest-lakes-2228655)
+
+## Largest deserts
+
+![Largest deserts in km², coloured by type: Antarctic 14.2 million and Arctic 13.9 million (polar); Sahara 9.2 million, Great Australian 2.7 million and Arabian 2.3 million (hot); Gobi 1.3 million (cold winter); Kalahari 900,000 (hot); Patagonian 673,000 (cold winter); Syrian 500,000 (hot); Great Basin 492,000 (cold winter)](charts/largest-deserts.svg)
+
+**Measured as:** area in km². A desert is any region that gets very little rain or snow, usually under 250 mm a year, so the ice of Antarctica and the Arctic counts.
+
+**Why this chart:** ranked bars, with colour and pattern showing the type of desert. The two biggest deserts on Earth are ice, and the Sahara is "only" third.
+
+| # | Desert | Type | Where | Area (km²) | How sure |
+| --- | --- | --- | --- | --- | --- |
+| 1 | Antarctic | Polar | Antarctica | 14,200,000 | Measured |
+| 2 | Arctic | Polar | Canada, Greenland, Russia, Norway, USA and others | 13,900,000 | Estimated |
+| 3 | Sahara | Hot | North Africa | 9,200,000 | Estimated |
+| 4 | Great Australian | Hot | Australia | 2,700,000 | Disputed |
+| 5 | Arabian | Hot | Arabian Peninsula | 2,330,000 | Estimated |
+| 6 | Gobi | Cold winter | China, Mongolia | 1,295,000 | Estimated |
+| 7 | Kalahari | Hot | Botswana, Namibia, South Africa | 900,000 | Estimated |
+| 8 | Patagonian | Cold winter | Argentina, Chile | 673,000 | Estimated |
+| 9 | Syrian | Hot | Syria, Jordan, Iraq, Saudi Arabia | 500,000 | Estimated |
+| 10 | Great Basin | Cold winter | USA | 492,098 | Estimated |
+
+**Notes**
+
+- **Why most are estimates:** desert edges are blurry, so apart from Antarctica, which is a whole continent, sources draw them differently and their areas differ, sometimes by a lot.
+- **Great Australian:** not one desert but a group of ten, including the Great Victoria, Great Sandy and Gibson. Wikipedia counts them together; most top 10 lists count them separately, and then none of them make the top 10.
+- **Kalahari:** gets enough rain in places to be called a semi-desert.
+- **Just missing out:** the Chihuahuan Desert in Mexico and the USA, at 453,248 km².
+
+**Source:** [Wikipedia: List of deserts by area](https://en.wikipedia.org/wiki/List_of_deserts_by_area)
 
 ## How it works
 
