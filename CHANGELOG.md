@@ -2,6 +2,15 @@
 
 ## Unreleased
 
+Temperature records and the first human-made categories.
+
+- Temperature records by continent: bars running from each continent's record low to its record high, from the World Meteorological Organization's official archive. Seven entries, as the WMO keeps records by region.
+- Tallest buildings: a skyline of columns from dusk violet to sunset orange, to the CTBUH standard.
+- Longest bridges: ranked bars split into rail and road; seven of the ten carry high-speed trains.
+- Most visited museums: 2025 visitor counts from The Art Newspaper's annual survey, in place of "most visited landmarks", which have no reliable counts.
+- `npm run check` accepts a stated number of entries (`expectedEntries`) for sources with fewer than ten.
+- Banner and social preview redrawn: 21 categories, 207 facts.
+
 Five nature categories, with more colour and new chart types.
 
 - Largest tropical rainforests: a donut in forest greens, from 2020 satellite data on primary forest.

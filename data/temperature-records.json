@@ -1,0 +1,18 @@
+{
+  "id": "temperature-records",
+  "title": "Temperature records by continent",
+  "group": "nature",
+  "expectedEntries": 7,
+  "measure": "The highest and lowest air temperatures ever officially recorded in each region, in °C, as verified by the World Meteorological Organization. The WMO keeps records by region, so there are seven entries rather than ten. Ranked by highest temperature.",
+  "unit": "°C",
+  "checked": "2026-11-16",
+  "entries": [
+    { "rank": 1, "name": "North America", "location": "Furnace Creek, Death Valley, USA", "country": "USA, Canada", "value": 56.7, "low": -63.0, "lowPlace": "Snag, Yukon, Canada", "confidence": "verified", "note": "The hottest temperature ever recorded on Earth, on 10 July 1913. Some weather historians doubt it, but the WMO still accepts it. The low was on 3 February 1947.", "source": "World Meteorological Organization, Archive of Weather and Climate Extremes (July 2025)" },
+    { "rank": 2, "name": "Africa", "location": "Kebili, Tunisia", "country": "Tunisia, Morocco", "value": 55.0, "low": -23.9, "lowPlace": "Ifrane, Morocco", "confidence": "verified", "note": "High on 7 July 1931, low on 11 February 1935.", "source": "World Meteorological Organization, Archive of Weather and Climate Extremes (July 2025)" },
+    { "rank": 3, "name": "Asia", "location": "Mitribah, Kuwait", "country": "Kuwait, Russia", "value": 53.9, "low": -67.8, "lowPlace": "Verkhoyansk and Oymyakon, Russia", "confidence": "verified", "note": "High on 21 July 2016, measured to within 0.1 °C. The low was reached in 1892 and 1933.", "source": "World Meteorological Organization, Archive of Weather and Climate Extremes (July 2025)" },
+    { "rank": 4, "name": "South-West Pacific", "location": "Oodnadatta, Australia", "country": "Australia, New Zealand", "value": 50.7, "low": -25.6, "lowPlace": "Ranfurly, New Zealand", "confidence": "verified", "note": "High on 2 January 1960, low on 17 July 1903.", "source": "World Meteorological Organization, Archive of Weather and Climate Extremes (July 2025)" },
+    { "rank": 5, "name": "South America", "location": "Rivadavia, Argentina", "country": "Argentina", "value": 48.9, "low": -32.8, "lowPlace": "Sarmiento, Argentina", "confidence": "verified", "note": "High on 11 December 1905, low on 1 June 1907.", "source": "World Meteorological Organization, Archive of Weather and Climate Extremes (July 2025)" },
+    { "rank": 6, "name": "Europe", "location": "Siracusa, Sicily, Italy", "country": "Italy, Russia", "value": 48.8, "low": -58.1, "lowPlace": "Ust-Shchugor, Russia", "confidence": "verified", "note": "High on 11 August 2021, the newest record here. Continental Europe only: the WMO's Europe region also covers Israel and Greenland, which hold 54.0 °C and −69.6 °C.", "source": "World Meteorological Organization, Archive of Weather and Climate Extremes (July 2025)" },
+    { "rank": 7, "name": "Antarctica", "location": "Signy Research Station, South Orkney Islands", "country": "Antarctica", "value": 19.8, "low": -89.2, "lowPlace": "Vostok Station, Antarctica", "confidence": "verified", "note": "The low of −89.2 °C, on 21 July 1983, is the coldest temperature ever recorded on Earth. On the Antarctic mainland the record high is 18.3 °C.", "source": "World Meteorological Organization, Archive of Weather and Climate Extremes (July 2025)" }
+  ]
+}

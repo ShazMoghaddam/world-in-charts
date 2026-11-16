@@ -16,7 +16,9 @@ for (const file of readdirSync(dir).filter((f) => f.endsWith('.json'))) {
   }
   if (d.id !== file.replace('.json', '')) say(`id "${d.id}" doesn't match the file name`);
   for (const key of ['title', 'measure', 'unit', 'checked']) if (!d[key]) say(`missing "${key}"`);
-  if (!Array.isArray(d.entries) || d.entries.length !== 10) say('should have exactly 10 entries');
+  // Top 10s by default. A file can set expectedEntries when its source only has fewer, and must say why in its measure.
+  const expected = d.expectedEntries ?? 10;
+  if (!Array.isArray(d.entries) || d.entries.length !== expected) say(`should have exactly ${expected} entries`);
   (d.entries ?? []).forEach((e, i) => {
     const at = `entry ${i + 1} (${e.name ?? 'no name'})`;
     if (e.rank !== i + 1) say(`${at} has rank ${e.rank}, expected ${i + 1}`);
