@@ -4,9 +4,9 @@
   "group": "nature",
   "measure": "Height of the summit above sea level, in metres. Prominence is shown alongside: how far a summit rises above the lowest point you'd have to cross to reach a higher one. It shows which peaks stand on their own and which are shoulders of a bigger neighbour.",
   "unit": "m",
-  "checked": "2026-11-15",
+  "checked": "2026-11-16",
   "entries": [
-    { "rank": 1, "name": "Everest", "location": "Mahalangur Himalaya", "country": "Nepal, China", "value": 8849, "prominence": 8849, "confidence": "verified", "note": "8,848.86 m, agreed by China and Nepal in December 2020 after a joint survey. As the highest point on Earth, its prominence equals its height.", "source": "Wikipedia, List of highest mountains (March 2026)" },
+    { "rank": 1, "name": "Everest", "location": "Mahalangur Himalaya", "country": "Nepal, China", "value": 8849, "prominence": 8849, "confidence": "verified", "note": "8,848.86 m, announced jointly by China and Nepal on 8 December 2020 from GPS and trigonometric surveys by both countries' teams in 2019 and 2020. It's the snow height, 86 cm above the old 8,848 m figure. As the highest point on Earth, its prominence equals its height.", "source": "Associated Press and Al Jazeera, 8 December 2020; Wikipedia, List of highest mountains" },
     { "rank": 2, "name": "K2", "location": "Baltoro Karakoram", "country": "Pakistan, China", "value": 8611, "prominence": 4020, "confidence": "measured", "note": "", "source": "Wikipedia, List of highest mountains (March 2026)" },
     { "rank": 3, "name": "Kangchenjunga", "location": "Kangchenjunga Himalaya", "country": "Nepal, India", "value": 8586, "prominence": 3922, "confidence": "measured", "note": "", "source": "Wikipedia, List of highest mountains (March 2026)" },
     { "rank": 4, "name": "Lhotse", "location": "Mahalangur Himalaya", "country": "Nepal, China", "value": 8516, "prominence": 610, "confidence": "measured", "note": "Joined to Everest by the South Col, so it rises only 610 m above it. Fourth highest, but barely a separate mountain.", "source": "Wikipedia, List of highest mountains (March 2026)" },

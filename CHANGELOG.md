@@ -2,6 +2,12 @@
 
 ## Unreleased
 
+Better sources for lakes and mountains.
+
+- Deepest lakes: Crater Lake now uses the National Park Service's 2000 sonar survey (592 m, verified), and Baikal is verified by Guinness World Records.
+- Lake Vostok corrected to about 800 m, from seismic mapping of its southern basin. The 510 to 900 m range is now described correctly, as different estimates of its deepest point, so it moves from 4th to 5th.
+- Everest now cites the 2020 China and Nepal announcement directly.
+
 Deepest lakes and highest mountains.
 
 - Deepest lakes: ten lakes by maximum depth, drawn as bars hanging down from the surface. Includes the Caspian Sea and Lake Vostok under the Antarctic ice, with notes on both.

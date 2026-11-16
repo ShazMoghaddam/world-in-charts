@@ -89,33 +89,35 @@ More categories are on the way: largest lakes, deserts, waterfalls, volcanoes, o
 
 ## Deepest lakes
 
-![Deepest lakes by maximum depth: Baikal 1,642 m, Tanganyika 1,470 m, Caspian Sea 1,025 m, Vostok about 900 m (estimated, under the Antarctic ice), O'Higgins / San Martín 836 m, Argentino 719 m, Malawi 706 m, Issyk-Kul 668 m, Great Slave 614 m and Crater Lake 594 m](charts/deepest-lakes.svg)
+![Deepest lakes by maximum depth: Baikal 1,642 m, Tanganyika 1,470 m, Caspian Sea 1,025 m, O'Higgins / San Martín 836 m, Vostok about 800 m (estimated, under the Antarctic ice), Argentino 719 m, Malawi 706 m, Issyk-Kul 668 m, Great Slave 614 m and Crater Lake 592 m](charts/deepest-lakes.svg)
 
-**Measured as:** maximum depth in metres, from the surface to the deepest known point. Ranked by maximum depth, not average depth.
+**Measured as:** maximum depth in metres, from the surface to the deepest known point. Ranked by maximum depth, not average depth. Where the lake's managing body has published a survey, that figure is used.
 
 **Why this chart:** bars hang down from the surface, like the lakes themselves, so the deepest lake reaches furthest.
 
 | # | Lake | Where | Max depth (m) | How sure |
 | --- | --- | --- | --- | --- |
-| 1 | Baikal | Southern Siberia, Russia | 1,642 | Measured |
+| 1 | Baikal | Southern Siberia, Russia | 1,642 | Verified |
 | 2 | Tanganyika | Tanzania, DR Congo, Burundi, Zambia | 1,470 | Measured |
 | 3 | Caspian Sea | Kazakhstan, Turkmenistan, Azerbaijan, Russia, Iran | 1,025 | Measured |
-| 4 | Vostok | Under the East Antarctic Ice Sheet | about 900 | Estimated |
-| 5 | O'Higgins / San Martín | Patagonia, Chile and Argentina | 836 | Measured |
+| 4 | O'Higgins / San Martín | Patagonia, Chile and Argentina | 836 | Measured |
+| 5 | Vostok | Under the East Antarctic Ice Sheet | about 800 | Estimated |
 | 6 | Argentino | Santa Cruz Province, Argentina | 719 | Measured |
 | 7 | Malawi | Malawi, Mozambique, Tanzania | 706 | Measured |
 | 8 | Issyk-Kul | Tian Shan mountains, Kyrgyzstan | 668 | Measured |
 | 9 | Great Slave | Northwest Territories, Canada | 614 | Measured |
-| 10 | Crater Lake | Oregon, USA | 594 | Measured |
+| 10 | Crater Lake | Oregon, USA | 592 | Verified |
 
 **Notes**
 
 - **Caspian Sea:** called a sea, but geographers and limnologists generally class it as a huge inland salt lake.
-- **Vostok:** sealed under about 4 km of Antarctic ice. Its depth, from 510 m to about 900 m across the lake, comes from radar and seismic surveys rather than direct measurement.
-- **Argentino:** left out of many older top 10 lists.
-- **Just missing out:** Lake Matano in Indonesia, at 590 m, is only 4 m behind Crater Lake.
+- **Baikal:** Guinness World Records lists the same 1,642 m.
+- **Vostok:** sealed under about 4 km of Antarctic ice. Seismic mapping by Columbia University's Lamont-Doherty Earth Observatory found about 800 m of water in its southern basin and about 400 m in the northern one. Published estimates of its deepest point range from 510 m to 900 m.
+- **Argentino:** not in the National Park Service list or many older top 10s, but included in Wikipedia's current list.
+- **Crater Lake:** measured with multibeam sonar in 2000. Some lists give 594 m.
+- **Just missing out:** Lake Matano in Indonesia, at 590 m, is only 2 m behind Crater Lake.
 
-**Source:** [Wikipedia: List of lakes by depth](https://en.wikipedia.org/wiki/List_of_lakes_by_depth) (checked against the March 2026 version)
+**Sources:** [Guinness World Records: Deepest lake](https://www.guinnessworldrecords.com/world-records/deepest-lake) · [US National Park Service: Crater Lake](https://www.nps.gov/places/crater-lake.htm) · [US National Park Service: The World's Deepest Lakes](https://www.nps.gov/crla/planyourvisit/upload/World-s-Deepest-Lakes-2017-508.pdf) · [Christner and Priscu: Subglacial Lake Vostok](https://www.montana.edu/priscu/documents/Publications/ChristnerPriscu2005SubglacialVostok.pdf) · [Wikipedia: List of lakes by depth](https://en.wikipedia.org/wiki/List_of_lakes_by_depth)
 
 ## Highest mountains
 
@@ -140,12 +142,12 @@ More categories are on the way: largest lakes, deserts, waterfalls, volcanoes, o
 
 **Notes**
 
-- **Everest:** 8,848.86 m, agreed by China and Nepal in December 2020 after a joint survey. As the highest point on Earth, its prominence equals its height.
+- **Everest:** 8,848.86 m, announced jointly by China and Nepal on 8 December 2020 from GPS and trigonometric surveys by both countries' teams in 2019 and 2020. It's the snow height, 86 cm above the old 8,848 m figure. As the highest point on Earth, its prominence equals its height.
 - **Lhotse:** fourth highest, but joined to Everest by the South Col and only 610 m above it, so it's barely a separate mountain.
 - **Nanga Parbat:** ninth by height, but after Everest the most prominent peak in the top 10, standing almost alone at the western end of the Himalaya.
 - **Small disagreements:** surveys differ by a few metres for some peaks, such as Cho Oyu (8,188 or 8,201 m) and Makalu (8,485 or 8,481 m). None of them change the order.
 
-**Source:** [Wikipedia: List of highest mountains](https://en.wikipedia.org/wiki/List_of_highest_mountains_on_Earth) (checked against the March 2026 version)
+**Sources:** [Al Jazeera: Nepal and China announce Everest's new height (2020)](https://www.aljazeera.com/news/2020/12/8/mt-everest-nepal-china-announce-revised-height-at-8848-metres) · [Wikipedia: List of highest mountains](https://en.wikipedia.org/wiki/List_of_highest_mountains_on_Earth) (checked against the March 2026 version)
 
 ## How it works
 
