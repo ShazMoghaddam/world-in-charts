@@ -2,6 +2,13 @@
 
 ## Unreleased
 
+Largest islands and tallest trees by species.
+
+- Largest islands: ranked bars with Greenland highlighted. All ten figures from Britannica; Australia counts as a continent.
+- Tallest trees by species: columns coloured by continent, with current heights, including the 2023 Tibetan cypress and Centurion's height after the 2019 fire.
+- Largest deserts and largest islands now show thousands of km², since the short form for millions ("2.2m") read like metres.
+- Banner and social preview redrawn: 12 categories, 120 facts.
+
 Deepest ocean trenches and longest cave systems.
 
 - Deepest ocean trenches: columns with Everest's height as a dashed line; nine of the ten are deeper. Depths from modern sonar surveys and crewed dives, replacing 1950s soundings that some lists still repeat. The Kuril–Kamchatka Trench is 9,604 m, not 10,542 m, and the Japan Trench drops out.

@@ -34,8 +34,10 @@ Where a source gives a range, the lower end is used for ranking, so nothing is o
 - [Highest active volcanoes](#highest-active-volcanoes)
 - [Deepest ocean trenches](#deepest-ocean-trenches)
 - [Longest cave systems](#longest-cave-systems)
+- [Largest islands](#largest-islands)
+- [Tallest trees by species](#tallest-trees-by-species)
 
-More categories are on the way: islands, craters, glaciers, reefs, record temperatures, animals, and human-made records such as buildings, bridges and cities.
+More categories are on the way: craters, glaciers, reefs, record temperatures, animals, and human-made records such as buildings, bridges and cities.
 
 ## Oldest living individual trees
 
@@ -193,7 +195,7 @@ More categories are on the way: islands, craters, glaciers, reefs, record temper
 
 **Measured as:** area in km². A desert is any region that gets very little rain or snow, usually under 250 mm a year, so the ice of Antarctica and the Arctic counts.
 
-**Why this chart:** ranked bars, with colour and pattern showing the type of desert. The two biggest deserts on Earth are ice, and the Sahara is "only" third.
+**Why this chart:** ranked bars in thousands of km², with colour and pattern showing the type of desert. The two biggest deserts on Earth are ice, and the Sahara is "only" third.
 
 | # | Desert | Type | Where | Area (km²) | How sure |
 | --- | --- | --- | --- | --- | --- |
@@ -336,6 +338,66 @@ More categories are on the way: islands, craters, glaciers, reefs, record temper
 - **Alto Tejuelo:** Wikipedia lists Fisher Ridge Cave (215.9 km, USA) above it, but it's 2 km shorter.
 
 **Source:** [Wikipedia: List of longest caves](https://en.wikipedia.org/wiki/List_of_longest_caves) (March 2026), compiled from the National Speleological Society's long cave lists and the Quintana Roo Speleological Survey
+
+## Largest islands
+
+![Largest islands in thousands of km², with Greenland highlighted: Greenland 2,166, New Guinea 821, Borneo 755, Madagascar 592, Baffin Island 507, Sumatra 481, Honshu 228, Victoria Island 217, Great Britain 209 and Ellesmere Island 196](charts/largest-islands.svg)
+
+**Measured as:** area in km². Australia isn't included: it counts as a continent, not an island. All ten figures come from one source, Britannica.
+
+**Why this chart:** ranked bars in thousands of km², with the biggest highlighted. Greenland is bigger than the next two islands combined.
+
+| # | Island | Where | Country | Area (km²) | How sure |
+| --- | --- | --- | --- | --- | --- |
+| 1 | Greenland | North Atlantic and Arctic Ocean | Denmark (self-governing) | 2,166,086 | Measured |
+| 2 | New Guinea | Western Pacific | Indonesia, Papua New Guinea | 821,400 | Measured |
+| 3 | Borneo | Malay Archipelago | Indonesia, Malaysia, Brunei | 755,000 | Measured |
+| 4 | Madagascar | Western Indian Ocean | Madagascar | 591,896 | Measured |
+| 5 | Baffin Island | Canadian Arctic Archipelago | Canada | 507,451 | Measured |
+| 6 | Sumatra | Eastern Indian Ocean | Indonesia | 480,793 | Measured |
+| 7 | Honshu | Western North Pacific | Japan | 227,898 | Measured |
+| 8 | Victoria Island | Canadian Arctic Archipelago | Canada | 217,291 | Measured |
+| 9 | Great Britain | Eastern North Atlantic | United Kingdom | 209,331 | Measured |
+| 10 | Ellesmere Island | Canadian Arctic Archipelago | Canada | 196,236 | Measured |
+
+**Notes**
+
+- **Greenland:** about four-fifths of it is covered by ice.
+- **Differences between sources:** areas depend on which coastline and offshore islets are counted. Other sources give New Guinea as 785,753 km² and Sumatra as 443,066 km², but the order stays the same.
+- **Great Britain:** the largest island in Europe.
+
+**Source:** [Britannica: World's largest islands](https://www.britannica.com/topic/worlds-largest-islands-2228256)
+
+## Tallest trees by species
+
+![Tallest trees by species in metres, coloured by continent: coast redwood 116 (North America), South Tibetan cypress 102 (Asia), Sitka spruce 100 and coast Douglas-fir 100 (North America), yellow meranti 98 (Asia), giant sequoia 96 (North America), mountain ash 96, southern blue gum 92 and manna gum 91 (Australia), and angelim vermelho 89 (South America)](charts/tallest-trees.svg)
+
+**Measured as:** height in metres of the tallest known living tree of each species, measured by climbers with a tape or by laser. Older methods often overstated tree heights by 5 to 15 per cent, so only modern measurements count.
+
+**Why this chart:** columns coloured by continent. Shown by species, because the tallest individual trees are nearly all coast redwoods in one Californian park.
+
+| # | Species | Where | Height (m) | How sure |
+| --- | --- | --- | --- | --- |
+| 1 | Coast redwood (Hyperion) | Redwood National Park, California, USA | 116.07 | Verified |
+| 2 | South Tibetan cypress | Yarlung Tsangpo Grand Canyon, Tibet, China | 102.3 | Measured |
+| 3 | Sitka spruce | Redwood National Park, California, USA | 100.2 | Measured |
+| 4 | Coast Douglas-fir | Siuslaw National Forest, Oregon, USA | 99.5 | Measured |
+| 5 | Yellow meranti (Menara) | Danum Valley, Sabah, Malaysia | 97.58 | Measured |
+| 6 | Giant sequoia | Sequoia National Park, California, USA | 96.37 | Measured |
+| 7 | Mountain ash (Centurion) | Arve Valley, Tasmania, Australia | 96 | Measured |
+| 8 | Southern blue gum | Tasmania, Australia | 92 | Measured |
+| 9 | Manna gum (White Knight) | Evercreech Forest Reserve, Tasmania, Australia | 91.3 | Measured |
+| 10 | Angelim vermelho | Amapá and Pará border, Brazil | 88.5 | Measured |
+
+**Notes**
+
+- **Hyperion:** the tallest known living tree, measured in 2019. Its location is kept secret to protect it.
+- **South Tibetan cypress:** found in 2023, and now the tallest known tree in Asia.
+- **Menara:** grows on a slope, so its height is an average of the two sides. Guinness World Records gives 98.53 m.
+- **Centurion:** reached 100.5 m in 2018, then lost about 4 m in a 2019 bushfire.
+- **Angelim vermelho:** the tallest tree in the Amazon, tied with a brown top stringbark in Tasmania. A noble fir in Washington (89.9 m) is left out, as it may have died.
+
+**Sources:** [Guinness World Records: Tallest tree living](https://www.guinnessworldrecords.com/world-records/tallest-tree-living) · [Wikipedia: List of tallest trees](https://en.wikipedia.org/wiki/List_of_tallest_trees)
 
 ## How it works
 

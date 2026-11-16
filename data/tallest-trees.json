@@ -1,0 +1,20 @@
+{
+  "id": "tallest-trees",
+  "title": "Tallest trees by species",
+  "group": "nature",
+  "measure": "Height in metres of the tallest known living tree of each species, measured by climbers with a tape or by laser. Shown by species because the tallest individual trees are nearly all coast redwoods in one Californian park.",
+  "unit": "m",
+  "checked": "2026-11-16",
+  "entries": [
+    { "rank": 1, "name": "Coast redwood", "type": "North America", "location": "Redwood National Park, California", "country": "USA", "value": 116.07, "confidence": "verified", "note": "Hyperion, the tallest known living tree, measured in 2019. Its location is kept secret to protect it.", "source": "Guinness World Records, Tallest tree living; Wikipedia" },
+    { "rank": 2, "name": "South Tibetan cypress", "type": "Asia", "location": "Yarlung Tsangpo Grand Canyon, Tibet", "country": "China", "value": 102.3, "confidence": "measured", "note": "Found in 2023, making it the tallest known tree in Asia.", "source": "Wikipedia, List of tallest trees (tallest by species)" },
+    { "rank": 3, "name": "Sitka spruce", "type": "North America", "location": "Redwood National Park, California", "country": "USA", "value": 100.2, "confidence": "measured", "note": "", "source": "Wikipedia, List of tallest trees (tallest by species)" },
+    { "rank": 4, "name": "Coast Douglas-fir", "type": "North America", "location": "Siuslaw National Forest, Oregon", "country": "USA", "value": 99.5, "confidence": "measured", "note": "", "source": "Wikipedia, List of tallest trees (tallest by species)" },
+    { "rank": 5, "name": "Yellow meranti", "type": "Asia", "location": "Danum Valley, Sabah, Borneo", "country": "Malaysia", "value": 97.58, "confidence": "measured", "note": "Menara, the tallest tropical tree. It grows on a slope, so its height is an average of the two sides; Guinness World Records gives 98.53 m and early reports said 100.8 m.", "source": "Wikipedia, List of tallest trees (tallest by species)" },
+    { "rank": 6, "name": "Giant sequoia", "type": "North America", "location": "Sequoia National Park, California", "country": "USA", "value": 96.37, "confidence": "measured", "note": "Not the tallest species, but the biggest trees on Earth by volume.", "source": "Wikipedia, List of tallest trees (tallest by species)" },
+    { "rank": 7, "name": "Mountain ash", "type": "Australia", "location": "Arve Valley, Tasmania", "country": "Australia", "value": 96, "confidence": "measured", "note": "Centurion reached 100.5 m in 2018, then lost about 4 m in a 2019 bushfire.", "source": "Wikipedia, List of tallest trees (tallest by species)" },
+    { "rank": 8, "name": "Southern blue gum", "type": "Australia", "location": "Tasmania", "country": "Australia", "value": 92, "confidence": "measured", "note": "", "source": "Wikipedia, List of tallest trees (tallest by species)" },
+    { "rank": 9, "name": "Manna gum", "type": "Australia", "location": "Evercreech Forest Reserve, Tasmania", "country": "Australia", "value": 91.3, "confidence": "measured", "note": "White Knight.", "source": "Wikipedia, List of tallest trees (tallest by species)" },
+    { "rank": 10, "name": "Angelim vermelho", "type": "South America", "location": "Amapá and Pará border", "country": "Brazil", "value": 88.5, "confidence": "measured", "note": "Dinizia excelsa, the tallest tree in the Amazon. Ties with a brown top stringbark in Tasmania. A noble fir in Washington (89.9 m) is left out, as it may have died.", "source": "Wikipedia, List of tallest trees (tallest by species)" }
+  ]
+}
