@@ -83,6 +83,21 @@ const charts = {
     patterns: 'solid,stripes',
     horizontal: true, stacked: true, width: WIDTH, theme: 'light',
   }),
+  // Columns with Everest's height as a dashed line: nine of the ten trenches are deeper than it is tall.
+  'deepest-trenches': (d) => toSVG('bars', {
+    heading: `${d.title} · metres below sea level`,
+    labels: d.entries.map((e) => e.name.replace(' Trench', '')),
+    values: d.entries.map((e) => e.value),
+    goal: 8849, 'goal-label': 'Everest',
+    'angle-labels': true, highlight: 'none', height: 240, width: WIDTH, theme: 'light',
+  }),
+  // Columns with the longest one highlighted: Mammoth Cave is far ahead.
+  'longest-caves': (d) => toSVG('bars', {
+    heading: `${d.title} · km of surveyed passages`,
+    labels: d.entries.map((e) => e.name.replace('Sistema del ', '')),
+    values: d.entries.map((e) => e.value),
+    decimals: 0, 'show-values': true, 'angle-labels': true, height: 220, width: WIDTH, theme: 'light',
+  }),
 };
 
 for (const [id, draw] of Object.entries(charts)) {

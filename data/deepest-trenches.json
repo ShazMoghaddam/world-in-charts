@@ -1,0 +1,20 @@
+{
+  "id": "deepest-trenches",
+  "title": "Deepest ocean trenches",
+  "group": "nature",
+  "measure": "Depth of each trench's deepest known point, in metres below sea level. Wherever possible the figure is a modern one: a multibeam sonar survey or a depth measured by a crewed submersible at the bottom. Many lists still repeat older single soundings from the 1950s, some of them out by up to 1,000 m.",
+  "unit": "m",
+  "checked": "2026-11-16",
+  "entries": [
+    { "rank": 1, "name": "Mariana Trench", "location": "Challenger Deep, western Pacific", "country": "Federated States of Micronesia waters", "value": 10924, "confidence": "verified", "note": "The deepest point on Earth, 10,924 ± 15 m by multibeam sonar. Older figures of 11,034 m came from 1957 soundings.", "source": "Bongiovanni, Stewart and Jamieson, Geoscience Data Journal (2021): multibeam sonar from the Five Deeps Expedition" },
+    { "rank": 2, "name": "Tonga Trench", "location": "Horizon Deep, South Pacific", "country": "Tonga", "value": 10816, "confidence": "verified", "note": "10,816 ± 16 m: confirmed as the second deepest point in the ocean.", "source": "Bongiovanni, Stewart and Jamieson, Geoscience Data Journal (2021): multibeam sonar from the Five Deeps Expedition" },
+    { "rank": 3, "name": "Philippine Trench", "location": "Emden Deep, western Pacific", "country": "Philippines", "value": 10045, "confidence": "measured", "note": "Reached by the first crewed dive in 2021. Older lists give 10,540 m, from a 1951 sounding.", "source": "Guinness World Records, Most deep-sea trenches visited by an individual: depths measured by the submersible Limiting Factor" },
+    { "rank": 4, "name": "Kermadec Trench", "location": "Scholl Deep, South Pacific", "country": "New Zealand", "value": 10003, "confidence": "measured", "note": "10,003 ± 4 m, measured by calibrated instruments on the first crewed dive in 2021. Older lists give 10,047 m.", "source": "EYOS Expeditions and Caladan Oceanic: depth measured by the submersible Limiting Factor" },
+    { "rank": 5, "name": "Izu–Ogasawara Trench", "location": "Western Pacific, south of Japan", "country": "Japan", "value": 9775, "confidence": "measured", "note": "Depth reached by a crewed dive in 2022. The deepest point may be about 50 m deeper. Older lists give 9,780 m.", "source": "Divernet, First humans dive Japan's ocean deeps (2022)" },
+    { "rank": 6, "name": "Kuril–Kamchatka Trench", "location": "Northwest Pacific", "country": "Russia, Japan", "value": 9604, "confidence": "verified", "note": "A 2020 multibeam survey found it about 1,000 m shallower than the 10,542 m many lists still give.", "source": "Dreutter et al., Progress in Oceanography (2020)" },
+    { "rank": 7, "name": "Santa Cruz Trench", "location": "North New Hebrides, South Pacific", "country": "Solomon Islands, Vanuatu", "value": 9142, "confidence": "measured", "note": "Reached by the first crewed dive in 2021.", "source": "EYOS Expeditions and Caladan Oceanic: depth measured by the submersible Limiting Factor" },
+    { "rank": 8, "name": "New Britain Trench", "location": "Planet Deep, Solomon Sea", "country": "Papua New Guinea", "value": 9140, "confidence": "estimated", "note": "The deepest point on Earth with no documented descent, crewed or robotic.", "source": "Gallo et al. (2015), via Wikipedia, New Britain Trench; WorldAtlas" },
+    { "rank": 9, "name": "Yap Trench", "location": "Western Pacific", "country": "Federated States of Micronesia", "value": 8929, "confidence": "measured", "note": "8,929 ± 9 m, reached by the first crewed dive in 2020.", "source": "EYOS Expeditions and Caladan Oceanic: depth measured by the submersible Limiting Factor" },
+    { "rank": 10, "name": "San Cristóbal Trench", "location": "South Pacific", "country": "Solomon Islands", "value": 8483, "confidence": "measured", "note": "Reached by the first crewed dive in 2021. The Puerto Rico Trench, the deepest in the Atlantic at 8,378 m, is next.", "source": "EYOS Expeditions and Caladan Oceanic: depth measured by the submersible Limiting Factor" }
+  ]
+}
