@@ -3,7 +3,7 @@
 import { readFileSync, readdirSync, writeFileSync } from 'node:fs';
 
 const dir = new URL('../data/', import.meta.url);
-const ORDER = ['oldest-trees', 'longest-rivers', 'deepest-lakes', 'highest-mountains', 'largest-lakes', 'largest-deserts'];
+const ORDER = ['oldest-trees', 'longest-rivers', 'deepest-lakes', 'highest-mountains', 'largest-lakes', 'largest-deserts', 'tallest-waterfalls', 'highest-volcanoes'];
 const files = readdirSync(dir).filter((f) => f.endsWith('.json')).map((f) => f.replace('.json', ''));
 const ids = [...ORDER.filter((id) => files.includes(id)), ...files.filter((id) => !ORDER.includes(id)).sort()];
 const groups = ids.map((id) => JSON.parse(readFileSync(new URL(`${id}.json`, dir))));

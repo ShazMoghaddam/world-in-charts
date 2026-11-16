@@ -1,0 +1,31 @@
+name: Check
+
+# Runs on every push and pull request, and gives the green tick when everything passes.
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - name: Check the data
+        run: npm run check
+      - name: Check the charts and banner match the data
+        run: |
+          npm run build
+          npm run banner
+          git diff --exit-code -- charts assets/*.svg || {
+            echo "::error::The charts or banner are out of date. Run npm run build and npm run banner, then commit the result."
+            exit 1
+          }

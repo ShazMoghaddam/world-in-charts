@@ -30,8 +30,10 @@ Where a source gives a range, the lower end is used for ranking, so nothing is o
 - [Highest mountains](#highest-mountains)
 - [Largest lakes by area](#largest-lakes-by-area)
 - [Largest deserts](#largest-deserts)
+- [Tallest waterfalls](#tallest-waterfalls)
+- [Highest active volcanoes](#highest-active-volcanoes)
 
-More categories are on the way: waterfalls, volcanoes, ocean trenches, caves, islands, craters, glaciers, reefs, record temperatures, animals, and human-made records such as buildings, bridges and cities.
+More categories are on the way: ocean trenches, caves, islands, craters, glaciers, reefs, record temperatures, animals, and human-made records such as buildings, bridges and cities.
 
 ## Oldest living individual trees
 
@@ -213,24 +215,88 @@ More categories are on the way: waterfalls, volcanoes, ocean trenches, caves, is
 
 **Source:** [Wikipedia: List of deserts by area](https://en.wikipedia.org/wiki/List_of_deserts_by_area)
 
+## Tallest waterfalls
+
+![Tallest waterfalls in metres, with a dashed line at 828 m for the Burj Khalifa: Angel Falls 979, Tugela Falls 948, Tres Hermanas 914, Olo'upena Falls 900, Yumbilla 896, Vinnufossen 860, Balåifossen 850, Pu'uka'oku Falls 840, James Bruce Falls 840 and Browne Falls 836. All ten are taller than the Burj Khalifa.](charts/tallest-waterfalls.svg)
+
+**Measured as:** total height in metres, from the top of the waterfall to the bottom, including all its drops. Figures follow the World Waterfall Database, the main reference for waterfall heights.
+
+**Why this chart:** columns with the world's tallest building, the Burj Khalifa (828 m), as a dashed line. All ten waterfalls are taller than it, which makes their heights easy to picture.
+
+| # | Waterfall | Where | Height (m) | How sure |
+| --- | --- | --- | --- | --- |
+| 1 | Angel Falls | Canaima National Park, Venezuela | 979 | Measured |
+| 2 | Tugela Falls | Drakensberg, South Africa | 948 | Disputed |
+| 3 | Tres Hermanas | Otishi National Park, Peru | 914 | Measured |
+| 4 | Olo'upena Falls | Molokai, Hawaii, USA | 900 | Measured |
+| 5 | Yumbilla | Amazonas, Peru | 896 | Measured |
+| 6 | Vinnufossen | Møre og Romsdal, Norway | 860 | Measured |
+| 7 | Balåifossen | Vestland, Norway | 850 | Measured |
+| 8 | Pu'uka'oku Falls | Molokai, Hawaii, USA | 840 | Measured |
+| 9 | James Bruce Falls | British Columbia, Canada | 840 | Measured |
+| 10 | Browne Falls | Fiordland, New Zealand | 836 | Measured |
+
+**Notes**
+
+- **Angel Falls:** also the tallest uninterrupted drop on Earth, 807 m in a single plunge.
+- **Tugela Falls:** falls in five tiers, the longest 411 m. A 2016 survey claimed 983 m, which would make it taller than Angel Falls; that figure isn't widely accepted yet.
+- **Tiers:** most of these fall in several steps, so their longest single drop is often much less than their total height.
+- **Browne Falls:** just 8 m taller than the Burj Khalifa.
+
+**Sources:** [World Waterfall Database](https://www.worldwaterfalldatabase.com/) · [WorldAtlas: The tallest waterfalls in the world](https://www.worldatlas.com/articles/where-is-the-tallest-waterfall-in-the-world.html) · [Victoria Falls Guide: Highest waterfall in the world](https://www.victoriafalls-guide.net/highest-waterfall-in-the-world.html)
+
+## Highest active volcanoes
+
+![Highest active volcanoes in metres, split by whether their last eruption is dated: Ojos del Salado 6,879 (dated, about 750 CE), Llullaillaco 6,739 (dated, 1877), Tipas 6,658, Incahuasi 6,638, Coropuna 6,377 and El Cóndor 6,373 (no dated eruption), Parinacota 6,336 (dated, about 290 CE), Chimborazo 6,261 (dated, about 550 CE), Pular 6,233 and El Solo 6,205 (no dated eruption)](charts/highest-volcanoes.svg)
+
+**Measured as:** summit height above sea level, in metres, for volcanoes the Smithsonian's Global Volcanism Program counts as active: those that have erupted within about the last 12,000 years. Higher extinct volcanoes, such as Monte Pissis (6,793 m), are left out. Heights are the Smithsonian's own.
+
+**Why this chart:** ranked bars split by evidence. Solid bars have a dated last eruption; striped bars are counted as active from their young rock, but no eruption has ever been dated. All ten are in the Andes.
+
+| # | Volcano | Where | Height (m) | Last eruption | How sure |
+| --- | --- | --- | --- | --- | --- |
+| 1 | Ojos del Salado | Chile, Argentina | 6,879 | about 750 CE | Measured |
+| 2 | Llullaillaco | Chile, Argentina | 6,739 | 1877 | Measured |
+| 3 | Tipas | Argentina | 6,658 | Unknown | Measured |
+| 4 | Incahuasi | Chile, Argentina | 6,638 | Unknown | Measured |
+| 5 | Coropuna | Peru | 6,377 | Unknown | Measured |
+| 6 | El Cóndor | Argentina | 6,373 | Unknown | Measured |
+| 7 | Parinacota | Chile, Bolivia | 6,336 | about 290 CE | Measured |
+| 8 | Chimborazo | Ecuador | 6,261 | about 550 CE | Measured |
+| 9 | Pular | Chile | 6,233 | Unknown | Measured |
+| 10 | El Solo | Chile, Argentina | 6,205 | Unknown | Measured |
+
+**Notes**
+
+- **Ojos del Salado:** the highest active volcano on Earth. Its last eruption, around 750 CE, is dated from ash layers, and it still gives off gas. Other surveys give 6,893 m.
+- **Llullaillaco:** the highest volcano with an eruption seen by people, in 1877.
+- **Chimborazo:** its summit is the farthest point from Earth's centre, because of the bulge at the equator.
+- **"How sure" is about the height.** The heights are measured; the eruption dates are the uncertain part, which is why the chart shows them.
+
+**Source:** [Smithsonian Global Volcanism Program](https://volcano.si.edu/), Volcanoes of the World (v. 5.3.4, 2025), via [VolcanoAtlas](https://volcanoatlas.vercel.app/tallest-volcanoes)
+
 ## How it works
 
 ```
 data/      one JSON file per category: every entry, its source, how sure it is, and a note
 scripts/   build.mjs draws each chart from its data file with Bezel Charts
            banner.mjs draws the banner and social preview from the same data
+           check.mjs checks every data file: ten entries, in order, each with a source
 charts/    the finished SVGs shown in this README
 assets/    the banner and social preview
 ```
 
 The bars along the bottom of the banner are the real figures, one colour per category, so the banner grows as categories are added. To redraw it, run `npm run banner`, then turn the SVGs into PNGs (on a Mac: `brew install librsvg`, then `rsvg-convert -w 2560 assets/banner.svg -o assets/banner.png` and `rsvg-convert -w 1280 assets/social-preview.svg -o assets/social-preview.png`).
 
-To redraw the charts after changing the data:
+To check the data and redraw the charts after changing it:
 
 ```sh
 npm install
+npm run check
 npm run build
 ```
+
+The same checks run on every pull request, and also make sure the charts and banner match the data.
 
 Each data file says how its ranking is measured and when it was last checked, so the data can be reused anywhere, not just here.
 

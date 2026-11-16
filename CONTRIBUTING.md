@@ -25,12 +25,15 @@ Each category lives in `data/<category>.json`. Every entry has:
 | `note` | anything a reader should know about the figure |
 | `source` | where the figure comes from |
 
-Then redraw the charts and update the matching table in the README:
+Then check the data, redraw the charts and update the matching table in the README:
 
 ```sh
 npm install
+npm run check
 npm run build
 ```
+
+`npm run check` makes sure each file has ten entries in order, each with a source and a "how sure" label. The same checks run automatically on every pull request.
 
 ## Suggesting a category
 

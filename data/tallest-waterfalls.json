@@ -1,0 +1,20 @@
+{
+  "id": "tallest-waterfalls",
+  "title": "Tallest waterfalls",
+  "group": "nature",
+  "measure": "Total height in metres, from the top of the waterfall to the bottom, including all its drops. Most of these fall in several tiers, so the longest single drop is often much less. Figures follow the World Waterfall Database, the main reference for waterfall heights.",
+  "unit": "m",
+  "checked": "2026-11-16",
+  "entries": [
+    { "rank": 1, "name": "Angel Falls", "location": "Canaima National Park", "country": "Venezuela", "value": 979, "confidence": "measured", "note": "Also the tallest uninterrupted drop on Earth: 807 m in a single plunge from the Auyán-tepui plateau.", "source": "World Waterfall Database, via WorldAtlas and Victoria Falls Guide" },
+    { "rank": 2, "name": "Tugela Falls", "location": "Drakensberg, KwaZulu-Natal", "country": "South Africa", "value": 948, "confidence": "disputed", "note": "Falls in five tiers, the longest 411 m. A 2016 survey claimed 983 m, which would make it taller than Angel Falls; that figure isn't widely accepted yet.", "source": "World Waterfall Database, via WorldAtlas and Victoria Falls Guide" },
+    { "rank": 3, "name": "Tres Hermanas", "location": "Otishi National Park, Junín", "country": "Peru", "value": 914, "confidence": "measured", "note": "\"Three Sisters\": named for its three drops.", "source": "World Waterfall Database, via WorldAtlas and Victoria Falls Guide" },
+    { "rank": 4, "name": "Olo'upena Falls", "location": "Molokai, Hawaii", "country": "USA", "value": 900, "confidence": "measured", "note": "Pours straight down sea cliffs and can only be seen from the air or the sea.", "source": "World Waterfall Database, via WorldAtlas and Victoria Falls Guide" },
+    { "rank": 5, "name": "Yumbilla", "location": "Amazonas", "country": "Peru", "value": 896, "confidence": "measured", "note": "", "source": "World Waterfall Database, via WorldAtlas and Victoria Falls Guide" },
+    { "rank": 6, "name": "Vinnufossen", "location": "Sunndal, Møre og Romsdal", "country": "Norway", "value": 860, "confidence": "measured", "note": "The tallest waterfall in Europe.", "source": "World Waterfall Database, via WorldAtlas and Victoria Falls Guide" },
+    { "rank": 7, "name": "Balåifossen", "location": "Vestland", "country": "Norway", "value": 850, "confidence": "measured", "note": "", "source": "World Waterfall Database, via WorldAtlas and Victoria Falls Guide" },
+    { "rank": 8, "name": "Pu'uka'oku Falls", "location": "Molokai, Hawaii", "country": "USA", "value": 840, "confidence": "measured", "note": "On the same coast as Olo'upena Falls.", "source": "World Waterfall Database, via WorldAtlas and Victoria Falls Guide" },
+    { "rank": 9, "name": "James Bruce Falls", "location": "British Columbia", "country": "Canada", "value": 840, "confidence": "measured", "note": "Ties with Pu'uka'oku Falls.", "source": "World Waterfall Database, via WorldAtlas and Victoria Falls Guide" },
+    { "rank": 10, "name": "Browne Falls", "location": "Fiordland, South Island", "country": "New Zealand", "value": 836, "confidence": "measured", "note": "Just 8 m taller than the Burj Khalifa.", "source": "World Waterfall Database, via WorldAtlas and Victoria Falls Guide" }
+  ]
+}
