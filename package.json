@@ -17,6 +17,6 @@
   "bugs": { "url": "https://github.com/ShazMoghaddam/world-in-charts/issues" },
   "engines": { "node": ">=18" },
   "devDependencies": {
-    "bezel-charts": "^1.10.1"
+    "bezel-charts": "^1.11.0"
   }
 }
