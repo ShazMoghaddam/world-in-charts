@@ -8,6 +8,7 @@ Developed by [Shaz Moghaddam](https://shazmoghaddam.github.io/).
 [![MIT licence](https://img.shields.io/badge/licence-MIT-D99A0E)](LICENSE)
 [![Made with Bezel Charts](https://img.shields.io/badge/made%20with-Bezel%20Charts-6E70F0)](https://github.com/ShazMoghaddam/bezel-charts)
 [![bezel-charts on npm](https://img.shields.io/npm/v/bezel-charts?logo=npm&label=bezel-charts&color=CB3837)](https://www.npmjs.com/package/bezel-charts)
+[![Check](https://github.com/ShazMoghaddam/world-in-charts/actions/workflows/check.yml/badge.svg)](https://github.com/ShazMoghaddam/world-in-charts/actions/workflows/check.yml)
 
 Most "top 10" lists online copy each other, mix up measurements and state guesses as facts. This repo does the opposite. Every figure has a source, every ranking says exactly how it was measured, and every entry is marked by how sure we can be about it.
 
