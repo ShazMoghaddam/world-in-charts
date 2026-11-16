@@ -1,78 +1,47 @@
 # Changelog
 
-## Unreleased
+World in Charts uses date versions: `vYYYY.MM` for each release.
 
-README polish.
+## v2026.11 (16 November 2026)
 
-- "Developed by Shaz Moghaddam" under the tagline.
-- An npm badge for the Bezel Charts package the charts are drawn with.
-- A highlighted note that the research dates from November 2026, and that some figures will change over time.
+The first release: 21 categories of researched world facts, 207 entries in all, each drawn with [Bezel Charts](https://github.com/ShazMoghaddam/bezel-charts).
 
+### Nature
 
-Temperature records and the first human-made categories.
+- **Oldest living individual trees:** stacked bars, with ring-counted ages solid and estimates striped.
+- **Longest rivers:** ranked bars, all ten from Britannica, with the Nile and Amazon marked disputed.
+- **Deepest lakes:** bars hanging down from the surface, with Lake Vostok corrected to about 800 m from seismic mapping.
+- **Highest mountains:** height beside prominence, showing Lhotse is barely separate from Everest.
+- **Largest lakes by area:** a donut showing the Caspian Sea is almost half of the top 10's surface.
+- **Largest deserts:** bars coloured by type, showing the two biggest deserts are polar ice.
+- **Tallest waterfalls:** columns with the Burj Khalifa as a dashed line; all ten are taller.
+- **Highest active volcanoes:** Smithsonian data, split by whether the last eruption is dated.
+- **Deepest ocean trenches:** modern sonar and crewed-dive depths, replacing 1950s soundings; Everest's height as a dashed line.
+- **Longest cave systems:** columns with Mammoth Cave highlighted.
+- **Largest islands:** ranked bars with Greenland highlighted.
+- **Tallest trees by species:** columns coloured by continent, with current heights.
+- **Largest tropical rainforests:** a donut in forest greens, from 2020 satellite data.
+- **Longest-living animals:** columns with a colour each, from the AnAge longevity database.
+- **Largest impact craters:** a scatter of size against age, from the Earth Impact Database.
+- **Deepest canyons:** hanging columns in rock colours, every figure marked estimated.
+- **Countries with the most coral reef:** bars from coral pink to lagoon blue, from the UN's World Atlas of Coral Reefs.
+- **Temperature records by continent:** bars from each record low to record high, from the WMO's official archive.
 
-- Temperature records by continent: bars running from each continent's record low to its record high, from the World Meteorological Organization's official archive. Seven entries, as the WMO keeps records by region.
-- Tallest buildings: a skyline of columns from dusk violet to sunset orange, to the CTBUH standard.
-- Longest bridges: ranked bars split into rail and road; seven of the ten carry high-speed trains.
-- Most visited museums: 2025 visitor counts from The Art Newspaper's annual survey, in place of "most visited landmarks", which have no reliable counts.
-- `npm run check` accepts a stated number of entries (`expectedEntries`) for sources with fewer than ten.
-- Banner and social preview redrawn: 21 categories, 207 facts.
+### Human-made
 
-Five nature categories, with more colour and new chart types.
+- **Tallest buildings:** a skyline of columns, to the CTBUH standard.
+- **Longest bridges:** ranked bars split into rail and road.
+- **Most visited museums:** 2025 visitor counts from The Art Newspaper's annual survey.
 
-- Largest tropical rainforests: a donut in forest greens, from 2020 satellite data on primary forest.
-- Longest-living animals: columns with a colour each, from the AnAge longevity database. Sponges and corals left out, as their ages are rough guesses.
-- Largest impact craters: the first scatter plot, size against age, from the Earth Impact Database.
-- Deepest canyons: hanging columns in rock colours. Every figure is marked estimated, as there's no standard way to measure canyon depth.
-- Countries with the most coral reef: bars from coral pink to lagoon blue, from the UN's World Atlas of Coral Reefs.
-- The banner draws each category's top five once there are more than eight, so the bars stay readable: 17 categories, 170 facts.
+### Transparency
 
-Largest islands and tallest trees by species.
-
-- Largest islands: ranked bars with Greenland highlighted. All ten figures from Britannica; Australia counts as a continent.
-- Tallest trees by species: columns coloured by continent, with current heights, including the 2023 Tibetan cypress and Centurion's height after the 2019 fire.
-- Largest deserts and largest islands now show thousands of km², since the short form for millions ("2.2m") read like metres.
-- Banner and social preview redrawn: 12 categories, 120 facts.
-
-Deepest ocean trenches and longest cave systems.
-
-- Deepest ocean trenches: columns with Everest's height as a dashed line; nine of the ten are deeper. Depths from modern sonar surveys and crewed dives, replacing 1950s soundings that some lists still repeat. The Kuril–Kamchatka Trench is 9,604 m, not 10,542 m, and the Japan Trench drops out.
-- Longest cave systems: columns with Mammoth Cave highlighted, 144 km ahead of the next.
-- Banner and social preview redrawn: 10 categories, 100 facts.
-
-Tallest waterfalls, highest active volcanoes and automatic checks.
-
-- Tallest waterfalls: columns with the Burj Khalifa (828 m) as a dashed line; all ten are taller.
-- Highest active volcanoes: from the Smithsonian's Global Volcanism Program, split by whether the last eruption is dated.
-- `npm run check` checks every data file, and a GitHub Actions workflow runs it on every pull request, along with a check that the charts and banner match the data.
-- Dependabot now keeps the workflow's actions up to date too.
-
-Largest lakes by area and largest deserts.
-
-- Largest lakes by area: a donut of the top 10's combined surface, showing the Caspian Sea is almost half of it. All ten figures from Britannica.
-- Largest deserts: ranked bars coloured by desert type, showing the two biggest deserts are polar ice. The Great Australian Desert is marked disputed, since it's a group of deserts counted as one.
-- The banner and social preview now include both categories.
-
-Banner and social preview.
-
-- A colourful README banner and a GitHub social preview, drawn from the real data: each colour is one category and each bar is one figure.
-- `npm run banner` redraws them, so they grow as categories are added.
-
-Better sources for lakes and mountains.
-
-- Deepest lakes: Crater Lake now uses the National Park Service's 2000 sonar survey (592 m, verified), and Baikal is verified by Guinness World Records.
-- Lake Vostok corrected to about 800 m, from seismic mapping of its southern basin. The 510 to 900 m range is now described correctly, as different estimates of its deepest point, so it moves from 4th to 5th.
-- Everest now cites the 2020 China and Nepal announcement directly.
-
-Deepest lakes and highest mountains.
-
-- Deepest lakes: ten lakes by maximum depth, drawn as bars hanging down from the surface. Includes the Caspian Sea and Lake Vostok under the Antarctic ice, with notes on both.
-- Highest mountains: height above sea level beside prominence, so it's clear that Lhotse is barely separate from Everest while Nanga Parbat stands almost alone.
-- Builds are stable: each chart's random pattern ID is swapped for a fixed one, so rebuilding unchanged data leaves the SVGs unchanged.
-
-First two categories.
-
-- Oldest living individual trees: ten trees, with ring-counted ages shown solid and estimates striped, so it's clear how much of each age is confirmed.
-- Longest rivers: the top ten from Britannica, all measured the same way, with the Nile and Amazon marked as disputed.
 - Every entry has a source, a note and a "how sure" label: verified, measured, estimated or disputed.
-- `npm run build` redraws every chart from the data files with Bezel Charts.
+- Every category says exactly how its ranking is measured, and where a source gives a range, the lower end is used.
+- A highlighted note in the README says the research dates from November 2026 and some figures will change.
+
+### Tooling
+
+- `npm run build` draws every chart from its data file, with stable output so unchanged data never changes the SVGs.
+- `npm run banner` draws the README banner and social preview from the real data.
+- `npm run check` checks every data file, and a GitHub Actions workflow runs it on every push and pull request, along with a check that the charts and banner match the data. A badge in the README shows the result.
+- Dependabot keeps npm packages and the workflow's actions up to date.
