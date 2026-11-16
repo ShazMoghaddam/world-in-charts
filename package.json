@@ -1,6 +1,6 @@
 {
   "name": "world-in-charts",
-  "version": "2026.11.0",
+  "version": "2026.11.1",
   "private": true,
   "description": "Researched top 10 facts about the world, from the oldest trees to the longest rivers, each drawn with Bezel Charts. Every figure is sourced and marked by how sure it is.",
   "type": "module",

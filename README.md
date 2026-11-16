@@ -48,14 +48,14 @@ Where a source gives a range, the lower end is used for ranking, so nothing is o
 - [Deepest canyons](#deepest-canyons)
 - [Countries with the most coral reef](#countries-with-the-most-coral-reef)
 - [Temperature records by continent](#temperature-records-by-continent)
+- [Largest ice caps and icefields](#largest-ice-caps-and-icefields)
 
 **Human-made**
 
 - [Tallest buildings](#tallest-buildings)
 - [Longest bridges](#longest-bridges)
 - [Most visited museums](#most-visited-museums)
-
-Still to come: largest glaciers and oldest cities, once reliable figures are confirmed.
+- [Oldest continuously inhabited cities](#oldest-continuously-inhabited-cities)
 
 ## Oldest living individual trees
 
@@ -591,6 +591,36 @@ Still to come: largest glaciers and oldest cities, once reliable figures are con
 
 **Source:** [World Meteorological Organization: Archive of Weather and Climate Extremes (July 2025)](https://public.wmo.int/sites/default/files/2025-07/Table_Records_25Jul2025.pdf)
 
+## Largest ice caps and icefields
+
+![Largest ice caps and icefields in thousands of km², coloured by where they are: Antarctic Peninsula 80.9, Alexander Island 47.5, Malaspina-Seward 30.2, Severny Island Northern Ice Cap 20.7, Northern Ellesmere Icefield 19.5, Prince of Wales Icefield 19.0, Agassiz Ice Cap 18.0, Southern Patagonian Icefield 13.3, Thurston Island 11.1 and Flade Isblink 9.0](charts/largest-ice-caps.svg)
+
+**Measured as:** area in km² of the largest glacier complexes: ice caps, icefields and other connected masses of glacier ice. The two ice sheets covering Antarctica and Greenland are left out, as they're in a class of their own (Antarctica's is about 14 million km²). All ten figures come from one 2022 study that measured every glacier complex the same way.
+
+**Why this chart:** columns coloured by where the ice is: blue for the Antarctic, purple for the Arctic, and striped orange for mountain icefields further from the poles.
+
+| # | Ice cap or icefield | Where | Area (km²) | How sure |
+| --- | --- | --- | --- | --- |
+| 1 | Antarctic Peninsula ice | Antarctic Peninsula, north of 70° S, Antarctica | 80,852 | Disputed |
+| 2 | Alexander Island | Off the Antarctic Peninsula, Antarctica | 47,486 | Measured |
+| 3 | Malaspina-Seward | Alaska, USA | 30,195 | Measured |
+| 4 | Severny Island Northern Ice Cap | Novaya Zemlya, Russia | 20,667 | Measured |
+| 5 | Northern Ellesmere Icefield | Ellesmere Island, Canada | 19,521 | Measured |
+| 6 | Prince of Wales Icefield | Ellesmere Island, Canada | 19,009 | Measured |
+| 7 | Agassiz Ice Cap | Ellesmere Island, Canada | 18,038 | Measured |
+| 8 | Southern Patagonian Icefield | Southern Andes, Chile, Argentina | 13,326 | Measured |
+| 9 | Thurston Island | Off West Antarctica, Antarctica | 11,133 | Measured |
+| 10 | Flade Isblink | North-east Greenland, Greenland (Denmark) | 9,025 | Measured |
+
+**Notes**
+
+- **Antarctic Peninsula:** it's joined to the Antarctic Ice Sheet, so many lists count it as part of the sheet. That's why it's marked disputed.
+- **Why rankings differ:** where one glacier ends and the next begins is a choice, and the study's authors say the ranking can change with how the ice is divided. Other lists often name Vatnajökull in Iceland (about 8,100 km²) or Austfonna in Svalbard (about 8,070 km²), which come just outside this top ten.
+- **Shrinking ice:** the outlines were mapped between 1972 and 2015, mostly in the early 2000s. Most of these ice masses are smaller today.
+- **Ellesmere Island:** three of the top ten.
+
+**Sources:** [Windnagel et al.: Which glaciers are the largest in the world? Journal of Glaciology (2022)](https://doi.org/10.1017/jog.2022.61) · [World Glacier Monitoring Service: The largest glaciers](https://wgms.ch/largest_glaciers/)
+
 ## Tallest buildings
 
 ![Tallest buildings in metres, in colours from dusk violet to sunset orange: Burj Khalifa 828, Merdeka 118 679, Shanghai Tower 632, Makkah Royal Clock Tower 601, Ping An 599, Lotte World Tower 555, One World Trade Center 541, Guangzhou CTF 530, Tianjin CTF 530 and CITIC Tower 528](charts/tallest-buildings.svg)
@@ -679,6 +709,38 @@ Still to come: largest glaciers and oldest cities, once reliable figures are con
 - **London:** three of the top ten.
 
 **Source:** [The Art Newspaper: Visitor Figures 2025 (April 2026)](https://www.theartnewspaper.com/2026/03/31/exclusive-the-worlds-100-most-visited-museums-in-2025-new-museums-a-big-hit-with-visitors)
+
+## Oldest continuously inhabited cities
+
+![Oldest continuously inhabited cities in thousands of years, each bar running from the most cautious date (solid) to the earliest claim (striped): Byblos 7.0 to 10.8, Argos 7.0, Susa (Shush) 6.2, Plovdiv 6.0 to 8.0, Faiyum 6.0 to 7.2, Athens 6.0 to 7.0, Jerusalem 5.5 to 6.5, Damascus 5.0 to 11.0, Aleppo 5.0 to 7.0 and Jericho 3.9 to 11.6](charts/oldest-cities.svg)
+
+**Measured as:** years lived in, counted back from a date BC. This is the most disputed category here. Sources disagree by thousands of years, because there's no agreed answer to two questions: when does a village become a city, and how long can a place be empty and still count as continuous? So each city has two dates: the most cautious date given for continuous settlement, used for ranking, and the earliest date anyone claims.
+
+**Why this chart:** each bar runs from the cautious date (solid) to the earliest claim (striped), so the length of the striped part shows how much the sources disagree.
+
+| # | City | Country | Lived in since | Earliest claim | How sure |
+| --- | --- | --- | --- | --- | --- |
+| 1 | Byblos | Lebanon | 5,000 BC | 8,800 BC | Disputed |
+| 2 | Argos | Greece | 5,000 BC | Same | Disputed |
+| 3 | Susa (Shush) | Iran | 4,200 BC | Same | Disputed |
+| 4 | Plovdiv | Bulgaria | 4,000 BC | 6,000 BC | Disputed |
+| 5 | Faiyum | Egypt | 4,000 BC | 5,200 BC | Disputed |
+| 6 | Athens | Greece | 4,000 BC | 5,000 BC | Disputed |
+| 7 | Jerusalem | Israel and Palestine | 3,500 BC | 4,500 BC | Disputed |
+| 8 | Damascus | Syria | 3,000 BC | 9,000 BC | Disputed |
+| 9 | Aleppo | Syria | 3,000 BC | 5,000 BC | Disputed |
+| 10 | Jericho | Palestine (West Bank) | 1,900 BC | 9,600 BC | Disputed |
+
+**Notes**
+
+- **Jericho:** Guinness World Records names it the oldest city, from about 9000 BC. But it was abandoned for long stretches, and town life only returned for good around 1900 BC, so on the cautious measure it comes last.
+- **Damascus:** often called the oldest of all, with settlement nearby going back to about 9000 BC. Most sources date the city itself to about 3000 BC.
+- **Byblos:** joint top with Argos on the cautious measure, lived in without a break since about 5000 BC.
+- **Europe:** Argos, Plovdiv and Athens all claim to be Europe's oldest city.
+- **Elsewhere:** the oldest cities outside the Middle East and Europe, such as Luoyang in China and Varanasi in India, are usually dated to about 3,000 to 4,000 years ago.
+- **Sources:** these are mostly travel and history sites rather than archaeology papers, which is why every entry is marked disputed.
+
+**Sources:** [Guinness World Records: Oldest continually inhabited city](https://guinnessworldrecords.com/world-records/112019-oldest-continually-inhabited-city) · [HowStuffWorks: 10 of the oldest continuously inhabited cities](https://history.howstuffworks.com/world-history/oldest-city-in-world.htm) · [Amusing Planet: 11 oldest continuously inhabited cities](https://www.amusingplanet.com/2012/07/11-continuously-inhabited-oldest-cities.html) · [WorldAtlas: The oldest cities in the world](https://www.worldatlas.com/articles/the-oldest-cities-in-the-world.html) · [WorldAtlas: The oldest cities in Europe](https://www.worldatlas.com/cities/the-oldest-cities-in-europe.html) · [Greek City Times: 10 of the oldest cities in the world](https://greekcitytimes.com/2023/01/26/from-argos-varanasi-oldest-cities/) · [Culture Trip: The 10 oldest cities in the world](https://theculturetrip.com/articles/the-10-oldest-cities-in-the-world) · [Upstox: 10 oldest surviving cities (2024)](https://upstox.com/news/trending/latest-updates/10-oldest-surviving-cities-in-the-world/webstory-115117/)
 
 ## How it works
 
