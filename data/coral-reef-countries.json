@@ -1,0 +1,20 @@
+{
+  "id": "coral-reef-countries",
+  "title": "Countries with the most coral reef",
+  "group": "nature",
+  "measure": "Area of shallow, warm-water coral reef in each country's waters, in km², including overseas territories. From the UN's World Atlas of Coral Reefs, the first detailed global map of reefs. Measured around 2000; many reefs have since been damaged by warming seas.",
+  "unit": "km²",
+  "checked": "2026-11-16",
+  "entries": [
+    { "rank": 1, "name": "Indonesia", "location": "Coral Triangle", "country": "Indonesia", "value": 51020, "confidence": "measured", "note": "About 18% of the world's reefs, at the heart of the Coral Triangle.", "source": "Spalding, Ravilious and Green, World Atlas of Coral Reefs (UNEP World Conservation Monitoring Centre, 2001)" },
+    { "rank": 2, "name": "Australia", "location": "Great Barrier Reef, Ningaloo and others", "country": "Australia", "value": 48960, "confidence": "measured", "note": "Home to the Great Barrier Reef, the largest reef system on Earth.", "source": "Spalding, Ravilious and Green, World Atlas of Coral Reefs (UNEP World Conservation Monitoring Centre, 2001)" },
+    { "rank": 3, "name": "Philippines", "location": "Coral Triangle", "country": "Philippines", "value": 25060, "confidence": "measured", "note": "", "source": "Spalding, Ravilious and Green, World Atlas of Coral Reefs (UNEP World Conservation Monitoring Centre, 2001)" },
+    { "rank": 4, "name": "France", "location": "Overseas territories", "country": "France", "value": 14280, "confidence": "measured", "note": "All in its overseas territories, including New Caledonia and French Polynesia.", "source": "Spalding, Ravilious and Green, World Atlas of Coral Reefs (UNEP World Conservation Monitoring Centre, 2001)" },
+    { "rank": 5, "name": "Papua New Guinea", "location": "Coral Triangle", "country": "Papua New Guinea", "value": 13840, "confidence": "measured", "note": "", "source": "Spalding, Ravilious and Green, World Atlas of Coral Reefs (UNEP World Conservation Monitoring Centre, 2001)" },
+    { "rank": 6, "name": "Fiji", "location": "South Pacific", "country": "Fiji", "value": 10020, "confidence": "measured", "note": "", "source": "Spalding, Ravilious and Green, World Atlas of Coral Reefs (UNEP World Conservation Monitoring Centre, 2001)" },
+    { "rank": 7, "name": "Maldives", "location": "Indian Ocean", "country": "Maldives", "value": 8920, "confidence": "measured", "note": "A nation built almost entirely on coral atolls.", "source": "Spalding, Ravilious and Green, World Atlas of Coral Reefs (UNEP World Conservation Monitoring Centre, 2001)" },
+    { "rank": 8, "name": "Saudi Arabia", "location": "Red Sea", "country": "Saudi Arabia", "value": 6660, "confidence": "measured", "note": "", "source": "Spalding, Ravilious and Green, World Atlas of Coral Reefs (UNEP World Conservation Monitoring Centre, 2001)" },
+    { "rank": 9, "name": "Marshall Islands", "location": "North Pacific", "country": "Marshall Islands", "value": 6110, "confidence": "measured", "note": "", "source": "Spalding, Ravilious and Green, World Atlas of Coral Reefs (UNEP World Conservation Monitoring Centre, 2001)" },
+    { "rank": 10, "name": "India", "location": "Andaman and Nicobar, Lakshadweep, Gulf of Mannar", "country": "India", "value": 5790, "confidence": "measured", "note": "", "source": "Spalding, Ravilious and Green, World Atlas of Coral Reefs (UNEP World Conservation Monitoring Centre, 2001)" }
+  ]
+}

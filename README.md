@@ -36,8 +36,13 @@ Where a source gives a range, the lower end is used for ranking, so nothing is o
 - [Longest cave systems](#longest-cave-systems)
 - [Largest islands](#largest-islands)
 - [Tallest trees by species](#tallest-trees-by-species)
+- [Largest tropical rainforests](#largest-tropical-rainforests)
+- [Longest-living animals](#longest-living-animals)
+- [Largest impact craters](#largest-impact-craters)
+- [Deepest canyons](#deepest-canyons)
+- [Countries with the most coral reef](#countries-with-the-most-coral-reef)
 
-More categories are on the way: craters, glaciers, reefs, record temperatures, animals, and human-made records such as buildings, bridges and cities.
+More categories are on the way: largest glaciers, record temperatures, and human-made records such as buildings, bridges, cities and landmarks.
 
 ## Oldest living individual trees
 
@@ -399,6 +404,154 @@ More categories are on the way: craters, glaciers, reefs, record temperatures, a
 
 **Sources:** [Guinness World Records: Tallest tree living](https://www.guinnessworldrecords.com/world-records/tallest-tree-living) · [Wikipedia: List of tallest trees](https://en.wikipedia.org/wiki/List_of_tallest_trees)
 
+## Largest tropical rainforests
+
+![Largest tropical rainforests as a donut of the top 10's 9,075,000 km² of primary forest: Amazon 58%, Congo 19%, New Guinea and Australia 7%, Sundaland 6%, Indo-Burma 4%, and the other five together 6%](charts/largest-rainforests.svg)
+
+**Measured as:** area of primary forest in km², meaning old-growth forest that hasn't been cleared, from satellite data for 2020. Each rainforest is counted as a whole region, across borders.
+
+**Why this chart:** a donut in forest greens. The Amazon alone is more than half the top 10's primary forest. The five smallest are grouped as "Other"; the table has each one.
+
+| # | Rainforest | Where | Primary forest (km²) | How sure |
+| --- | --- | --- | --- | --- |
+| 1 | Amazon | Brazil (about 60%), Peru, Colombia and six others | 5,260,000 | Measured |
+| 2 | Congo | DR Congo (60%), Gabon, Republic of the Congo, Cameroon and others | 1,680,000 | Measured |
+| 3 | New Guinea and Australia | Indonesia, Papua New Guinea, Australia (under 1%) | 640,000 | Measured |
+| 4 | Sundaland | Indonesia (73%), Malaysia (26%), Brunei | 510,000 | Measured |
+| 5 | Indo-Burma | Myanmar, Laos, Vietnam, Thailand and others | 400,000 | Measured |
+| 6 | Mesoamerica | Mexico, Guatemala, Honduras, Panama and others | 160,000 | Measured |
+| 7 | Wallacea | Indonesia (Sulawesi and the Maluku islands) | 146,000 | Measured |
+| 8 | Guinean Forests | Liberia, Cameroon, Nigeria, Côte d'Ivoire, Ghana | 102,000 | Measured |
+| 9 | Atlantic Forest | Brazil (86%), Argentina, Paraguay | 93,000 | Measured |
+| 10 | Chocó | Colombia (79%), Panama, Ecuador | 84,000 | Measured |
+
+**Notes**
+
+- **Amazon:** more than three times the size of the Congo, the next largest.
+- **Sundaland:** Borneo, Sumatra and the Malay Peninsula. It lost the largest share of its primary forest of any region in the 2000s and 2010s.
+- **Primary forest only:** regrowth and plantations don't count, which is why these figures are smaller than some you'll see quoted.
+
+**Source:** [Mongabay: The world's great rainforests (2020)](https://news.mongabay.com/2020/06/the-worlds-great-rainforests/), from University of Maryland and World Resources Institute satellite data
+
+## Longest-living animals
+
+![Longest-living animals in years, each bar its own colour: ocean quahog 507, Greenland shark 272 (estimated 272 to 512), bowhead whale 211, rougheye rockfish 205, red sea urchin 200, Seychelles tortoise 194, Galápagos tortoise 177, shortraker rockfish 157, lake sturgeon 152 and orange roughy 149](charts/longest-living-animals.svg)
+
+**Measured as:** the oldest known age of one animal of each species, in years. Where a study gives a range, the lower end is used for ranking.
+
+**Why this chart:** columns with a colour each, like a row of different creatures. Ming the clam is far ahead of everything else.
+
+| # | Animal | Where | Age (years) | How sure |
+| --- | --- | --- | --- | --- |
+| 1 | Ocean quahog | Seabed off north Iceland | 507 | Verified |
+| 2 | Greenland shark | Arctic and North Atlantic | 272 to 512 | Estimated |
+| 3 | Bowhead whale | Arctic waters | 211 | Estimated |
+| 4 | Rougheye rockfish | North Pacific | 205 | Estimated |
+| 5 | Red sea urchin | North Pacific coast | 200 | Estimated |
+| 6 | Seychelles tortoise | Saint Helena | 194 | Estimated |
+| 7 | Galápagos tortoise | Galápagos Islands | 177 | Estimated |
+| 8 | Shortraker rockfish | North Pacific | 157 | Estimated |
+| 9 | Lake sturgeon | Great Lakes and rivers | 152 | Estimated |
+| 10 | Orange roughy | Deep water off Australia and New Zealand | 149 | Estimated |
+
+**Notes**
+
+- **Ocean quahog:** a clam nicknamed Ming, aged by counting the yearly growth bands in its shell. It was born in 1499. The only age here that's counted rather than estimated.
+- **Greenland shark:** radiocarbon dating in 2016 put one shark at about 392 years, somewhere between 272 and 512. The oldest known animal with a backbone.
+- **Seychelles tortoise:** Jonathan, still alive on Saint Helena. He was fully grown, so at least 50, when he arrived in 1882. The oldest known living land animal.
+- **Left out:** some deep-sea sponges and corals may live thousands of years (one Antarctic sponge is estimated at about 15,000), but their ages are rough guesses from growth rates.
+- **For comparison:** the oldest person on record lived to 122.
+
+**Sources:** [Guinness World Records: World's oldest animals](https://guinnessworldrecords.com/news/2021/10/worlds-oldest-animals-cats-dogs-deep-sea-creatures-and-more-678003) · [AnAge longevity database, via the Associated Press](https://abc13.com/science-old-animals-aging-age/1466306)
+
+## Largest impact craters
+
+![Largest impact craters as a scatter of diameter against age: Vredefort 160 km and 2,023 million years old, Chicxulub 150 km and 66 million, Sudbury 130 km and 1,850 million, Popigai 90 km and 36 million, Acraman 90 km and 590 million, Manicouagan 85 km and 214 million, Morokweng 70 km and 145 million, Kara 65 km and 70 million, Beaverhead 60 km and 600 million, and Tookoonooka 55 km and 128 million](charts/largest-craters.svg)
+
+**Measured as:** estimated original diameter in km, for impact structures confirmed by the Earth Impact Database. Erosion has worn most of them down, so their original size is worked out from what's left.
+
+**Why this chart:** a scatter of size against age. The two oldest, Vredefort and Sudbury, are among the biggest, and Chicxulub, the dinosaur killer, is one of the youngest.
+
+| # | Crater | Where | Diameter (km) | Age (million years) | How sure |
+| --- | --- | --- | --- | --- | --- |
+| 1 | Vredefort | Free State, South Africa | 160 | 2,023 | Disputed |
+| 2 | Chicxulub | Yucatán, Mexico | 150 | 66 | Estimated |
+| 3 | Sudbury | Ontario, Canada | 130 | 1,850 | Estimated |
+| 4 | Popigai | Siberia, Russia | 90 | 35.7 | Estimated |
+| 5 | Acraman | South Australia, Australia | 90 | 590 | Estimated |
+| 6 | Manicouagan | Quebec, Canada | 85 | 214 | Estimated |
+| 7 | Morokweng | North West, South Africa | 70 | 145 | Estimated |
+| 8 | Kara | Yugorsky Peninsula, Russia | 65 | 70.3 | Estimated |
+| 9 | Beaverhead | Montana and Idaho, USA | 60 | 600 | Estimated |
+| 10 | Tookoonooka | Queensland, Australia | 55 | 128 | Estimated |
+
+**Notes**
+
+- **Vredefort:** the oldest and largest known. Other studies put its original size at 250 to 300 km.
+- **Chicxulub:** buried under the Yucatán. The impact that wiped out the dinosaurs, 66 million years ago.
+- **Popigai and Manicouagan:** some sources give 100 km for each.
+
+**Source:** [Earth Impact Database (University of New Brunswick), via NASA](https://ares.jsc.nasa.gov/engagement/activities/resources/crater-comparisons/earth-impact-database.pdf)
+
+## Deepest canyons
+
+![Deepest canyons in metres, as columns hanging down in rock colours from dark to light: Yarlung Tsangpo 6,009, Kali Gandaki 5,571, Indus 4,500, Tiger Leaping Gorge 3,790, Cotahuasi 3,354, Colca 3,350, Hells Canyon 2,400, Grand Canyon 1,857, Copper Canyon 1,600 and Tara River 1,300](charts/deepest-canyons.svg)
+
+**Measured as:** greatest depth in metres. There's no standard way to measure a canyon's depth: some figures run from the river to the rim, others to the highest peak nearby. So every figure here is an estimate, and all ten come from one source to keep them comparable.
+
+**Why this chart:** columns hanging down in canyon-rock colours, darkest for the deepest.
+
+| # | Canyon | Where | Depth (m) | How sure |
+| --- | --- | --- | --- | --- |
+| 1 | Yarlung Tsangpo | Tibet, China | 6,009 | Estimated |
+| 2 | Kali Gandaki | Between Annapurna and Dhaulagiri, Nepal | 5,571 | Disputed |
+| 3 | Indus | Near Nanga Parbat, Pakistan | 4,500 to 5,200 | Estimated |
+| 4 | Tiger Leaping Gorge | Yunnan, China | 3,790 | Estimated |
+| 5 | Cotahuasi | Arequipa, Peru | 3,354 | Estimated |
+| 6 | Colca | Arequipa, Peru | 3,350 | Estimated |
+| 7 | Hells Canyon | Idaho and Oregon, USA | 2,400 | Estimated |
+| 8 | Grand Canyon | Arizona, USA | 1,857 | Estimated |
+| 9 | Copper Canyon | Chihuahua, Mexico | 1,600 | Estimated |
+| 10 | Tara River | Durmitor, Montenegro | 1,300 | Estimated |
+
+**Notes**
+
+- **Kali Gandaki:** measured from the river to the highest peaks on either side, some say it's the deepest of all.
+- **Cotahuasi:** other sources give up to 3,535 m, which would make it the deepest in the Americas.
+- **Grand Canyon:** not the deepest, but one of the largest by volume.
+
+**Source:** [WorldAtlas: 10 deepest canyons in the world](https://www.worldatlas.com/canyons/10-deepest-canyons-in-the-world.html)
+
+## Countries with the most coral reef
+
+![Countries with the most coral reef in km², in colours from coral pink to lagoon blue: Indonesia 51,020, Australia 48,960, Philippines 25,060, France 14,280, Papua New Guinea 13,840, Fiji 10,020, Maldives 8,920, Saudi Arabia 6,660, Marshall Islands 6,110 and India 5,790](charts/coral-reef-countries.svg)
+
+**Measured as:** area of shallow, warm-water coral reef in each country's waters, in km², including overseas territories. From the UN's World Atlas of Coral Reefs, the first detailed global map of reefs.
+
+**Why this chart:** ranked bars in reef colours, from coral pink to lagoon blue. Online lists of the "largest reefs" mix lengths and areas, so this uses one consistent, mapped measure instead.
+
+| # | Country | Where | Reef area (km²) | How sure |
+| --- | --- | --- | --- | --- |
+| 1 | Indonesia | Coral Triangle | 51,020 | Measured |
+| 2 | Australia | Great Barrier Reef, Ningaloo and others | 48,960 | Measured |
+| 3 | Philippines | Coral Triangle | 25,060 | Measured |
+| 4 | France | Overseas territories | 14,280 | Measured |
+| 5 | Papua New Guinea | Coral Triangle | 13,840 | Measured |
+| 6 | Fiji | South Pacific | 10,020 | Measured |
+| 7 | Maldives | Indian Ocean | 8,920 | Measured |
+| 8 | Saudi Arabia | Red Sea | 6,660 | Measured |
+| 9 | Marshall Islands | North Pacific | 6,110 | Measured |
+| 10 | India | Andaman and Nicobar, Lakshadweep, Gulf of Mannar | 5,790 | Measured |
+
+**Notes**
+
+- **Indonesia:** about 18% of the world's reefs, at the heart of the Coral Triangle.
+- **Australia:** home to the Great Barrier Reef, the largest reef system on Earth.
+- **France:** all of it in overseas territories, such as New Caledonia and French Polynesia.
+- **Dated around 2000:** many reefs have since been damaged by warming seas, so today's living reef is smaller.
+
+**Source:** [Spalding, Ravilious and Green: World Atlas of Coral Reefs (UNEP-WCMC, 2001)](https://www.unep-wcmc.org/), figures via [Encounter Edu](https://encounteredu.com/cpd/subject-updates/learn-more-which-countries-have-coral-reefs)
+
 ## How it works
 
 ```
@@ -410,7 +563,7 @@ charts/    the finished SVGs shown in this README
 assets/    the banner and social preview
 ```
 
-The bars along the bottom of the banner are the real figures, one colour per category, so the banner grows as categories are added. To redraw it, run `npm run banner`, then turn the SVGs into PNGs (on a Mac: `brew install librsvg`, then `rsvg-convert -w 2560 assets/banner.svg -o assets/banner.png` and `rsvg-convert -w 1280 assets/social-preview.svg -o assets/social-preview.png`).
+The bars along the bottom of the banner are the real figures, one colour per category (each category's top five once there are more than eight), so the banner grows as categories are added. To redraw it, run `npm run banner`, then turn the SVGs into PNGs (on a Mac: `brew install librsvg`, then `rsvg-convert -w 2560 assets/banner.svg -o assets/banner.png` and `rsvg-convert -w 1280 assets/social-preview.svg -o assets/social-preview.png`).
 
 To check the data and redraw the charts after changing it:
 

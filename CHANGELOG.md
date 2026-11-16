@@ -2,6 +2,15 @@
 
 ## Unreleased
 
+Five nature categories, with more colour and new chart types.
+
+- Largest tropical rainforests: a donut in forest greens, from 2020 satellite data on primary forest.
+- Longest-living animals: columns with a colour each, from the AnAge longevity database. Sponges and corals left out, as their ages are rough guesses.
+- Largest impact craters: the first scatter plot, size against age, from the Earth Impact Database.
+- Deepest canyons: hanging columns in rock colours. Every figure is marked estimated, as there's no standard way to measure canyon depth.
+- Countries with the most coral reef: bars from coral pink to lagoon blue, from the UN's World Atlas of Coral Reefs.
+- The banner draws each category's top five once there are more than eight, so the bars stay readable: 17 categories, 170 facts.
+
 Largest islands and tallest trees by species.
 
 - Largest islands: ranked bars with Greenland highlighted. All ten figures from Britannica; Australia counts as a continent.

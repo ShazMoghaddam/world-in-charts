@@ -1,0 +1,20 @@
+{
+  "id": "longest-living-animals",
+  "title": "Longest-living animals",
+  "group": "nature",
+  "measure": "The oldest known age of one animal of each species, in years. Where a study gives a range, the lower end is used for ranking. Sponges and corals are left out: some may live thousands of years, but their ages are rough guesses from growth rates.",
+  "unit": "years",
+  "checked": "2026-11-16",
+  "entries": [
+    { "rank": 1, "name": "Ocean quahog", "location": "Seabed off north Iceland", "country": "North Atlantic", "value": 507, "confidence": "verified", "note": "A clam nicknamed Ming, aged by counting the yearly growth bands in its shell. It was born in 1499.", "source": "Guinness World Records; AnAge" },
+    { "rank": 2, "name": "Greenland shark", "location": "Arctic and North Atlantic", "country": "Arctic Ocean", "value": 272, "valueHigh": 512, "confidence": "estimated", "note": "Radiocarbon dating in 2016 put one shark at about 392 years, somewhere between 272 and 512. The oldest known animal with a backbone.", "source": "Guinness World Records; AnAge" },
+    { "rank": 3, "name": "Bowhead whale", "location": "Arctic waters", "country": "Arctic Ocean", "value": 211, "confidence": "estimated", "note": "The longest-living mammal, aged from proteins in its eyes.", "source": "AnAge longevity database, via the Associated Press (2016)" },
+    { "rank": 4, "name": "Rougheye rockfish", "location": "North Pacific", "country": "Pacific Ocean", "value": 205, "confidence": "estimated", "note": "Shows few signs of ageing.", "source": "AnAge longevity database, via the Associated Press (2016)" },
+    { "rank": 5, "name": "Red sea urchin", "location": "North Pacific coast", "country": "Pacific Ocean", "value": 200, "confidence": "estimated", "note": "", "source": "AnAge longevity database, via the Associated Press (2016)" },
+    { "rank": 6, "name": "Seychelles tortoise", "location": "Saint Helena", "country": "South Atlantic", "value": 194, "confidence": "estimated", "note": "Jonathan, still alive. He was fully grown, so at least 50, when he arrived on Saint Helena in 1882. The oldest known living land animal.", "source": "Guinness World Records" },
+    { "rank": 7, "name": "Galápagos tortoise", "location": "Galápagos Islands", "country": "Ecuador", "value": 177, "confidence": "estimated", "note": "", "source": "AnAge longevity database, via the Associated Press (2016)" },
+    { "rank": 8, "name": "Shortraker rockfish", "location": "North Pacific", "country": "Pacific Ocean", "value": 157, "confidence": "estimated", "note": "", "source": "AnAge longevity database, via the Associated Press (2016)" },
+    { "rank": 9, "name": "Lake sturgeon", "location": "Great Lakes and rivers", "country": "North America", "value": 152, "confidence": "estimated", "note": "", "source": "AnAge longevity database, via the Associated Press (2016)" },
+    { "rank": 10, "name": "Orange roughy", "location": "Deep water off Australia and New Zealand", "country": "Southern oceans", "value": 149, "confidence": "estimated", "note": "For comparison, the oldest person on record lived to 122.", "source": "AnAge" }
+  ]
+}

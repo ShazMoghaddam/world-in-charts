@@ -3,24 +3,28 @@
 import { readFileSync, readdirSync, writeFileSync } from 'node:fs';
 
 const dir = new URL('../data/', import.meta.url);
-const ORDER = ['oldest-trees', 'longest-rivers', 'deepest-lakes', 'highest-mountains', 'largest-lakes', 'largest-deserts', 'tallest-waterfalls', 'highest-volcanoes', 'deepest-trenches', 'longest-caves', 'largest-islands', 'tallest-trees'];
+const ORDER = ['oldest-trees', 'longest-rivers', 'deepest-lakes', 'highest-mountains', 'largest-lakes', 'largest-deserts', 'tallest-waterfalls', 'highest-volcanoes', 'deepest-trenches', 'longest-caves', 'largest-islands', 'tallest-trees', 'largest-rainforests', 'longest-living-animals', 'largest-craters', 'deepest-canyons', 'coral-reef-countries'];
 const files = readdirSync(dir).filter((f) => f.endsWith('.json')).map((f) => f.replace('.json', ''));
 const ids = [...ORDER.filter((id) => files.includes(id)), ...files.filter((id) => !ORDER.includes(id)).sort()];
 const groups = ids.map((id) => JSON.parse(readFileSync(new URL(`${id}.json`, dir))));
 
-const COLOURS = ['#FF6B6B', '#FFB443', '#3DDC97', '#4CC9F0', '#A78BFA', '#FF7AC6', '#FFE45E', '#7CF0D6'];
+const COLOURS = ['#FF6B6B', '#FFB443', '#3DDC97', '#4CC9F0', '#A78BFA', '#FF7AC6', '#FFE45E', '#7CF0D6', '#F4A261', '#2EC4B6', '#E76F51', '#9BE564'];
 
 function draw({ width, height, titleSize, pad, barZone, stack = false }) {
   const bars = [];
-  const gap = 6, groupGap = 22;
+  // With many categories, draw each one's top five so the bars stay readable.
+  const perGroup = groups.length > 8 ? 5 : 10;
+  const gap = groups.length > 8 ? 4 : 6, groupGap = groups.length > 8 ? 14 : 22;
   const n = groups.reduce((s, g) => s + g.entries.length, 0);
-  const barW = (width - pad * 2 - groupGap * (groups.length - 1) - gap * (n - groups.length)) / n;
+  const drawn = groups.reduce((s, g) => s + Math.min(perGroup, g.entries.length), 0);
+  const barW = (width - pad * 2 - groupGap * (groups.length - 1) - gap * (drawn - groups.length)) / drawn;
   let x = pad;
   groups.forEach((g, gi) => {
-    const max = Math.max(...g.entries.map((e) => e.value));
-    g.entries.forEach((e, i) => {
+    const shown = g.entries.slice(0, perGroup);
+    const max = Math.max(...shown.map((e) => e.value));
+    shown.forEach((e, i) => {
       const h = Math.max(10, (e.value / max) * barZone);
-      bars.push(`<rect x="${x.toFixed(1)}" y="${(height - h).toFixed(1)}" width="${barW.toFixed(1)}" height="${(h + 12).toFixed(1)}" rx="${(barW / 2).toFixed(1)}" fill="${COLOURS[gi % COLOURS.length]}" opacity="${(1 - i * 0.045).toFixed(2)}"/>`);
+      bars.push(`<rect x="${x.toFixed(1)}" y="${(height - h).toFixed(1)}" width="${barW.toFixed(1)}" height="${(h + 12).toFixed(1)}" rx="${(barW / 2).toFixed(1)}" fill="${COLOURS[gi % COLOURS.length]}" opacity="${(1 - i * (0.45 / perGroup)).toFixed(2)}"/>`);
       x += barW + gap;
     });
     x += groupGap - gap;
