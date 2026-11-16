@@ -160,6 +160,44 @@ const charts = {
     color: '#FF5A5F,#FF7B6B,#FF9A76,#FFB385,#FFC857,#9BE564,#3DDC97,#2EC4B6,#1B9AAA,#3A86FF',
     horizontal: true, 'show-values': true, width: WIDTH, theme: 'light',
   }),
+  // Each continent's bar runs from its record low (blue, below zero) to its record high (red, above).
+  'temperature-records': (d) => toSVG('bars', {
+    heading: `${d.title} · °C`,
+    labels: d.entries.map((e) => e.name),
+    values: [d.entries.map((e) => e.value), d.entries.map((e) => e.low)],
+    series: ['Record high', 'Record low'],
+    color: '#F03E3E,#228BE6',
+    stacked: true, 'angle-labels': true, height: 260, width: WIDTH, theme: 'light',
+  }),
+  // A skyline: columns shading from dusk violet to sunset orange.
+  'tallest-buildings': (d) => toSVG('bars', {
+    heading: `${d.title} · metres`,
+    labels: d.entries.map((e) => e.name.replace(' CTF Finance Centre', ' CTF').replace(' Finance Center', '')),
+    values: d.entries.map((e) => e.value),
+    color: '#3F37C9,#4361EE,#4895EF,#4CC9F0,#7B2CBF,#9D4EDD,#C77DFF,#F72585,#FF6D00,#FF9E00',
+    'show-values': true, decimals: 0, 'angle-labels': true, height: 250, width: WIDTH, theme: 'light',
+  }),
+  // Ranked bars split by what they carry: high-speed rail dominates.
+  'longest-bridges': (d) => {
+    const types = [...new Set(d.entries.map((e) => e.type))];
+    return toSVG('bars', {
+      heading: `${d.title} · km`,
+      labels: d.entries.map((e) => e.name.replace(' Grand Bridge', '').replace(' Viaduct', '').replace(' Causeway', '')),
+      values: types.map((t) => d.entries.map((e) => (e.type === t ? e.value : 0))),
+      series: types.map((t) => `${t} bridge`),
+      color: '#2B6CB0,#F6AD55',
+      patterns: 'solid,stripes',
+      horizontal: true, stacked: true, decimals: 1, width: WIDTH, theme: 'light',
+    });
+  },
+  // Ranked bars in gallery colours, in millions of visitors.
+  'most-visited-museums': (d) => toSVG('bars', {
+    heading: `${d.title} · million visitors in 2025`,
+    labels: d.entries.map((e) => e.name),
+    values: d.entries.map((e) => e.value / 1e6),
+    color: '#9B2226,#AE2012,#BB3E03,#CA6702,#EE9B00,#94D2BD,#0A9396,#005F73,#3D348B,#7678ED',
+    horizontal: true, 'show-values': true, decimals: 1, width: WIDTH, theme: 'light',
+  }),
 };
 
 for (const [id, draw] of Object.entries(charts)) {

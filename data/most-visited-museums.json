@@ -1,0 +1,20 @@
+{
+  "id": "most-visited-museums",
+  "title": "Most visited museums",
+  "group": "human-made",
+  "measure": "Visitors in 2025, as counted and reported by each museum to The Art Newspaper's annual survey. Museums that didn't report, including China's state-run museums, aren't included.",
+  "unit": "visitors",
+  "checked": "2026-11-16",
+  "entries": [
+    { "rank": 1, "name": "Louvre", "location": "Paris", "country": "France", "value": 9046000, "confidence": "measured", "note": "Over 2 million more visitors than any other museum.", "source": "The Art Newspaper, Visitor Figures 2025 (April 2026)" },
+    { "rank": 2, "name": "Vatican Museums", "location": "Vatican City", "country": "Vatican City", "value": 6933822, "confidence": "measured", "note": "", "source": "The Art Newspaper, Visitor Figures 2025 (April 2026)" },
+    { "rank": 3, "name": "National Museum of Korea", "location": "Seoul", "country": "South Korea", "value": 6507483, "confidence": "measured", "note": "Up 72% on 2024, the biggest rise in the top 10.", "source": "The Art Newspaper, Visitor Figures 2025 (April 2026)" },
+    { "rank": 4, "name": "British Museum", "location": "London", "country": "UK", "value": 6440120, "confidence": "measured", "note": "", "source": "The Art Newspaper, Visitor Figures 2025 (April 2026)" },
+    { "rank": 5, "name": "Metropolitan Museum of Art", "location": "New York", "country": "USA", "value": 5984091, "confidence": "measured", "note": "Main building only. With the Met Cloisters, 6,265,898.", "source": "The Art Newspaper, Visitor Figures 2025 (April 2026)" },
+    { "rank": 6, "name": "State Russian Museum", "location": "St Petersburg", "country": "Russia", "value": 5087276, "confidence": "measured", "note": "", "source": "The Art Newspaper, Visitor Figures 2025 (April 2026)" },
+    { "rank": 7, "name": "National Museum of Anthropology", "location": "Mexico City", "country": "Mexico", "value": 5048893, "confidence": "measured", "note": "", "source": "The Art Newspaper, Visitor Figures 2025 (April 2026)" },
+    { "rank": 8, "name": "Shanghai Museum East", "location": "Shanghai", "country": "China", "value": 4593216, "confidence": "measured", "note": "", "source": "The Art Newspaper, Visitor Figures 2025 (April 2026)" },
+    { "rank": 9, "name": "Tate Modern", "location": "London", "country": "UK", "value": 4514266, "confidence": "measured", "note": "", "source": "The Art Newspaper, Visitor Figures 2025 (April 2026)" },
+    { "rank": 10, "name": "National Gallery", "location": "London", "country": "UK", "value": 4147544, "confidence": "measured", "note": "London has three of the top ten.", "source": "The Art Newspaper, Visitor Figures 2025 (April 2026)" }
+  ]
+}

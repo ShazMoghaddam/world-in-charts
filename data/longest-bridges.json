@@ -1,0 +1,20 @@
+{
+  "id": "longest-bridges",
+  "title": "Longest bridges",
+  "group": "human-made",
+  "measure": "Total length in km, including long viaducts over land. There's no single standard for measuring bridge length, so these figures are as reported by the builders and operators.",
+  "unit": "km",
+  "checked": "2026-11-16",
+  "entries": [
+    { "rank": 1, "name": "Danyang–Kunshan Grand Bridge", "type": "Rail", "location": "Jiangsu", "country": "China", "value": 164.8, "confidence": "measured", "note": "Part of the Beijing–Shanghai high-speed railway. About the distance from London to Birmingham.", "source": "Wikipedia, List of longest bridges" },
+    { "rank": 2, "name": "Changhua–Kaohsiung Viaduct", "type": "Rail", "location": "Western Taiwan", "country": "Taiwan", "value": 157.3, "confidence": "measured", "note": "Part of Taiwan High Speed Rail.", "source": "Wikipedia, List of longest bridges" },
+    { "rank": 3, "name": "Kita–Yaita Viaduct", "type": "Rail", "location": "Tokyo to Tochigi", "country": "Japan", "value": 114.4, "confidence": "measured", "note": "Carries the Tōhoku Shinkansen. Opened in 1982, decades before the others, and left out of many lists.", "source": "Wikipedia, List of longest bridges" },
+    { "rank": 4, "name": "Tianjin Grand Bridge", "type": "Rail", "location": "Langfang to Qingxian", "country": "China", "value": 113.7, "confidence": "measured", "note": "", "source": "Wikipedia, List of longest bridges" },
+    { "rank": 5, "name": "Cangde Grand Bridge", "type": "Rail", "location": "Hebei", "country": "China", "value": 105.9, "confidence": "disputed", "note": "Some lists give 115.9 km, which would move it to third.", "source": "Wikipedia, List of longest bridges" },
+    { "rank": 6, "name": "Weinan Weihe Grand Bridge", "type": "Rail", "location": "Shaanxi", "country": "China", "value": 79.7, "confidence": "measured", "note": "", "source": "Wikipedia, List of longest bridges" },
+    { "rank": 7, "name": "Bang Na Expressway", "type": "Road", "location": "Bangkok", "country": "Thailand", "value": 54, "confidence": "measured", "note": "The longest road bridge.", "source": "Wikipedia, List of longest bridges" },
+    { "rank": 8, "name": "Beijing Grand Bridge", "type": "Rail", "location": "Beijing", "country": "China", "value": 48.2, "confidence": "measured", "note": "", "source": "Wikipedia, List of longest bridges" },
+    { "rank": 9, "name": "Metro Manila Skyway", "type": "Road", "location": "Manila", "country": "Philippines", "value": 39.2, "confidence": "measured", "note": "An elevated expressway, completed in 2021.", "source": "Wikipedia, List of longest bridges" },
+    { "rank": 10, "name": "Lake Pontchartrain Causeway", "type": "Road", "location": "Louisiana", "country": "USA", "value": 38.4, "confidence": "measured", "note": "The longest bridge running continuously over water.", "source": "Wikipedia, List of longest bridges" }
+  ]
+}

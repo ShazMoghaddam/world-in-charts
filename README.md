@@ -41,8 +41,15 @@ Where a source gives a range, the lower end is used for ranking, so nothing is o
 - [Largest impact craters](#largest-impact-craters)
 - [Deepest canyons](#deepest-canyons)
 - [Countries with the most coral reef](#countries-with-the-most-coral-reef)
+- [Temperature records by continent](#temperature-records-by-continent)
 
-More categories are on the way: largest glaciers, record temperatures, and human-made records such as buildings, bridges, cities and landmarks.
+**Human-made**
+
+- [Tallest buildings](#tallest-buildings)
+- [Longest bridges](#longest-bridges)
+- [Most visited museums](#most-visited-museums)
+
+Still to come: largest glaciers and oldest cities, once reliable figures are confirmed.
 
 ## Oldest living individual trees
 
@@ -552,13 +559,128 @@ More categories are on the way: largest glaciers, record temperatures, and human
 
 **Source:** [Spalding, Ravilious and Green: World Atlas of Coral Reefs (UNEP-WCMC, 2001)](https://www.unep-wcmc.org/), figures via [Encounter Edu](https://encounteredu.com/cpd/subject-updates/learn-more-which-countries-have-coral-reefs)
 
+## Temperature records by continent
+
+![Temperature records by continent in °C, each bar running from the record low in blue to the record high in red: North America 56.7 and −63.0, Africa 55.0 and −23.9, Asia 53.9 and −67.8, South-West Pacific 50.7 and −25.6, South America 48.9 and −32.8, Europe 48.8 and −58.1, Antarctica 19.8 and −89.2](charts/temperature-records.svg)
+
+**Measured as:** the highest and lowest air temperatures ever officially recorded in each region, in °C, as verified by the World Meteorological Organization. The WMO keeps records by region, so there are seven entries rather than ten. Ranked by record high.
+
+**Why this chart:** each bar runs from the record low, in blue below zero, to the record high, in red above. Antarctica's bar is almost all blue.
+
+| # | Region | Record high (°C) | Where | Record low (°C) | Where | How sure |
+| --- | --- | --- | --- | --- | --- | --- |
+| 1 | North America | 56.7 | Furnace Creek, Death Valley, USA | −63.0 | Snag, Yukon, Canada | Verified |
+| 2 | Africa | 55.0 | Kebili, Tunisia | −23.9 | Ifrane, Morocco | Verified |
+| 3 | Asia | 53.9 | Mitribah, Kuwait | −67.8 | Verkhoyansk and Oymyakon, Russia | Verified |
+| 4 | South-West Pacific | 50.7 | Oodnadatta, Australia | −25.6 | Ranfurly, New Zealand | Verified |
+| 5 | South America | 48.9 | Rivadavia, Argentina | −32.8 | Sarmiento, Argentina | Verified |
+| 6 | Europe | 48.8 | Siracusa, Sicily, Italy | −58.1 | Ust-Shchugor, Russia | Verified |
+| 7 | Antarctica | 19.8 | Signy Research Station, South Orkney Islands | −89.2 | Vostok Station, Antarctica | Verified |
+
+**Notes**
+
+- **Hottest on Earth:** 56.7 °C at Death Valley on 10 July 1913. Some weather historians doubt it, but the WMO still accepts it.
+- **Coldest on Earth:** −89.2 °C at Vostok Station, Antarctica, on 21 July 1983.
+- **Europe:** the newest record here, 48.8 °C in Sicily in 2021. This is continental Europe only: the WMO's Europe region also covers Israel and Greenland, which hold 54.0 °C and −69.6 °C.
+
+**Source:** [World Meteorological Organization: Archive of Weather and Climate Extremes (July 2025)](https://public.wmo.int/sites/default/files/2025-07/Table_Records_25Jul2025.pdf)
+
+## Tallest buildings
+
+![Tallest buildings in metres, in colours from dusk violet to sunset orange: Burj Khalifa 828, Merdeka 118 679, Shanghai Tower 632, Makkah Royal Clock Tower 601, Ping An 599, Lotte World Tower 555, One World Trade Center 541, Guangzhou CTF 530, Tianjin CTF 530 and CITIC Tower 528](charts/tallest-buildings.svg)
+
+**Measured as:** height in metres to the building's architectural top, including spires but not antennas, for completed buildings only. This is the standard set by the Council on Tall Buildings and Urban Habitat, which keeps the official rankings.
+
+**Why this chart:** a skyline of columns, shading from dusk violet to sunset orange.
+
+| # | Building | City | Height (m) | Completed | How sure |
+| --- | --- | --- | --- | --- | --- |
+| 1 | Burj Khalifa | Dubai, UAE | 828 | 2010 | Verified |
+| 2 | Merdeka 118 | Kuala Lumpur, Malaysia | 678.9 | 2023 | Verified |
+| 3 | Shanghai Tower | Shanghai, China | 632 | 2015 | Verified |
+| 4 | Makkah Royal Clock Tower | Mecca, Saudi Arabia | 601 | 2012 | Verified |
+| 5 | Ping An Finance Center | Shenzhen, China | 599.1 | 2017 | Verified |
+| 6 | Lotte World Tower | Seoul, South Korea | 554.5 | 2017 | Verified |
+| 7 | One World Trade Center | New York, USA | 541.3 | 2014 | Verified |
+| 8 | Guangzhou CTF Finance Centre | Guangzhou, China | 530 | 2016 | Verified |
+| 9 | Tianjin CTF Finance Centre | Tianjin, China | 530 | 2019 | Verified |
+| 10 | CITIC Tower | Beijing, China | 527.7 | 2018 | Verified |
+
+**Notes**
+
+- **Burj Khalifa:** the tallest building since 2010, and 149 m taller than the next one.
+- **One World Trade Center:** 1,776 feet tall, for the year of American independence.
+- **China:** four of the top ten.
+
+**Sources:** [CTBUH Skyscraper Center](https://www.skyscrapercenter.com/) · [Britannica: World's tallest buildings](https://www.britannica.com/print/article/2226971)
+
+## Longest bridges
+
+![Longest bridges in km, split by what they carry: Danyang–Kunshan 164.8, Changhua–Kaohsiung 157.3, Kita–Yaita 114.4, Tianjin 113.7, Cangde 105.9, Weinan Weihe 79.7 and Beijing 48.2 are rail bridges; Bang Na Expressway 54.0, Metro Manila Skyway 39.2 and Lake Pontchartrain 38.4 are road bridges](charts/longest-bridges.svg)
+
+**Measured as:** total length in km, including long viaducts over land. There's no single standard for measuring bridge length, so these figures are as reported by the builders and operators.
+
+**Why this chart:** ranked bars split by what they carry. Seven of the ten carry high-speed trains.
+
+| # | Bridge | Where | Carries | Length (km) | How sure |
+| --- | --- | --- | --- | --- | --- |
+| 1 | Danyang–Kunshan Grand Bridge | Jiangsu, China | Rail | 164.8 | Measured |
+| 2 | Changhua–Kaohsiung Viaduct | Western Taiwan, Taiwan | Rail | 157.3 | Measured |
+| 3 | Kita–Yaita Viaduct | Tokyo to Tochigi, Japan | Rail | 114.4 | Measured |
+| 4 | Tianjin Grand Bridge | Langfang to Qingxian, China | Rail | 113.7 | Measured |
+| 5 | Cangde Grand Bridge | Hebei, China | Rail | 105.9 | Disputed |
+| 6 | Weinan Weihe Grand Bridge | Shaanxi, China | Rail | 79.7 | Measured |
+| 7 | Bang Na Expressway | Bangkok, Thailand | Road | 54 | Measured |
+| 8 | Beijing Grand Bridge | Beijing, China | Rail | 48.2 | Measured |
+| 9 | Metro Manila Skyway | Manila, Philippines | Road | 39.2 | Measured |
+| 10 | Lake Pontchartrain Causeway | Louisiana, USA | Road | 38.4 | Measured |
+
+**Notes**
+
+- **Danyang–Kunshan:** part of the Beijing–Shanghai high-speed railway, and about as long as the distance from London to Birmingham.
+- **Kita–Yaita:** opened in 1982, decades before the others, and left out of many lists.
+- **Cangde:** some lists give 115.9 km, which would move it to third.
+- **Lake Pontchartrain:** the longest bridge running continuously over water.
+
+**Source:** [Wikipedia: List of longest bridges](https://en.wikipedia.org/wiki/List_of_longest_bridges)
+
+## Most visited museums
+
+![Most visited museums in millions of visitors in 2025: Louvre 9.0, Vatican Museums 6.9, National Museum of Korea 6.5, British Museum 6.4, Metropolitan Museum of Art 6.0, State Russian Museum 5.1, National Museum of Anthropology 5.0, Shanghai Museum East 4.6, Tate Modern 4.5 and National Gallery 4.1](charts/most-visited-museums.svg)
+
+**Measured as:** visitors in 2025, as counted and reported by each museum to The Art Newspaper's annual survey.
+
+**Why this chart:** ranked bars in gallery colours. Most "most visited landmark" lists rely on guesses for places with no gates, so this uses museums, where every visitor is counted.
+
+| # | Museum | City | Visitors in 2025 | How sure |
+| --- | --- | --- | --- | --- |
+| 1 | Louvre | Paris | 9,046,000 | Measured |
+| 2 | Vatican Museums | Vatican City | 6,933,822 | Measured |
+| 3 | National Museum of Korea | Seoul | 6,507,483 | Measured |
+| 4 | British Museum | London | 6,440,120 | Measured |
+| 5 | Metropolitan Museum of Art | New York | 5,984,091 | Measured |
+| 6 | State Russian Museum | St Petersburg | 5,087,276 | Measured |
+| 7 | National Museum of Anthropology | Mexico City | 5,048,893 | Measured |
+| 8 | Shanghai Museum East | Shanghai | 4,593,216 | Measured |
+| 9 | Tate Modern | London | 4,514,266 | Measured |
+| 10 | National Gallery | London | 4,147,544 | Measured |
+
+**Notes**
+
+- **Louvre:** over 2 million more visitors than any other museum.
+- **National Museum of Korea:** up 72% on 2024, the biggest rise in the top 10.
+- **Not included:** museums that didn't report, including China's state-run museums. The survey says several of them would probably make the top 10.
+- **London:** three of the top ten.
+
+**Source:** [The Art Newspaper: Visitor Figures 2025 (April 2026)](https://www.theartnewspaper.com/2026/03/31/exclusive-the-worlds-100-most-visited-museums-in-2025-new-museums-a-big-hit-with-visitors)
+
 ## How it works
 
 ```
 data/      one JSON file per category: every entry, its source, how sure it is, and a note
 scripts/   build.mjs draws each chart from its data file with Bezel Charts
            banner.mjs draws the banner and social preview from the same data
-           check.mjs checks every data file: ten entries, in order, each with a source
+           check.mjs checks every data file: ten entries (or a stated number), in order, each with a source
 charts/    the finished SVGs shown in this README
 assets/    the banner and social preview
 ```

@@ -1,0 +1,20 @@
+{
+  "id": "tallest-buildings",
+  "title": "Tallest buildings",
+  "group": "human-made",
+  "measure": "Height in metres to the building's architectural top, including spires but not antennas, for completed buildings only. This is the standard set by the Council on Tall Buildings and Urban Habitat, which keeps the official rankings.",
+  "unit": "m",
+  "checked": "2026-11-16",
+  "entries": [
+    { "rank": 1, "name": "Burj Khalifa", "location": "Dubai", "country": "UAE", "value": 828, "year": 2010, "confidence": "verified", "note": "The tallest building since 2010, and 149 m taller than the next one.", "source": "Council on Tall Buildings and Urban Habitat (CTBUH), via Britannica and Wikipedia" },
+    { "rank": 2, "name": "Merdeka 118", "location": "Kuala Lumpur", "country": "Malaysia", "value": 678.9, "year": 2023, "confidence": "verified", "note": "The newest building in the top 10.", "source": "Council on Tall Buildings and Urban Habitat (CTBUH), via Britannica and Wikipedia" },
+    { "rank": 3, "name": "Shanghai Tower", "location": "Shanghai", "country": "China", "value": 632, "year": 2015, "confidence": "verified", "note": "", "source": "Council on Tall Buildings and Urban Habitat (CTBUH), via Britannica and Wikipedia" },
+    { "rank": 4, "name": "Makkah Royal Clock Tower", "location": "Mecca", "country": "Saudi Arabia", "value": 601, "year": 2012, "confidence": "verified", "note": "", "source": "Council on Tall Buildings and Urban Habitat (CTBUH), via Britannica and Wikipedia" },
+    { "rank": 5, "name": "Ping An Finance Center", "location": "Shenzhen", "country": "China", "value": 599.1, "year": 2017, "confidence": "verified", "note": "", "source": "Council on Tall Buildings and Urban Habitat (CTBUH), via Britannica and Wikipedia" },
+    { "rank": 6, "name": "Lotte World Tower", "location": "Seoul", "country": "South Korea", "value": 554.5, "year": 2017, "confidence": "verified", "note": "", "source": "Council on Tall Buildings and Urban Habitat (CTBUH), via Britannica and Wikipedia" },
+    { "rank": 7, "name": "One World Trade Center", "location": "New York", "country": "USA", "value": 541.3, "year": 2014, "confidence": "verified", "note": "1,776 feet tall, for the year of American independence.", "source": "Council on Tall Buildings and Urban Habitat (CTBUH), via Britannica and Wikipedia" },
+    { "rank": 8, "name": "Guangzhou CTF Finance Centre", "location": "Guangzhou", "country": "China", "value": 530, "year": 2016, "confidence": "verified", "note": "", "source": "Council on Tall Buildings and Urban Habitat (CTBUH), via Britannica and Wikipedia" },
+    { "rank": 9, "name": "Tianjin CTF Finance Centre", "location": "Tianjin", "country": "China", "value": 530, "year": 2019, "confidence": "verified", "note": "Exactly the same height as its sister tower in Guangzhou.", "source": "Council on Tall Buildings and Urban Habitat (CTBUH), via Britannica and Wikipedia" },
+    { "rank": 10, "name": "CITIC Tower", "location": "Beijing", "country": "China", "value": 527.7, "year": 2018, "confidence": "verified", "note": "Four of the top ten are in China.", "source": "Council on Tall Buildings and Urban Habitat (CTBUH), via Britannica and Wikipedia" }
+  ]
+}
