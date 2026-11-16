@@ -2,6 +2,12 @@
 
 ## Unreleased
 
+Deepest ocean trenches and longest cave systems.
+
+- Deepest ocean trenches: columns with Everest's height as a dashed line; nine of the ten are deeper. Depths from modern sonar surveys and crewed dives, replacing 1950s soundings that some lists still repeat. The Kuril–Kamchatka Trench is 9,604 m, not 10,542 m, and the Japan Trench drops out.
+- Longest cave systems: columns with Mammoth Cave highlighted, 144 km ahead of the next.
+- Banner and social preview redrawn: 10 categories, 100 facts.
+
 Tallest waterfalls, highest active volcanoes and automatic checks.
 
 - Tallest waterfalls: columns with the Burj Khalifa (828 m) as a dashed line; all ten are taller.

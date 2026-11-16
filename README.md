@@ -32,8 +32,10 @@ Where a source gives a range, the lower end is used for ranking, so nothing is o
 - [Largest deserts](#largest-deserts)
 - [Tallest waterfalls](#tallest-waterfalls)
 - [Highest active volcanoes](#highest-active-volcanoes)
+- [Deepest ocean trenches](#deepest-ocean-trenches)
+- [Longest cave systems](#longest-cave-systems)
 
-More categories are on the way: ocean trenches, caves, islands, craters, glaciers, reefs, record temperatures, animals, and human-made records such as buildings, bridges and cities.
+More categories are on the way: islands, craters, glaciers, reefs, record temperatures, animals, and human-made records such as buildings, bridges and cities.
 
 ## Oldest living individual trees
 
@@ -274,6 +276,66 @@ More categories are on the way: ocean trenches, caves, islands, craters, glacier
 - **"How sure" is about the height.** The heights are measured; the eruption dates are the uncertain part, which is why the chart shows them.
 
 **Source:** [Smithsonian Global Volcanism Program](https://volcano.si.edu/), Volcanoes of the World (v. 5.3.4, 2025), via [VolcanoAtlas](https://volcanoatlas.vercel.app/tallest-volcanoes)
+
+## Deepest ocean trenches
+
+![Deepest ocean trenches in metres below sea level, with a dashed line at Everest's height of 8,849 m: Mariana 10,924, Tonga 10,816, Philippine 10,045, Kermadec 10,003, Izu–Ogasawara 9,775, Kuril–Kamchatka 9,604, Santa Cruz 9,142, New Britain 9,140, Yap 8,929 and San Cristóbal 8,483. Nine of the ten are deeper than Everest is tall.](charts/deepest-trenches.svg)
+
+**Measured as:** depth of each trench's deepest known point, in metres below sea level. Wherever possible the figure is modern: a multibeam sonar survey, or a depth measured by a crewed submersible at the bottom.
+
+**Why this chart:** columns with Everest's height as a dashed line. Nine of the ten trenches are deeper than Everest is tall.
+
+| # | Trench | Deepest point | Depth (m) | How measured | How sure |
+| --- | --- | --- | --- | --- | --- |
+| 1 | Mariana | Challenger Deep, western Pacific | 10,924 | Sonar survey | Verified |
+| 2 | Tonga | Horizon Deep, South Pacific | 10,816 | Sonar survey | Verified |
+| 3 | Philippine | Emden Deep, western Pacific | 10,045 | Crewed dive | Measured |
+| 4 | Kermadec | Scholl Deep, South Pacific | 10,003 | Crewed dive | Measured |
+| 5 | Izu–Ogasawara | Western Pacific, south of Japan | 9,775 | Crewed dive | Measured |
+| 6 | Kuril–Kamchatka | Northwest Pacific | 9,604 | Sonar survey | Verified |
+| 7 | Santa Cruz | North New Hebrides, South Pacific | 9,142 | Crewed dive | Measured |
+| 8 | New Britain | Planet Deep, Solomon Sea | 9,140 | Older survey | Estimated |
+| 9 | Yap | Western Pacific | 8,929 | Crewed dive | Measured |
+| 10 | San Cristóbal | South Pacific | 8,483 | Crewed dive | Measured |
+
+**Notes**
+
+- **Why this list looks different:** many lists still repeat single soundings from the 1950s, some of them out by up to 1,000 m. The Kuril–Kamchatka Trench is usually given as 10,542 m, but a 2020 sonar survey found its deepest point is 9,604 m. The Japan Trench, often in older top 10s, measures about 8,012 m, so it's out.
+- **Mariana:** 10,924 ± 15 m. Older books give 11,034 m, from 1957.
+- **Philippine:** older lists give 10,540 m, from a 1951 sounding. The first crewed dive, in 2021, reached 10,045 m.
+- **New Britain:** the deepest point on Earth that no one, and no robot, has been to.
+- **Just missing out:** the Puerto Rico Trench, the deepest in the Atlantic, at 8,378 m.
+
+**Sources:** [Bongiovanni, Stewart and Jamieson: High-resolution multibeam sonar bathymetry of the deepest place in each ocean (2021)](https://doi.org/10.1002/gdj3.122) · [Guinness World Records: Most deep-sea trenches visited by an individual](https://www.guinnessworldrecords.com/world-records/752796-most-deep-sea-trenches-visited-by-an-individual) · [Dreutter et al.: Will the "top five" deepest trenches lose one of their members? (2020)](https://doi.org/10.1016/j.pocean.2019.102258) · [Onboard: Vescovo dives all four 10,000 m trenches](https://onboardonline.com/yacht-industry-news/maritime/victor-vescovo-becomes-first-person-to-dive-all-four-10000-metre-trenches) · [EYOS Expeditions: Yap and Palau trenches](https://www.eyos-expeditions.com/?p=2244) · [Divernet: First humans dive Japan's ocean deeps](https://divernet.com/scuba-news/first-humans-dive-japans-ocean-deeps/) · [Wikipedia: New Britain Trench](https://en.wikipedia.org/wiki/New_Britain_Trench)
+
+## Longest cave systems
+
+![Longest cave systems in km of surveyed passages, with the longest highlighted: Mammoth Cave 686, Ox Bel Ha 542, Shuanghedong 441, Sac Actun 387, Jewel Cave 355, Wind Cave 270, Clearwater Cave 269, Optymistychna 265, Lechuguilla Cave 245 and Alto Tejuelo 218](charts/longest-caves.svg)
+
+**Measured as:** total length of all surveyed passages, in km, as of early 2026. Cavers keep finding and mapping new passages, so these figures only ever go up.
+
+**Why this chart:** columns with the longest highlighted. Mammoth Cave is 144 km ahead of the next cave.
+
+| # | Cave | Where | Type | Length (km) | How sure |
+| --- | --- | --- | --- | --- | --- |
+| 1 | Mammoth Cave | Kentucky, USA | Dry | 685.6 | Measured |
+| 2 | Ox Bel Ha | Quintana Roo, Mexico | Underwater | 541.7 | Measured |
+| 3 | Shuanghedong | Guizhou, China | Dry | 440.9 | Measured |
+| 4 | Sac Actun | Quintana Roo, Mexico | Underwater | 387.1 | Measured |
+| 5 | Jewel Cave | South Dakota, USA | Dry | 354.6 | Measured |
+| 6 | Wind Cave | South Dakota, USA | Dry | 270.4 | Measured |
+| 7 | Clearwater Cave | Sarawak, Malaysia | Dry | 268.6 | Measured |
+| 8 | Optymistychna | Korolivka, Ukraine | Dry | 264.5 | Measured |
+| 9 | Lechuguilla Cave | New Mexico, USA | Dry | 244.7 | Measured |
+| 10 | Sistema del Alto Tejuelo | Cantabria, Spain | Dry | 217.9 | Measured |
+
+**Notes**
+
+- **Underwater caves:** Ox Bel Ha and Sac Actun are flooded. They were dry caves during the last Ice Age, when sea levels were lower, and are mapped by cave divers.
+- **Optymistychna:** the longest cave in gypsum rather than limestone.
+- **Alto Tejuelo:** Wikipedia lists Fisher Ridge Cave (215.9 km, USA) above it, but it's 2 km shorter.
+
+**Source:** [Wikipedia: List of longest caves](https://en.wikipedia.org/wiki/List_of_longest_caves) (March 2026), compiled from the National Speleological Society's long cave lists and the Quintana Roo Speleological Survey
 
 ## How it works
 

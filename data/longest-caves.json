@@ -1,0 +1,20 @@
+{
+  "id": "longest-caves",
+  "title": "Longest cave systems",
+  "group": "nature",
+  "measure": "Total length of all surveyed passages, in km. Cavers keep finding and mapping new passages, so these figures only ever go up. Lengths are as of early 2026.",
+  "unit": "km",
+  "checked": "2026-11-16",
+  "entries": [
+    { "rank": 1, "name": "Mammoth Cave", "type": "Dry", "location": "Kentucky", "country": "USA", "value": 685.6, "confidence": "measured", "note": "Longer than the next cave by more than 140 km. A UNESCO World Heritage Site.", "source": "Wikipedia, List of longest caves (March 2026), from the NSS long cave lists and the Quintana Roo Speleological Survey" },
+    { "rank": 2, "name": "Ox Bel Ha", "type": "Underwater", "location": "Quintana Roo, Yucatán", "country": "Mexico", "value": 541.7, "confidence": "measured", "note": "The longest underwater cave. Its flooded passages were dry caves during the last Ice Age, when sea levels were lower.", "source": "Wikipedia, List of longest caves (March 2026), from the NSS long cave lists and the Quintana Roo Speleological Survey" },
+    { "rank": 3, "name": "Shuanghedong", "type": "Dry", "location": "Guizhou", "country": "China", "value": 440.9, "confidence": "measured", "note": "Explored mainly since 1988, and growing fast.", "source": "Wikipedia, List of longest caves (March 2026), from the NSS long cave lists and the Quintana Roo Speleological Survey" },
+    { "rank": 4, "name": "Sac Actun", "type": "Underwater", "location": "Quintana Roo, Yucatán", "country": "Mexico", "value": 387.1, "confidence": "measured", "note": "Includes Sistema Dos Ojos, joined to it in 2018.", "source": "Wikipedia, List of longest caves (March 2026), from the NSS long cave lists and the Quintana Roo Speleological Survey" },
+    { "rank": 5, "name": "Jewel Cave", "type": "Dry", "location": "South Dakota", "country": "USA", "value": 354.59, "confidence": "measured", "note": "", "source": "Wikipedia, List of longest caves (March 2026), from the NSS long cave lists and the Quintana Roo Speleological Survey" },
+    { "rank": 6, "name": "Wind Cave", "type": "Dry", "location": "South Dakota", "country": "USA", "value": 270.4, "confidence": "measured", "note": "", "source": "Wikipedia, List of longest caves (March 2026), from the NSS long cave lists and the Quintana Roo Speleological Survey" },
+    { "rank": 7, "name": "Clearwater Cave", "type": "Dry", "location": "Sarawak, Borneo", "country": "Malaysia", "value": 268.6, "confidence": "measured", "note": "", "source": "Wikipedia, List of longest caves (March 2026), from the NSS long cave lists and the Quintana Roo Speleological Survey" },
+    { "rank": 8, "name": "Optymistychna", "type": "Dry", "location": "Korolivka", "country": "Ukraine", "value": 264.5, "confidence": "measured", "note": "The longest cave in gypsum rather than limestone.", "source": "Wikipedia, List of longest caves (March 2026), from the NSS long cave lists and the Quintana Roo Speleological Survey" },
+    { "rank": 9, "name": "Lechuguilla Cave", "type": "Dry", "location": "New Mexico", "country": "USA", "value": 244.7, "confidence": "measured", "note": "", "source": "Wikipedia, List of longest caves (March 2026), from the NSS long cave lists and the Quintana Roo Speleological Survey" },
+    { "rank": 10, "name": "Sistema del Alto Tejuelo", "type": "Dry", "location": "Cantabria", "country": "Spain", "value": 217.9, "confidence": "measured", "note": "Wikipedia lists Fisher Ridge Cave (215.9 km, USA) above it, but it's 2 km shorter.", "source": "Wikipedia, List of longest caves (March 2026), from the NSS long cave lists and the Quintana Roo Speleological Survey" }
+  ]
+}
