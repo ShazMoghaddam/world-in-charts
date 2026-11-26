@@ -15,6 +15,16 @@ Most "top 10" lists online copy each other, mix up measurements and state guesse
 > [!IMPORTANT]
 > **Researched in November 2026.** Every figure was checked against its sources at that time. The world keeps moving: new buildings go up, cavers map new passages, records get broken and better surveys replace old ones. So some of these numbers will change. Each data file records the date it was checked, and [corrections are welcome](CONTRIBUTING.md).
 
+## Watch the film
+
+<p align="center">
+  <a href="film/film.mp4"><img src="film/film.gif" width="400" alt="From the film: Which is the longest river in the world? A blue river draws itself across graph paper, then the Nile and the Amazon appear as bars"></a>
+</p>
+
+[▶ Watch the full film with sound](film/film.mp4) (3 min). Four of the top tens, the longest rivers, oldest trees, deepest lakes and tallest buildings, drawn in coloured pencil with a voiceover and captions, sized for LinkedIn. It was made with
+[Bezel Film](https://github.com/ShazMoghaddam/bezel-film), my open-source toolkit for narrated films made in code. Its
+film file and scenes are in [`film/`](film).
+
 ## How sure is each figure?
 
 | Label | Means |

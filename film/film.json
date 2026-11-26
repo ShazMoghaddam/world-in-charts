@@ -1,0 +1,457 @@
+{
+  "$schema": "https://raw.githubusercontent.com/ShazMoghaddam/bezel-film/main/schema/film.schema.json",
+  "spec": 1,
+  "title": "World in Charts: the world's top tens, researched properly",
+  "style": "data-on-paper",
+  "format": {
+    "preset": "linkedin-mobile"
+  },
+  "voice": {
+    "engine": "kokoro",
+    "gender": "male"
+  },
+  "music": {
+    "source": "generated",
+    "mood": "calm"
+  },
+  "captions": true,
+  "scenes": [
+    {
+      "id": "question",
+      "type": "custom",
+      "file": "scenes/question.js",
+      "props": {
+        "title": "Which is the longest river in the world?",
+        "note": "Most lists say the Nile, and stop there."
+      },
+      "narration": "Which is the longest river in the world? Most lists answer with total confidence.",
+      "sounds": [
+        {
+          "line": 1,
+          "at": 0.4,
+          "sound": "pop",
+          "gain": 0.35
+        }
+      ]
+    },
+    {
+      "id": "rivers",
+      "type": "custom",
+      "file": "scenes/bars.js",
+      "props": {
+        "title": "Longest rivers",
+        "from": 0,
+        "noteAt": 4,
+        "bars": [
+          {
+            "name": "Nile",
+            "where": "11 countries, mouth in Egypt",
+            "value": 6650,
+            "shown": "6,650 km",
+            "confidence": "disputed"
+          },
+          {
+            "name": "Amazon",
+            "where": "Peru, Colombia, Brazil",
+            "value": 6400,
+            "shown": "6,400 km",
+            "confidence": "disputed"
+          },
+          {
+            "name": "Yangtze",
+            "where": "China",
+            "value": 6300,
+            "shown": "6,300 km",
+            "confidence": "measured"
+          },
+          {
+            "name": "Mississippi–Missouri",
+            "where": "USA, Canada",
+            "value": 5971,
+            "shown": "5,971 km",
+            "confidence": "measured",
+            "line": 3
+          },
+          {
+            "name": "Yenisey",
+            "where": "Mongolia, Russia",
+            "value": 5540,
+            "shown": "5,540 km",
+            "confidence": "measured",
+            "line": 3,
+            "after": 1.8
+          }
+        ],
+        "note": "Nile or Amazon? It depends where you say the Amazon starts.",
+        "source": "Source: Britannica, World's longest rivers"
+      },
+      "narration": "Most lists put the Nile first: about 6,650 kilometres, through 11 countries to Egypt. Then the Amazon, through Peru, Colombia and Brazil, at 6,400. The Yangtze, the longest river in a single country, at 6,300. Then the Mississippi–Missouri, and the Yenisey, through Mongolia and Russia. But trace the Amazon from a more distant source in Peru, and some surveys make it the longest. So both are marked as disputed.",
+      "sounds": [
+        {
+          "line": 0,
+          "at": 0.9,
+          "sound": "tick",
+          "gain": 0.35
+        },
+        {
+          "line": 1,
+          "at": 0.9,
+          "sound": "tick",
+          "gain": 0.35
+        },
+        {
+          "line": 2,
+          "at": 0.9,
+          "sound": "tick",
+          "gain": 0.35
+        },
+        {
+          "line": 3,
+          "at": 0.9,
+          "sound": "tick",
+          "gain": 0.35
+        },
+        {
+          "line": 3,
+          "at": 2.7,
+          "sound": "tick",
+          "gain": 0.35
+        },
+        {
+          "line": 4,
+          "at": 0.3,
+          "sound": "pop",
+          "gain": 0.35
+        }
+      ]
+    },
+    {
+      "id": "labels",
+      "type": "custom",
+      "file": "scenes/labels.js",
+      "props": {
+        "title": "How sure is each figure?",
+        "items": [
+          {
+            "word": "Verified",
+            "means": "counted or measured directly"
+          },
+          {
+            "word": "Measured",
+            "means": "by a recognised authority; the method matters"
+          },
+          {
+            "word": "Estimated",
+            "means": "a reasoned estimate, not yet measured",
+            "dashed": true
+          },
+          {
+            "word": "Disputed",
+            "means": "credible sources disagree",
+            "dashed": true
+          }
+        ]
+      },
+      "narration": "World in Charts marks every figure by how sure it is. Verified: counted or measured directly. Measured: by a recognised authority. Estimated: a reasoned estimate. Or disputed, where credible sources disagree.",
+      "sounds": [
+        {
+          "line": 1,
+          "at": 0.3,
+          "sound": "tick",
+          "gain": 0.35
+        },
+        {
+          "line": 2,
+          "at": 0.3,
+          "sound": "tick",
+          "gain": 0.35
+        },
+        {
+          "line": 3,
+          "at": 0.3,
+          "sound": "tick",
+          "gain": 0.35
+        },
+        {
+          "line": 4,
+          "at": 0.3,
+          "sound": "tick",
+          "gain": 0.35
+        }
+      ]
+    },
+    {
+      "id": "trees",
+      "type": "custom",
+      "file": "scenes/bars.js",
+      "props": {
+        "title": "Oldest living trees",
+        "from": 1,
+        "noteAt": 4,
+        "bars": [
+          {
+            "name": "Gran Abuelo",
+            "value": 5484,
+            "counted": 3655,
+            "shown": "5,484 yrs",
+            "confidence": "disputed",
+            "where": "Patagonian cypress, Chile"
+          },
+          {
+            "name": "Schulman tree",
+            "value": 5075,
+            "shown": "5,075 yrs",
+            "confidence": "disputed",
+            "where": "Bristlecone pine, California"
+          },
+          {
+            "name": "Methuselah",
+            "value": 4858,
+            "shown": "4,858 yrs",
+            "confidence": "verified",
+            "where": "Bristlecone pine, California"
+          }
+        ],
+        "note": "Shaded solid: rings actually counted.",
+        "source": "Sources: Rocky Mountain Tree-Ring Research OldList; Wikipedia, List of oldest trees"
+      },
+      "narration": "Take the oldest trees. Gran Abuelo, in Chile, may be 5,484 years old, but only 3,655 of its rings have been counted. An unnamed bristlecone pine in California may be 5,075, but that's disputed too. Methuselah, nearby, is 4,858 years old, counted ring by ring. Only the counted part gets solid shading.",
+      "sounds": [
+        {
+          "line": 1,
+          "at": 0.9,
+          "sound": "tick",
+          "gain": 0.35
+        },
+        {
+          "line": 2,
+          "at": 0.9,
+          "sound": "tick",
+          "gain": 0.35
+        },
+        {
+          "line": 3,
+          "at": 0.9,
+          "sound": "tick",
+          "gain": 0.35
+        },
+        {
+          "line": 4,
+          "at": 0.3,
+          "sound": "pop",
+          "gain": 0.35
+        }
+      ]
+    },
+    {
+      "id": "lakes",
+      "type": "custom",
+      "file": "scenes/bars.js",
+      "props": {
+        "title": "Deepest lakes",
+        "from": 0,
+        "noteAt": 4,
+        "bars": [
+          {
+            "name": "Baikal",
+            "where": "Siberia, Russia",
+            "value": 1642,
+            "shown": "1,642 m",
+            "confidence": "verified"
+          },
+          {
+            "name": "Tanganyika",
+            "where": "Tanzania, DR Congo, Burundi, Zambia",
+            "value": 1470,
+            "shown": "1,470 m",
+            "confidence": "measured"
+          },
+          {
+            "name": "Caspian Sea",
+            "where": "five countries, from Russia to Iran",
+            "value": 1025,
+            "shown": "1,025 m",
+            "confidence": "measured"
+          },
+          {
+            "name": "O'Higgins / San Martín",
+            "where": "Chile, Argentina",
+            "value": 836,
+            "shown": "836 m",
+            "confidence": "measured"
+          }
+        ],
+        "note": "Baikal also holds more fresh water than any other lake.",
+        "source": "Sources: Guinness World Records; Wikipedia, List of lakes by depth"
+      },
+      "narration": "The deepest lake is Baikal, in Siberia, at 1,642 metres. Then Tanganyika, shared by four African countries, at 1,470. The Caspian Sea, at 1,025. And O'Higgins, or San Martín, between Chile and Argentina, at 836. Baikal also holds more fresh water than any other lake.",
+      "sounds": [
+        {
+          "line": 0,
+          "at": 0.9,
+          "sound": "tick",
+          "gain": 0.35
+        },
+        {
+          "line": 1,
+          "at": 0.9,
+          "sound": "tick",
+          "gain": 0.35
+        },
+        {
+          "line": 2,
+          "at": 0.9,
+          "sound": "tick",
+          "gain": 0.35
+        },
+        {
+          "line": 3,
+          "at": 0.9,
+          "sound": "tick",
+          "gain": 0.35
+        },
+        {
+          "line": 4,
+          "at": 0.3,
+          "sound": "pop",
+          "gain": 0.35
+        }
+      ]
+    },
+    {
+      "id": "buildings",
+      "type": "custom",
+      "file": "scenes/bars.js",
+      "props": {
+        "title": "Tallest buildings",
+        "from": 1,
+        "noteAt": 5,
+        "bars": [
+          {
+            "name": "Burj Khalifa",
+            "where": "Dubai, UAE",
+            "value": 828,
+            "shown": "828 m",
+            "confidence": "verified"
+          },
+          {
+            "name": "Merdeka 118",
+            "where": "Kuala Lumpur, Malaysia",
+            "value": 678.9,
+            "shown": "678.9 m",
+            "confidence": "verified"
+          },
+          {
+            "name": "Shanghai Tower",
+            "where": "Shanghai, China",
+            "value": 632,
+            "shown": "632 m",
+            "confidence": "verified"
+          },
+          {
+            "name": "Makkah Royal Clock Tower",
+            "where": "Mecca",
+            "value": 601,
+            "shown": "601 m",
+            "confidence": "verified"
+          }
+        ],
+        "note": "Burj Khalifa has been the tallest since 2010, 149 m clear of the next.",
+        "source": "Source: Council on Tall Buildings and Urban Habitat"
+      },
+      "narration": "And one made by people: the tallest buildings. Burj Khalifa, in Dubai, at 828 metres. Merdeka 118, in Kuala Lumpur, at 678.9. Shanghai Tower, at 632. And the Makkah Royal Clock Tower, in Mecca, at 601. Burj Khalifa has been the tallest since 2010, 149 metres clear of the next.",
+      "sounds": [
+        {
+          "line": 1,
+          "at": 0.9,
+          "sound": "tick",
+          "gain": 0.35
+        },
+        {
+          "line": 2,
+          "at": 0.9,
+          "sound": "tick",
+          "gain": 0.35
+        },
+        {
+          "line": 3,
+          "at": 0.9,
+          "sound": "tick",
+          "gain": 0.35
+        },
+        {
+          "line": 4,
+          "at": 0.9,
+          "sound": "tick",
+          "gain": 0.35
+        },
+        {
+          "line": 5,
+          "at": 0.3,
+          "sound": "pop",
+          "gain": 0.35
+        }
+      ]
+    },
+    {
+      "id": "count",
+      "type": "custom",
+      "file": "scenes/count.js",
+      "props": {
+        "title": "23 top tens",
+        "groups": [
+          {
+            "count": 19,
+            "label": "19 from nature"
+          },
+          {
+            "count": 4,
+            "label": "4 made by people"
+          }
+        ]
+      },
+      "narration": "In all, there are 23 top tens, nineteen of them from nature. And four made by people. Every figure in every one has a source.",
+      "sounds": [
+        {
+          "line": 0,
+          "at": 0.4,
+          "sound": "tick",
+          "gain": 0.3,
+          "for": 1.5
+        },
+        {
+          "line": 1,
+          "at": 0.4,
+          "sound": "tick",
+          "gain": 0.3,
+          "for": 0.4
+        }
+      ]
+    },
+    {
+      "id": "end",
+      "type": "custom",
+      "file": "scenes/end.js",
+      "props": {
+        "name": "World in Charts",
+        "line": "Charts by Bezel Charts · Film made with Bezel Film",
+        "url": "github.com/ShazMoghaddam/world-in-charts",
+        "by": "Shaz Moghaddam · London",
+        "links": [
+          "shazmoghaddam.github.io",
+          "linkedin.com/in/shazmoghaddam"
+        ],
+        "sources": "Researched November 2026. Every figure's source is in the repo."
+      },
+      "narration": "Explore all 23 on GitHub. Made by Shaz Moghaddam, in London.",
+      "sounds": [
+        {
+          "line": 0,
+          "at": 0.6,
+          "sound": "swish",
+          "gain": 0.3
+        }
+      ]
+    }
+  ]
+}
