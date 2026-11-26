@@ -4,6 +4,10 @@ World in Charts uses date versions: `vYYYY.MM` for each release, with a third nu
 
 ## Unreleased
 
+### Added
+
+- A 3-minute narrated film of four of the top tens, made with Bezel Film, in `film/`, with a preview near the top of the README.
+
 ### Tooling
 
 - Bezel Charts is updated to 1.11.0, which gives the same SVG every time it draws the same chart. The build's own workaround for random ids is gone.
